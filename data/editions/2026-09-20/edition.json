@@ -577,14 +577,14 @@
           "anchor_gap_days": 2,
           "base_date": "2021-09-17",
           "latest_date": "2026-09-18",
-          "return": 0.7881195776928309,
+          "return": 0.7881197605864851,
           "status": "ready"
         },
         "YTD": {
           "anchor_gap_days": 0,
           "base_date": "2025-12-31",
           "latest_date": "2026-09-18",
-          "return": 0.12274758901643712,
+          "return": 0.12274766114579871,
           "status": "ready"
         }
       },
@@ -694,6 +694,22 @@
         "title": "bpx energy - BP"
       },
       {
+        "age_days": 10,
+        "event_type": "operational",
+        "fingerprint": "189f544498949f00",
+        "holding_id": "ge-aerospace",
+        "holding_name": "GE Aerospace",
+        "published_date": "2026-09-10",
+        "publisher_url": "https://aeromorning.com",
+        "recency_class": "context",
+        "score": 42,
+        "source_kind": "secondary",
+        "source_name": "AeroMorning.com",
+        "source_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xcEltMl9ocDR3R3o0SzV1NUEwQmZQdWdocFp5M2RDQUJsNFBhRHoycGNoMURIYjhjcWNnMjBUMmRZR0xKcGRlMG45RnVMZnNSaVRHV3lvcHlVNzl5Z0RjczRBd1Y3cWk3YXBqRjNva1VsRTZYbjRyWDBfekdPVG8?oc=5",
+        "summary": "GE Aerospace’s $11.75 Billion Acquisition of CPP AeroMorning.com",
+        "title": "GE Aerospace’s $11.75 Billion Acquisition of CPP - AeroMorning.com"
+      },
+      {
         "age_days": 20,
         "event_type": "report",
         "fingerprint": "8510b073bdfedb5d",
@@ -724,22 +740,6 @@
         "source_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONXJYZ2NoWGJTbUNGMXZHZmRrVnhRSkIzc05WMEd0SndMWS1TcF95eTRjcEJ6eFZvOTg5QkdPNG9QeWhTYkxiV1dsd2dvWGRMVXVrNlhzX3BwQ1N6a2tsS3k0LWhBNHp4LWVqamFhb1dCUDBEYTJfSHdLOUFHa290R0xHQkRQZGxDaEV6NGNZMTZkR2Q2TmJaUS1ENHI5bzJHal9PcGtqNTQzNy1jRUE?oc=5",
         "summary": "GE Aerospace acquires Consolidated Precision Products for $11.75B Yahoo Finance",
         "title": "GE Aerospace acquires Consolidated Precision Products for $11.75B - Yahoo Finance"
-      },
-      {
-        "age_days": 12,
-        "event_type": "operational",
-        "fingerprint": "a93e85d39edc1ea4",
-        "holding_id": "ge-aerospace",
-        "holding_name": "GE Aerospace",
-        "published_date": "2026-09-08",
-        "publisher_url": "https://www.globenewswire.com",
-        "recency_class": "context",
-        "score": 38,
-        "source_kind": "secondary",
-        "source_name": "globenewswire.com",
-        "source_url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPR1hNVy02OFBWb09oUUpEc2F3UWtWSDZOckVXNkdUTm1BSl9zektvTUtqanJzOGlBWkpYbzg2c0x2dmx2SUUyai1ub3BqT0MzMTVoc1diU24zcWRqZlhCQWd4Q0hvZXgydEdETHIyX1k4VTR5MWNCeVo1MV9DOXoyT3l1bmdsSEdIMVhIYmFuREJjWmNaaFBCWThicGM2V0M3bVNUMWFPTU5YWVRSNTd4cXhkME1zRHpzM2p1d3FYRHpKa0VkTGtVenc1NU9VLXdtUVc2c3BoZVJweFJZeXlFd3Y3ellvSGhfUGxoTG1fRm1Vc0o4ZFNiMGp2UEFfb19kdHFqS2VJMA?oc=5",
-        "summary": "GE Aerospace to Acquire Consolidated Precision Products (CPP), Expanding Mission-Critical Castings Capacity globenewswire.com",
-        "title": "GE Aerospace to Acquire Consolidated Precision Products (CPP), Expanding Mission-Critical Castings Capacity - globenewswire.com"
       }
     ],
     "quiet_holdings": [
@@ -787,14 +787,14 @@
             "anchor_gap_days": 2,
             "base_date": "2021-09-17",
             "latest_date": "2026-09-18",
-            "return": 0.7881195776928309,
+            "return": 0.7881197605864851,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
             "latest_date": "2026-09-18",
-            "return": 0.12274758901643712,
+            "return": 0.12274766114579871,
             "status": "ready"
           }
         },
@@ -849,7 +849,7 @@
             "anchor_gap_days": 2,
             "base_date": "2021-09-17",
             "latest_date": "2026-09-18",
-            "return": 12.78064976224222,
+            "return": 12.780651194328895,
             "status": "ready"
           },
           "YTD": {
@@ -973,14 +973,14 @@
             "anchor_gap_days": 2,
             "base_date": "2021-09-17",
             "latest_date": "2026-09-18",
-            "return": 0.7881195776928309,
+            "return": 0.7881197605864851,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
             "latest_date": "2026-09-18",
-            "return": 0.12274758901643712,
+            "return": 0.12274766114579871,
             "status": "ready"
           }
         },
@@ -1097,7 +1097,7 @@
             "anchor_gap_days": 2,
             "base_date": "2021-09-17",
             "latest_date": "2026-09-18",
-            "return": 12.78064976224222,
+            "return": 12.780651194328895,
             "status": "ready"
           },
           "YTD": {
@@ -1337,7 +1337,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BA.L?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -1407,7 +1407,7 @@
         },
         "gates_passed": 3,
         "high_52w": 2330.74853516,
-        "k_ratio": 5.665810089467352,
+        "k_ratio": 5.665810229269222,
         "low_52w": 1609.32641602,
         "portfolio_momentum_score": 0.265625,
         "price": 2025.0,
@@ -1652,7 +1652,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GE?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -1688,14 +1688,14 @@
             "anchor_gap_days": 0,
             "base_date": "2025-09-18",
             "latest_date": "2026-09-18",
-            "return": 0.06319957022989353,
+            "return": 0.06319968000686615,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
             "base_date": "2021-09-17",
             "latest_date": "2026-09-18",
-            "return": 4.142284319797007,
+            "return": 4.14228399837723,
             "status": "ready"
           },
           "YTD": {
@@ -1722,12 +1722,12 @@
         },
         "gates_passed": 4,
         "high_52w": 381.22000122,
-        "k_ratio": 12.190608281415432,
+        "k_ratio": 12.190608975196659,
         "low_52w": 272.90982056,
         "portfolio_momentum_score": 0.234375,
         "price": 314.26998901,
         "rank_overall": 14,
-        "return_12m": 0.09107419005502337,
+        "return_12m": 0.09107407448430394,
         "return_3m": -0.12017190226377716,
         "return_6m": 0.0790498953177976,
         "return_9m": 0.05607233962371594,
@@ -1741,12 +1741,12 @@
         "score_status": "ready",
         "score_unavailable_reason": null,
         "sma150": 327.22290242506665,
-        "sma200": 322.00094558715,
-        "sma200_21d_ago": 318.68827987655,
+        "sma200": 322.0009455872,
+        "sma200_21d_ago": 318.6882794189,
         "sma50": 348.0898004154,
         "stage2": false,
         "weeks_strengthening": 2,
-        "weighted_perf": -0.0028294759062034817
+        "weighted_perf": -0.0028294990203473723
       },
       "name": "GE Aerospace",
       "return_basis": "adjusted_close",
@@ -1954,7 +1954,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/LMT?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -1997,21 +1997,21 @@
             "anchor_gap_days": 2,
             "base_date": "2021-09-17",
             "latest_date": "2026-09-18",
-            "return": 0.7881195776928309,
+            "return": 0.7881197605864851,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
             "latest_date": "2026-09-18",
-            "return": 0.12274758901643712,
+            "return": 0.12274766114579871,
             "status": "ready"
           }
         }
       },
       "momentum": {
         "composite": 0.25,
-        "dist_from_high": 0.2017253311139004,
+        "dist_from_high": 0.20172540403991007,
         "gates": {
           "g1_price_above_150_200": false,
           "g2_sma150_above_sma200": true,
@@ -2023,8 +2023,8 @@
           "g8_rs_rating_ge_70": false
         },
         "gates_passed": 3,
-        "high_52w": 668.16601562,
-        "k_ratio": 7.051823560838102,
+        "high_52w": 668.16607666,
+        "k_ratio": 7.051823629403769,
         "low_52w": 431.37786865,
         "portfolio_momentum_score": 0.25,
         "price": 533.38000488,
@@ -2042,9 +2042,9 @@
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 562.4806469728667,
-        "sma200": 553.78806686425,
-        "sma200_21d_ago": 544.31034210225,
+        "sma150": 562.4806471762666,
+        "sma200": 553.78806472775,
+        "sma200_21d_ago": 544.31033950795,
         "sma50": 553.9629425052,
         "stage2": false,
         "weeks_strengthening": 4,
@@ -2161,7 +2161,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RHM.DE?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -2204,7 +2204,7 @@
             "anchor_gap_days": 2,
             "base_date": "2021-09-17",
             "latest_date": "2026-09-18",
-            "return": 12.78064976224222,
+            "return": 12.780651194328895,
             "status": "ready"
           },
           "YTD": {
@@ -2358,7 +2358,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RR.L?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -2655,7 +2655,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/JPM?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -2691,14 +2691,14 @@
             "anchor_gap_days": 0,
             "base_date": "2025-09-18",
             "latest_date": "2026-09-18",
-            "return": 0.13769252697965495,
+            "return": 0.1376926399530014,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
             "base_date": "2021-09-17",
             "latest_date": "2026-09-18",
-            "return": 1.5131195936817776,
+            "return": 1.5131201449367842,
             "status": "ready"
           },
           "YTD": {
@@ -2725,7 +2725,7 @@
         },
         "gates_passed": 5,
         "high_52w": 365.17999268,
-        "k_ratio": 14.046612945445391,
+        "k_ratio": 14.046612943798324,
         "low_52w": 280.13787842,
         "portfolio_momentum_score": 0.46875,
         "price": 349.67001343,
@@ -2957,7 +2957,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GS?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -2993,14 +2993,14 @@
             "anchor_gap_days": 0,
             "base_date": "2025-09-18",
             "latest_date": "2026-09-18",
-            "return": 0.19422555383164775,
+            "return": 0.19422546141795838,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
             "base_date": "2021-09-17",
             "latest_date": "2026-09-18",
-            "return": 1.7163751786003885,
+            "return": 1.716374700551957,
             "status": "ready"
           },
           "YTD": {
@@ -3027,14 +3027,14 @@
         },
         "gates_passed": 4,
         "high_52w": 1146.45507812,
-        "k_ratio": 26.616364781408258,
-        "low_52w": 730.23736572,
+        "k_ratio": 26.616364505661235,
+        "low_52w": 730.23742676,
         "portfolio_momentum_score": 0.421875,
         "price": 942.0,
         "rank_overall": 11,
         "return_12m": 0.20939735703521012,
         "return_3m": -0.13674262428653383,
-        "return_6m": 0.17453418289790879,
+        "return_6m": 0.17453427228915186,
         "return_9m": 0.08717418275668565,
         "rs_rating": 19.4,
         "score_components": {
@@ -3045,13 +3045,13 @@
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 964.9058846026667,
+        "sma150": 964.9058837887333,
         "sma200": 948.6626577757,
-        "sma200_21d_ago": 924.42895782455,
+        "sma200_21d_ago": 924.4289590453,
         "sma50": 1032.6218383788,
         "stage2": false,
         "weeks_strengthening": 4,
-        "weighted_perf": 0.039524094823347386
+        "weighted_perf": 0.039524112701596
       },
       "name": "Goldman Sachs",
       "return_basis": "adjusted_close",
@@ -3229,7 +3229,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/HSBA.L?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -3421,7 +3421,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MUFG?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -3464,7 +3464,7 @@
             "anchor_gap_days": 2,
             "base_date": "2021-09-17",
             "latest_date": "2026-09-18",
-            "return": 3.1562560493024208,
+            "return": 3.156255690818094,
             "status": "ready"
           },
           "YTD": {
@@ -3718,7 +3718,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MS?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -3754,14 +3754,14 @@
             "anchor_gap_days": 0,
             "base_date": "2025-09-18",
             "latest_date": "2026-09-18",
-            "return": 0.301006965381738,
+            "return": 0.3010070928838118,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
             "base_date": "2021-09-17",
             "latest_date": "2026-09-18",
-            "return": 1.3346125128622388,
+            "return": 1.3346129234326591,
             "status": "ready"
           },
           "YTD": {
@@ -3788,12 +3788,12 @@
         },
         "gates_passed": 6,
         "high_52w": 227.29878235,
-        "k_ratio": 28.892479559705087,
-        "low_52w": 148.49372864,
+        "k_ratio": 28.892479265208777,
+        "low_52w": 148.4937439,
         "portfolio_momentum_score": 0.609375,
         "price": 202.58000183,
         "rank_overall": 6,
-        "return_12m": 0.3161322794001762,
+        "return_12m": 0.3161320184323586,
         "return_3m": -0.08726460836341143,
         "return_6m": 0.2916417403393454,
         "return_9m": 0.1666123471603551,
@@ -3807,12 +3807,12 @@
         "score_status": "ready",
         "score_unavailable_reason": null,
         "sma150": 196.03725748706668,
-        "sma200": 191.43288337720003,
-        "sma200_21d_ago": 186.14879058859998,
+        "sma200": 191.4328832245,
+        "sma200_21d_ago": 186.14879035965,
         "sma50": 213.9717370598,
         "stage2": false,
         "weeks_strengthening": 4,
-        "weighted_perf": 0.11997143003461078
+        "weighted_perf": 0.11997137784104726
       },
       "name": "Morgan Stanley",
       "return_basis": "adjusted_close",
@@ -4015,7 +4015,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BP.L?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -4312,7 +4312,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CVX?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -4348,21 +4348,21 @@
             "anchor_gap_days": 0,
             "base_date": "2025-09-18",
             "latest_date": "2026-09-18",
-            "return": 0.3709752129000117,
+            "return": 0.37097507608798996,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
             "base_date": "2021-09-17",
             "latest_date": "2026-09-18",
-            "return": 1.645846733991938,
+            "return": 1.6458464790454013,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
             "latest_date": "2026-09-18",
-            "return": 0.4130334040435071,
+            "return": 0.4130335494737367,
             "status": "ready"
           }
         }
@@ -4382,15 +4382,15 @@
         },
         "gates_passed": 8,
         "high_52w": 217.77000427,
-        "k_ratio": 25.716098612204792,
-        "low_52w": 142.76341248,
+        "k_ratio": 25.71609741052491,
+        "low_52w": 142.76339722,
         "portfolio_momentum_score": 0.8125,
         "price": 209.50999451,
         "rank_overall": 4,
-        "return_12m": 0.3602702659674484,
+        "return_12m": 0.36027040065130733,
         "return_3m": 0.2171769187493937,
         "return_6m": 0.05874763100619029,
-        "return_9m": 0.46753282840833377,
+        "return_9m": 0.46753298527312825,
         "rs_rating": 86.8,
         "score_components": {
           "high_proximity_percentile": 0.875,
@@ -4401,12 +4401,12 @@
         "score_status": "ready",
         "score_unavailable_reason": null,
         "sma150": 189.20567677786667,
-        "sma200": 181.19041473365,
-        "sma200_21d_ago": 174.84535324075,
+        "sma200": 181.1904145047,
+        "sma200_21d_ago": 174.84535331704998,
         "sma50": 197.8402340696,
         "stage2": true,
         "weeks_strengthening": 4,
-        "weighted_perf": 0.264180912576152
+        "weighted_perf": 0.2641809708858827
       },
       "name": "Chevron",
       "return_basis": "adjusted_close",
@@ -4609,7 +4609,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -4679,8 +4679,8 @@
         },
         "gates_passed": 8,
         "high_52w": 169.32000732,
-        "k_ratio": 26.456786498191818,
-        "low_52w": 107.52368164,
+        "k_ratio": 26.456786209824138,
+        "low_52w": 107.52367401,
         "portfolio_momentum_score": 0.875,
         "price": 163.53999329,
         "rank_overall": 2,
@@ -4699,7 +4699,7 @@
         "score_unavailable_reason": null,
         "sma150": 151.87541341140002,
         "sma200": 145.33934551225,
-        "sma200_21d_ago": 140.19203937525,
+        "sma200_21d_ago": 140.19203926085,
         "sma50": 157.2731271356,
         "stage2": true,
         "weeks_strengthening": 5,
@@ -4906,7 +4906,7 @@
           }
         ],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SHEL.L?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -4942,14 +4942,14 @@
             "anchor_gap_days": 0,
             "base_date": "2025-09-18",
             "latest_date": "2026-09-18",
-            "return": 0.34996745623440084,
+            "return": 0.34996733050908824,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
             "base_date": "2021-09-17",
             "latest_date": "2026-09-18",
-            "return": 1.4353483889913572,
+            "return": 1.435348184417308,
             "status": "ready"
           },
           "YTD": {
@@ -4976,7 +4976,7 @@
         },
         "gates_passed": 8,
         "high_52w": 3652.5,
-        "k_ratio": 20.59510337566171,
+        "k_ratio": 20.59510274038763,
         "low_52w": 2561.30371094,
         "portfolio_momentum_score": 0.75,
         "price": 3539.0,
@@ -4994,8 +4994,8 @@
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 3250.7702115884,
-        "sma200": 3122.1366613769,
+        "sma150": 3250.7702099608,
+        "sma200": 3122.1366601562,
         "sma200_21d_ago": 3054.19923950185,
         "sma50": 3359.6836425782003,
         "stage2": true,
@@ -5082,7 +5082,7 @@
         ],
         "corporate_actions": [],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CNX1.L?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -5258,7 +5258,7 @@
         ],
         "corporate_actions": [],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VALL.L?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -5402,7 +5402,7 @@
         ],
         "corporate_actions": [],
         "error": null,
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "quality_warnings": [],
         "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SGLN.L?period1=1598054400&period2=1789948800&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
@@ -5512,7 +5512,7 @@
     "Long-window comparability can change after corporate restructuring. GE Aerospace is flagged in its dossier."
   ],
   "quality": {
-    "event_count": 552,
+    "event_count": 559,
     "failed_market_count": 0,
     "market_coverage_ratio": 1.0,
     "market_coverage_threshold": 14,
@@ -5619,7 +5619,7 @@
         "freshness_status": "ready",
         "holding_id": "bae-systems",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5627,7 +5627,7 @@
         "freshness_status": "ready",
         "holding_id": "ge-aerospace",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5635,7 +5635,7 @@
         "freshness_status": "ready",
         "holding_id": "lockheed-martin",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5643,7 +5643,7 @@
         "freshness_status": "ready",
         "holding_id": "rheinmetall",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5651,7 +5651,7 @@
         "freshness_status": "ready",
         "holding_id": "rolls-royce",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5659,7 +5659,7 @@
         "freshness_status": "ready",
         "holding_id": "jpmorgan",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5667,7 +5667,7 @@
         "freshness_status": "ready",
         "holding_id": "goldman-sachs",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5675,7 +5675,7 @@
         "freshness_status": "ready",
         "holding_id": "hsbc",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5683,7 +5683,7 @@
         "freshness_status": "ready",
         "holding_id": "mufg",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5691,7 +5691,7 @@
         "freshness_status": "ready",
         "holding_id": "morgan-stanley",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5699,7 +5699,7 @@
         "freshness_status": "ready",
         "holding_id": "bp",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5707,7 +5707,7 @@
         "freshness_status": "ready",
         "holding_id": "chevron",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5715,7 +5715,7 @@
         "freshness_status": "ready",
         "holding_id": "exxonmobil",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5723,7 +5723,7 @@
         "freshness_status": "ready",
         "holding_id": "shell",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5731,7 +5731,7 @@
         "freshness_status": "ready",
         "holding_id": "cnx1",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5739,7 +5739,7 @@
         "freshness_status": "ready",
         "holding_id": "vall",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       },
       {
@@ -5747,19 +5747,19 @@
         "freshness_status": "ready",
         "holding_id": "sgln-gold",
         "latest_date": "2026-09-18",
-        "provider": "cache:yahoo-chart",
+        "provider": "yahoo-chart",
         "status": "ready"
       }
     ],
     "news": [
       {
-        "event_count": 44,
+        "event_count": 43,
         "holding_id": "bae-systems",
         "provider": "google-news-rss",
         "status": "ready"
       },
       {
-        "event_count": 53,
+        "event_count": 54,
         "holding_id": "ge-aerospace",
         "provider": "google-news-rss",
         "status": "ready"
@@ -5771,7 +5771,7 @@
         "status": "ready"
       },
       {
-        "event_count": 47,
+        "event_count": 48,
         "holding_id": "lockheed-martin",
         "provider": "google-news-rss",
         "status": "ready"
@@ -5783,7 +5783,7 @@
         "status": "ready"
       },
       {
-        "event_count": 55,
+        "event_count": 54,
         "holding_id": "rheinmetall",
         "provider": "google-news-rss",
         "status": "ready"
@@ -5795,7 +5795,7 @@
         "status": "ready"
       },
       {
-        "event_count": 21,
+        "event_count": 23,
         "holding_id": "jpmorgan",
         "provider": "google-news-rss",
         "status": "ready"
@@ -5807,7 +5807,7 @@
         "status": "ready"
       },
       {
-        "event_count": 23,
+        "event_count": 24,
         "holding_id": "goldman-sachs",
         "provider": "google-news-rss",
         "status": "ready"
@@ -5825,13 +5825,13 @@
         "status": "ready"
       },
       {
-        "event_count": 29,
+        "event_count": 30,
         "holding_id": "mufg",
         "provider": "google-news-rss",
         "status": "ready"
       },
       {
-        "event_count": 21,
+        "event_count": 22,
         "holding_id": "morgan-stanley",
         "provider": "google-news-rss",
         "status": "ready"
@@ -5843,7 +5843,7 @@
         "status": "ready"
       },
       {
-        "event_count": 22,
+        "event_count": 23,
         "holding_id": "bp",
         "provider": "google-news-rss",
         "status": "ready"
@@ -5879,7 +5879,7 @@
         "status": "ready"
       },
       {
-        "event_count": 26,
+        "event_count": 27,
         "holding_id": "shell",
         "provider": "google-news-rss",
         "status": "ready"
