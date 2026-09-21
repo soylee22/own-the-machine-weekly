@@ -261,6 +261,21 @@ def _write_cache(path: Path, series: MarketSeries) -> None:
     path.write_text(json.dumps(series.as_dict(), indent=2, sort_keys=True), encoding="utf-8")
 
 
+def apply_listing_boundary(series: MarketSeries, listing_date: str | None) -> MarketSeries:
+    """Remove provider observations that pre-date the configured exchange listing."""
+
+    if not listing_date:
+        return series
+    boundary = dt.date.fromisoformat(listing_date)
+    series.bars = [row for row in series.bars if dt.date.fromisoformat(str(row["date"])) >= boundary]
+    series.corporate_actions = [
+        action
+        for action in series.corporate_actions
+        if dt.date.fromisoformat(str(action["date"])) >= boundary
+    ]
+    return series
+
+
 def fetch_series(
     holding: Holding,
     asof: dt.date,
@@ -273,13 +288,16 @@ def fetch_series(
     if cache_file:
         cached = _read_cache(cache_file, holding.symbol, asof)
         if cached:
-            cached.provider = f"cache:{cached.provider}"
-            cached.provider_attempts = [{"provider": "cache", "status": "ready"}]
-            return cached
+            cached = apply_listing_boundary(cached, holding.listing_date)
+            if len(cached.bars) >= 2:
+                cached.provider = f"cache:{cached.provider}"
+                cached.provider_attempts = [{"provider": "cache", "status": "ready"}]
+                return cached
     attempts: list[dict[str, Any]] = []
     for provider in (fetch_yahoo, fetch_stooq):
         try:
             series = provider(holding.symbol, start, asof, opener=opener)
+            series = apply_listing_boundary(series, holding.listing_date)
             if len(series.bars) < 2:
                 raise ValueError("provider returned fewer than two dated bars")
             series.provider_attempts = attempts + [{"provider": series.provider, "status": "ready"}]

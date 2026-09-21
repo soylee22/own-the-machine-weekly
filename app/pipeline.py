@@ -88,7 +88,12 @@ def _instrument_from_series(holding: Holding, series: MarketSeries, issue_date: 
         "asset_type": holding.asset_type,
         "country": holding.country,
         "coverage": "verified-2026-09-21",
-        "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+        "listing_date": holding.listing_date,
+        "listing_note": (
+            f"Configured exchange listing begins {holding.listing_date}; earlier provider observations are excluded."
+            if holding.listing_date
+            else "Instrument coverage was verified read-only on 2026-09-21. No account data is retained."
+        ),
         "market": {
             "status": series.status,
             "provider": series.provider,

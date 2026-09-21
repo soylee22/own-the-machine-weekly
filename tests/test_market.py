@@ -3,7 +3,7 @@ import json
 
 import pytest
 
-from app.market import fetch_stooq, fetch_yahoo, performance_metrics, validate_corporate_actions
+from app.market import MarketSeries, apply_listing_boundary, fetch_stooq, fetch_yahoo, performance_metrics, validate_corporate_actions
 
 
 class Response:
@@ -74,3 +74,27 @@ def test_anchor_gap_is_visible_when_no_nearby_base_session_exists():
     assert metrics["freshness_status"] == "ready"
     assert metrics["periods"]["1M"]["status"] == "anchor_gap"
     assert metrics["periods"]["1M"]["anchor_gap_days"] > 20
+
+
+def test_listing_boundary_excludes_pre_listing_provider_rows_from_return_anchors():
+    series = MarketSeries(
+        symbol="NEW.L",
+        currency="GBP",
+        provider="test",
+        source_url="https://example.test",
+        adjusted=False,
+        bars=[
+            {"date": "2026-08-18", "close": 5.00, "volume": 1},
+            {"date": "2026-08-19", "close": 5.00, "volume": 1},
+            {"date": "2026-08-20", "close": 3.67, "volume": 1},
+            {"date": "2026-09-18", "close": 3.70, "volume": 1},
+        ],
+        corporate_actions=[],
+        fetched_at="2026-09-20T19:37:00+00:00",
+        status="ready",
+    )
+    bounded = apply_listing_boundary(series, "2026-08-20")
+    assert [row["date"] for row in bounded.bars] == ["2026-08-20", "2026-09-18"]
+    metrics = performance_metrics(bounded.bars, dt.date(2026, 9, 20))
+    assert metrics["periods"]["1M"]["return"] is None
+    assert metrics["periods"]["1M"]["status"] in {"missing", "anchor_gap"}
