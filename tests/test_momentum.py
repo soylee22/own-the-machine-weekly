@@ -22,7 +22,8 @@ def test_portfolio_score_covers_non_stage2_holding():
     result = apply_momentum({"one": first, "two": second})
     assert result["one"]["portfolio_momentum_score"] is not None
     assert result["two"]["portfolio_momentum_score"] is not None
-    assert result["two"]["stage2"] is False or result["two"]["stage2"] is True
+    assert result["two"]["stage2"] is None
+    assert result["two"]["stage2_status"] == "market-rs-unavailable"
 
 
 def test_score_is_unavailable_instead_of_averaging_three_components():
