@@ -41,6 +41,8 @@ CONCRETE_PATTERNS = (
     r"\bprogramme\b",
 )
 CLICKBAIT_TERMS = {"price target", "buy", "sell", "should you", "stock could", "analyst"}
+HIGH_QUALITY_SECONDARY_HOSTS = {"reuters.com", "ft.com", "bloomberg.com", "bbc.co.uk", "businessgreen.com", "defensenews.com", "janes.com", "navalnews.com", "flightglobal.com"}
+LOW_QUALITY_SECONDARY_HOSTS = {"ad-hoc-news.de"}
 OFFICIAL_HOST_HINTS = {
     "baesystems.com",
     "geaerospace.com",
@@ -105,11 +107,23 @@ def concrete_term_count(text: str) -> int:
     return sum(bool(re.search(pattern, text, flags=re.IGNORECASE)) for pattern in CONCRETE_PATTERNS)
 
 
+def _publisher_tier(url: str, source_kind: str) -> str:
+    host = (urlsplit(url).hostname or "").lower().removeprefix("www.")
+    if source_kind == "primary":
+        return "primary"
+    if any(host == value or host.endswith("." + value) for value in HIGH_QUALITY_SECONDARY_HOSTS):
+        return "high-quality-secondary"
+    if any(host == value or host.endswith("." + value) for value in LOW_QUALITY_SECONDARY_HOSTS):
+        return "low-quality-secondary"
+    return "secondary"
+
+
 def _event_score(event: dict[str, Any], issue_date: dt.date) -> int:
     published = dt.date.fromisoformat(event["published_date"])
     age = max(0, (issue_date - published).days)
     score = max(0, 28 - min(age, 28))
     score += {"primary": 26, "secondary": 12, "discovery": 5}.get(event["source_kind"], 0)
+    score += {"high-quality-secondary": 8, "low-quality-secondary": -20}.get(event.get("publisher_tier"), 0)
     text = f"{event['title']} {event.get('summary', '')}".lower()
     concrete = concrete_term_count(text)
     score += min(28, concrete * 5)
@@ -183,10 +197,12 @@ def parse_rss(xml_bytes: bytes, holding: Holding, issue_date: dt.date, window_da
             "source_url": public_link,
             "publisher_url": publisher_link,
             "source_kind": _source_kind(publisher_link, source_name, holding),
+            "publisher_tier": None,
             "event_type": "operational" if has_concrete_terms(f"{title} {summary}") else "report",
             "recency_class": "issue" if age_days <= 7 else "context",
             "age_days": age_days,
         }
+        event["publisher_tier"] = _publisher_tier(event["publisher_url"], event["source_kind"])
         event["score"] = _event_score(event, issue_date)
         events.append(event)
     return events
@@ -259,6 +275,19 @@ def fetch_sec_events(
             accession_path = accession.replace("-", "")
             filing_url = f"https://www.sec.gov/Archives/edgar/data/{int(holding.cik)}/{accession_path}/{document}"
             records.append({"form": form, "filed_date": filed_date.isoformat(), "url": sanitise_url(filing_url)})
+        for record in records:
+            event = {
+                "holding_id": holding.id, "holding_name": holding.name,
+                "title": f"{holding.name} filed {record['form']} with the SEC",
+                "summary": f"Primary filing dated {record['filed_date']}. Open the filing for the underlying disclosure.",
+                "published_date": record["filed_date"], "source_name": "U.S. SEC",
+                "source_url": record["url"], "publisher_url": "https://www.sec.gov",
+                "source_kind": "primary", "publisher_tier": "primary", "event_type": "filing",
+                "recency_class": "issue" if (issue_date - dt.date.fromisoformat(record["filed_date"])).days <= 7 else "context",
+                "age_days": (issue_date - dt.date.fromisoformat(record["filed_date"])).days,
+            }
+            event["score"] = _event_score(event, issue_date)
+            events.append(event)
         return events, {
             "holding_id": holding.id,
             "kind": "primary-feed",

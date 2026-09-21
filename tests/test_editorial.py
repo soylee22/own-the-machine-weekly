@@ -54,3 +54,11 @@ def test_seven_day_stories_and_older_context_are_separate_and_quiet_is_not_top_e
     assert [row["title"] for row in result["older_context"]] == ["Factory capacity expands"]
     assert result["quiet_holdings"] == ["other"]
     assert result["next_week"]["status"] == "not-supported"
+
+
+def test_low_quality_secondary_is_penalised_below_normal_secondary():
+    from app.editorial import _event_score
+    base = event("Factory contract awarded", "2026-09-19", score=0)
+    base["publisher_tier"] = "secondary"
+    low = dict(base); low["publisher_tier"] = "low-quality-secondary"
+    assert _event_score(low, dt.date(2026, 9, 20)) < _event_score(base, dt.date(2026, 9, 20))

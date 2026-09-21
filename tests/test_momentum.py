@@ -32,3 +32,14 @@ def test_score_is_unavailable_instead_of_averaging_three_components():
     result = apply_momentum({"one": first})
     assert result["one"]["portfolio_momentum_score"] is None
     assert result["one"]["score_status"] == "unavailable"
+
+
+def test_stage2_does_not_fake_broad_market_rs_from_portfolio_rank():
+    first = compute_trend_features(bars(1.0))
+    assert first
+    result = apply_momentum({"one": first})["one"]
+    assert result["portfolio_rs_rating"] is not None
+    assert result["market_rs_rating"] is None
+    assert result["gates"]["g8_rs_rating_ge_70"] is None
+    assert result["stage2"] is None
+    assert result["stage2_status"] == "market-rs-unavailable"
