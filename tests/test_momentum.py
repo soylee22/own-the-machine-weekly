@@ -19,10 +19,15 @@ def test_portfolio_score_covers_non_stage2_holding():
     first = compute_trend_features(bars(1.0))
     second = compute_trend_features(bars(0.8))
     assert first and second
-    result = apply_momentum({"one": first, "two": second})
+    result = apply_momentum(
+        {"one": first, "two": second},
+        {"one": {"status": "ready", "rs_rating": 90}, "two": {"status": "ready", "rs_rating": 60}},
+    )
     assert result["one"]["portfolio_momentum_score"] is not None
     assert result["two"]["portfolio_momentum_score"] is not None
-    assert result["two"]["stage2"] is False or result["two"]["stage2"] is True
+    assert result["one"]["market_rs_rating"] == 90
+    assert result["two"]["market_rs_rating"] == 60
+    assert result["one"]["portfolio_rs_rating"] is not None
 
 
 def test_score_is_unavailable_instead_of_averaging_three_components():
@@ -32,3 +37,16 @@ def test_score_is_unavailable_instead_of_averaging_three_components():
     result = apply_momentum({"one": first})
     assert result["one"]["portfolio_momentum_score"] is None
     assert result["one"]["score_status"] == "unavailable"
+
+
+def test_stage2_does_not_substitute_portfolio_rs_when_market_rs_is_missing():
+    feature = compute_trend_features(bars(1.0))
+    assert feature
+    result = apply_momentum({"one": feature})
+    assert result["one"]["portfolio_momentum_score"] is not None
+    assert result["one"]["market_rs_rating"] is None
+    assert result["one"]["gates"]["g8_rs_rating_ge_70"] is None
+    technical = [value for name, value in result["one"]["gates"].items() if name != "g8_rs_rating_ge_70"]
+    if all(technical):
+        assert result["one"]["stage2"] is None
+        assert result["one"]["stage2_status"] == "market-rs-unavailable"
