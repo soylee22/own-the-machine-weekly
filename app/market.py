@@ -262,6 +262,17 @@ def _write_cache(path: Path, series: MarketSeries) -> None:
 
 
 def apply_listing_boundary(series: MarketSeries, listing_date: str | None) -> MarketSeries:
+    """Exclude provider observations before the configured exchange listing."""
+
+    if not listing_date:
+        return series
+    boundary = dt.date.fromisoformat(listing_date)
+    series.bars = [row for row in series.bars if dt.date.fromisoformat(str(row["date"])) >= boundary]
+    series.corporate_actions = [action for action in series.corporate_actions if dt.date.fromisoformat(str(action["date"])) >= boundary]
+    return series
+
+
+def apply_listing_boundary(series: MarketSeries, listing_date: str | None) -> MarketSeries:
     """Remove provider observations that pre-date the configured exchange listing."""
 
     if not listing_date:
