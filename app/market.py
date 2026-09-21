@@ -204,10 +204,10 @@ def fetch_yahoo(
     validate_corporate_actions(actions, asof)
 
     raw_bars = _normalise_bars(rows, asof)
-    quality_warnings = _unadjusted_discontinuities(raw_bars)
-    if quality_warnings:
-        raise ValueError("raw-close discontinuity detected: " + ", ".join(quality_warnings[:3]))
     bars = _total_return_adjusted_bars(raw_bars, actions)
+    quality_warnings = _unadjusted_discontinuities(bars)
+    if quality_warnings:
+        raise ValueError("adjusted discontinuity detected: " + ", ".join(quality_warnings[:3]))
     meta = result.get("meta") or {}
     return MarketSeries(
         symbol=symbol,
