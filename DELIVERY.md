@@ -8,7 +8,7 @@ Delivered on 21 September 2026. The first issue covers the week ending 20 Septem
 ## What runs
 
 The Sunday workflow fetches public market history and news feeds, selects operational headlines, preserves the edition, builds the magazine and deploys GitHub Pages.
-The schedule is Sunday at 19:37 Europe/London. GitHub may start it later.
+The schedule is Sunday at 22:37 Europe/London. GitHub may start it later.
 The application requires no external API keys and makes no AI calls.
 GitHub supplies its own token for archive commits and deployment.
 
@@ -19,7 +19,7 @@ Edit `config/holdings.yaml` when the portfolio changes. The application does not
 
 The site includes a weekly edition, READ and DATA views, seventeen distinct machine dossiers, a rotating machine feature, thesis challenges, an archive and source receipts.
 The six return periods are 1D, 1W, 1M, YTD, 1Y and 5Y.
-The data view also exposes relative strength, portfolio momentum, Stage 2 conditions, K-ratio and distance from the annual high.
+The data view exposes Portfolio Momentum and broad-market RS separately, plus Stage 2 conditions, K-ratio and distance from the annual high.
 Light and dark themes support phone, tablet and desktop reading.
 
 ## Verification
@@ -41,10 +41,10 @@ The normal quality gate requires at least 80% current price coverage and a succe
 
 ## Boundaries
 
-The news layer selects attributed headlines from public feeds. It does not independently verify every underlying article.
+The news layer ranks public discoveries by source quality and concreteness. Official issuers and SEC filings are primary evidence; weak syndicated sources are excluded from weekly selection. It does not independently verify every underlying article.
 Each story links to the publisher or its discovery redirect. It does not claim that the story caused the price movement.
 The permanent dossiers were written for launch. They are not rewritten automatically each week.
-The technical cover photograph remains the same until the media configuration changes.
+The technical cover photograph remains rights-cleared archive imagery until a safe zero-key dynamic-media source is configured; the cover copy itself changes with the weekly machine.
 X enrichment and a verified forward event calendar are not enabled.
 Public providers can change or restrict access. The source record exposes failures and insufficient coverage blocks publication.
 VALL has limited trading history. The application does not fabricate its missing longer returns.
@@ -71,4 +71,4 @@ gh run list --repo soylee22/own-the-machine-weekly --limit 5
 ```
 
 The weekly workflow includes deployment directly. Archive commits do not depend on starting another workflow.
-The original Momentum Power Scanner remains separate and unchanged.
+The Momentum Power Scanner remains separate and supplies a small broad-market RS sidecar for the magazine.
