@@ -1,6 +1,11 @@
 name: Own the Machine Weekly
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/editions/**"
+      - "site/src/data/**"
   schedule:
     - cron: "37 19 * * 0"
       timezone: "Europe/London"
