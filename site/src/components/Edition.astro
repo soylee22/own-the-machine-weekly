@@ -9,6 +9,7 @@ const issueNumber = Math.max(1, Math.floor((Date.parse(e.issue_date) - Date.pars
 const machine = dossiers.find((d: any) => d.slug === e.editorial?.machine_of_week?.holding_id) || dossiers[(issueNumber - 1) % dossiers.length];
 const machineInstrument = instruments.find((x: any) => x.id === machine?.slug);
 const counterpoint = e.editorial?.against_the_thesis;
+const coverFeature = e.editorial?.feature?.status === 'ready' ? e.editorial.feature : null;
 const sectors = [
   {name:'Aerospace & defence', ids:['bae-systems','ge-aerospace','lockheed-martin','rheinmetall','rolls-royce'], number:'01'},
   {name:'The financial system', ids:['jpmorgan','goldman-sachs','hsbc','mufg','morgan-stanley'], number:'02'},
@@ -19,7 +20,7 @@ const sectors = [
 <section class="cover wrap">
   <div class="issue-line"><span>{archived ? 'From the archive' : 'The Sunday edition'}</span><time datetime={e.issue_date}>{date(e.issue_date)}</time><span>No. {String(issueNumber).padStart(3,'0')}</span></div>
   <h1 class="cover-title">OWN THE<br /><span>MACHINE.</span></h1>
-  <div class="cover-deck"><p>Behind every ticker,<br /><em>something real.</em></p><div><p>Engines. Shipyards. Energy networks.<br />The financial systems that connect them.</p><a class="accent-link" href="#the-week">Read this edition <span>↓</span></a></div></div>
+  <div class="cover-deck"><p>Behind every ticker,<br /><em>something real.</em></p><div><p>{coverFeature ? <>{coverFeature.holding_name}.<br />{coverFeature.operation_label || 'Something moved this week.'}</> : <>Engines. Shipyards. Energy networks.<br />The financial systems that connect them.</>}</p><a class="accent-link" href="#the-week">Read this edition <span>↓</span></a></div></div>
   <figure class="cover-image"><img src={link(e.image.path)} alt={e.image.alt} width="1600" height="1370" fetchpriority="high" /><div class="image-overlay"><span>Field study / propulsion</span><strong>Built to work.<br />Made to endure.</strong></div><figcaption><span>{e.image.caption}</span><span>Image: {e.image.credit} · Technical archive, not this week’s event</span></figcaption></figure>
   <div class="edition-facts"><span><b>{instruments.length}</b> instruments followed</span><span><b>{stories.length}</b> selected clippings</span><span><b>{e.quality?.ready_market_count || 0}</b> current price series</span><a href={link('receipts/')}>Inspect the evidence ↗</a></div>
 </section>
