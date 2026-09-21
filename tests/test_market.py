@@ -27,7 +27,7 @@ def yahoo_opener(payload):
     return opener
 
 
-def test_partial_adjusted_series_never_mixes_price_bases():
+def test_yahoo_builds_one_total_return_basis_even_without_provider_adjclose():
     payload = {
         "chart": {"result": [{
             "timestamp": [1778976000, 1779062400, 1779148800],
@@ -39,8 +39,8 @@ def test_partial_adjusted_series_never_mixes_price_bases():
         }]}
     }
     result = fetch_yahoo("TEST", dt.date(2026, 5, 18), dt.date(2026, 5, 20), yahoo_opener(payload))
-    assert result.adjusted is False
-    assert result.adjustment_status == "unavailable"
+    assert result.adjusted is True
+    assert result.adjustment_status == "total-return-from-actions"
     assert [row["close"] for row in result.bars] == [100.0, 101.0, 102.0]
 
 
@@ -98,3 +98,42 @@ def test_listing_boundary_excludes_pre_listing_provider_rows_from_return_anchors
     metrics = performance_metrics(bounded.bars, dt.date(2026, 9, 20))
     assert metrics["periods"]["1M"]["return"] is None
     assert metrics["periods"]["1M"]["status"] in {"missing", "anchor_gap"}
+
+
+def test_total_return_adjustment_neutralises_dividend_drop():
+    from app.market import _total_return_adjusted_bars
+    raw = [
+        {"date": "2026-05-18", "close": 100.0, "volume": 1},
+        {"date": "2026-05-19", "close": 95.0, "volume": 1},
+    ]
+    adjusted = _total_return_adjusted_bars(raw, [{"type": "dividend", "date": "2026-05-19", "amount": 5.0}])
+    assert adjusted[-1]["close"] == 95.0
+    assert adjusted[0]["close"] == 95.0
+
+
+def test_total_return_adjustment_neutralises_split_jump():
+    from app.market import _total_return_adjusted_bars
+    raw = [
+        {"date": "2026-05-18", "close": 100.0, "volume": 1},
+        {"date": "2026-05-19", "close": 50.0, "volume": 1},
+    ]
+    adjusted = _total_return_adjusted_bars(raw, [{"type": "split", "date": "2026-05-19", "numerator": 2, "denominator": 1}])
+    assert adjusted[-1]["close"] == 50.0
+    assert adjusted[0]["close"] == 50.0
+
+
+def test_yahoo_known_four_for_one_split_is_adjusted_before_discontinuity_check():
+    payload = {
+        "chart": {"result": [{
+            "timestamp": [1778976000, 1779062400],
+            "meta": {"currency": "USD"},
+            "events": {"splits": {"1779062400": {"numerator": 4, "denominator": 1}}},
+            "indicators": {
+                "quote": [{"close": [100, 25], "volume": [1, 1]}],
+            },
+        }]}
+    }
+    result = fetch_yahoo("TEST", dt.date(2026, 5, 18), dt.date(2026, 5, 20), yahoo_opener(payload))
+    assert result.status == "ready"
+    assert result.adjusted is True
+    assert result.bars[0]["close"] == result.bars[1]["close"]

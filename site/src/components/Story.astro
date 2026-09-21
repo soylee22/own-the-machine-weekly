@@ -7,7 +7,8 @@ const {story, index = 0} = Astro.props;
   <div class="story-body">
     <div class="eyebrow">{story.holding_name} <span> / {story.operation_label || 'Source clipping'}</span></div>
     <h3><a href={story.source_url} target="_blank" rel="noopener noreferrer">{cleanTitle(story)} <span class="external">↗</span></a></h3>
-    <div class="story-receipt"><span>{story.source_name}</span><time datetime={story.published_date}>{shortDate(story.published_date)}</time><span>{story.source_kind === 'primary' ? 'Issuer / primary source' : 'Reported by publisher'}</span></div>
+    <div class="story-receipt"><span>{story.source_name}</span><time datetime={story.published_date}>{shortDate(story.published_date)}</time><span>{story.source_quality_tier >= 4 ? 'Primary source' : story.source_quality_tier === 3 ? 'High-quality secondary' : 'Secondary report'}</span></div>
+    {story.related_primary_filings?.length > 0 && <div class="story-receipt">{story.related_primary_filings.map((filing: any) => <a href={filing.source_url} target="_blank" rel="noopener noreferrer">Related {filing.form} filing ↗</a>)}</div>}
     <div class="story-foot"><a href={link(`dossiers/${story.holding_id}/`)}>Inside the machine →</a><span>1W {pct(story.market_context?.['1W']?.return)}</span></div>
   </div>
 </article>

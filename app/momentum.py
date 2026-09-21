@@ -70,10 +70,9 @@ def compute_trend_features(bars: list[dict[str, Any]]) -> dict[str, Any] | None:
     }
 
 
-def evaluate_gates(features: dict[str, Any], rs_rating: float | None) -> dict[str, bool]:
-    """Apply the eight Stage 2 gates from the public scanner."""
+def evaluate_gates(features: dict[str, Any], market_rs_rating: float | None) -> dict[str, bool | None]:
+    """Apply Stage 2, reserving gate eight for broad-market RS only."""
 
-    rs = rs_rating if rs_rating is not None else 0.0
     return {
         "g1_price_above_150_200": features["price"] > features["sma150"] and features["price"] > features["sma200"],
         "g2_sma150_above_sma200": features["sma150"] > features["sma200"],
@@ -82,7 +81,7 @@ def evaluate_gates(features: dict[str, Any], rs_rating: float | None) -> dict[st
         "g5_price_above_sma50": features["price"] > features["sma50"],
         "g6_30pct_above_52w_low": features["price"] >= 1.30 * features["low_52w"],
         "g7_within_25pct_of_52w_high": features["price"] >= 0.75 * features["high_52w"],
-        "g8_rs_rating_ge_70": rs >= 70.0,
+        "g8_rs_rating_ge_70": None if market_rs_rating is None else market_rs_rating >= 70.0,
     }
 
 
@@ -132,7 +131,10 @@ def _percentile(values: list[float], value: float) -> float:
     return _average_rank(values, value) / len(values)
 
 
-def apply_momentum(features_by_id: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
+def apply_momentum(
+    features_by_id: dict[str, dict[str, Any]],
+    market_rs_by_id: dict[str, dict[str, Any]] | None = None,
+) -> dict[str, dict[str, Any]]:
     """Add a portfolio-relative score to every valid holding and a separate Stage 2 badge.
 
     The old scanner ranked only Stage 2 survivors. The magazine keeps that
@@ -142,26 +144,46 @@ def apply_momentum(features_by_id: dict[str, dict[str, Any]]) -> dict[str, dict[
     """
 
     ratings = rs_ratings(features_by_id)
+    market_rs_by_id = market_rs_by_id or {}
     output: dict[str, dict[str, Any]] = {}
     for key, feature in features_by_id.items():
         item = dict(feature)
-        rating = ratings[key]
-        gates = evaluate_gates(item, rating) if item.get("sma200_21d_ago") is not None else {}
+        portfolio_rating = ratings[key]
+        market_row = market_rs_by_id.get(key) or {}
+        market_rating = market_row.get("rs_rating") if market_row.get("status") == "ready" else None
+        gates = evaluate_gates(item, market_rating) if item.get("sma200_21d_ago") is not None else {}
         item["weighted_perf"] = weighted_performance(item)
-        item["rs_rating"] = rating
+        item["portfolio_rs_rating"] = portfolio_rating
+        item["rs_rating"] = portfolio_rating
+        item["market_rs_rating"] = market_rating
+        item["market_rs_status"] = market_row.get("status", "unavailable")
+        item["market_rs_asof"] = market_row.get("asof")
+        item["market_rs_source"] = market_row.get("source")
         item["gates"] = gates
-        item["gates_passed"] = sum(gates.values())
-        item["stage2"] = bool(gates) and all(gates.values())
+        item["gates_passed"] = sum(value is True for value in gates.values())
+        technical = [value for name, value in gates.items() if name != "g8_rs_rating_ge_70"]
+        if not gates:
+            item["stage2"] = None
+            item["stage2_status"] = "unavailable"
+        elif any(value is False for value in technical):
+            item["stage2"] = False
+            item["stage2_status"] = "not-met"
+        elif gates.get("g8_rs_rating_ge_70") is None:
+            item["stage2"] = None
+            item["stage2_status"] = "market-rs-unavailable"
+        else:
+            item["stage2"] = bool(gates.get("g8_rs_rating_ge_70"))
+            item["stage2_status"] = "ready"
         item["dist_from_high"] = (item["high_52w"] - item["price"]) / item["high_52w"] if item.get("high_52w") else None
         output[key] = item
-    score_universe = [item for item in output.values() if all(item.get(field) is not None for field in ("rs_rating", "dist_from_high", "return_12m", "k_ratio"))]
-    rs_values = [float(item["rs_rating"]) for item in score_universe]
+    score_universe = [item for item in output.values() if all(item.get(field) is not None for field in ("portfolio_rs_rating", "dist_from_high", "return_12m", "k_ratio"))]
+    rs_values = [float(item["portfolio_rs_rating"]) for item in score_universe]
     prox_values = [float(-item["dist_from_high"]) for item in score_universe]
     one_year_values = [float(item["return_12m"]) for item in score_universe]
     k_values = [float(item["k_ratio"]) for item in score_universe]
     ranked: list[tuple[float, str]] = []
     for key, item in output.items():
-        required = ("rs_rating", "dist_from_high", "return_12m", "k_ratio")
+        required = ("portfolio_rs_rating", "dist_from_high", "return_12m", "k_ratio")
         if not all(item.get(field) is not None for field in required):
             item["composite"] = None
             item["portfolio_momentum_score"] = None
@@ -171,7 +193,7 @@ def apply_momentum(features_by_id: dict[str, dict[str, Any]]) -> dict[str, dict[
             item["rank_overall"] = None
             continue
         ranks = [
-            _percentile(rs_values, float(item["rs_rating"])),
+            _percentile(rs_values, float(item["portfolio_rs_rating"])),
             _percentile(prox_values, -float(item["dist_from_high"])),
             _percentile(one_year_values, float(item["return_12m"])),
             _percentile(k_values, float(item["k_ratio"])),
@@ -181,7 +203,7 @@ def apply_momentum(features_by_id: dict[str, dict[str, Any]]) -> dict[str, dict[
         item["score_status"] = "ready"
         item["score_unavailable_reason"] = None
         item["score_components"] = {
-            "rs_percentile": ranks[0],
+            "portfolio_rs_percentile": ranks[0],
             "high_proximity_percentile": ranks[1],
             "one_year_percentile": ranks[2],
             "k_ratio_percentile": ranks[3],

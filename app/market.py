@@ -95,6 +95,45 @@ def _unadjusted_discontinuities(rows: list[Bar]) -> list[str]:
     return warnings
 
 
+def _total_return_adjusted_bars(raw_bars: list[Bar], actions: list[dict[str, Any]]) -> list[Bar]:
+    """Create a split/dividend-adjusted close series from raw closes.
+
+    The total-return path is rescaled so the final adjusted close equals the
+    final raw market close. Returns and trend geometry are preserved while the
+    latest displayed level remains the quoted price.
+    """
+
+    ordered = sorted(raw_bars, key=lambda row: row["date"])
+    if len(ordered) < 2:
+        return ordered
+    by_date: dict[str, list[dict[str, Any]]] = {}
+    for action in actions:
+        by_date.setdefault(str(action["date"]), []).append(action)
+
+    index_values = [float(ordered[0]["close"])]
+    previous_raw = float(ordered[0]["close"])
+    for row in ordered[1:]:
+        current_raw = float(row["close"])
+        split_factor = 1.0
+        dividend = 0.0
+        for action in by_date.get(str(row["date"]), []):
+            if action.get("type") == "split":
+                split_factor *= float(action["numerator"]) / float(action["denominator"])
+            elif action.get("type") == "dividend":
+                dividend += float(action.get("amount") or 0.0)
+        gross = ((current_raw * split_factor) + dividend) / previous_raw
+        if not math.isfinite(gross) or gross <= 0:
+            raise ValueError(f"invalid total-return factor on {row['date']}: {gross}")
+        index_values.append(index_values[-1] * gross)
+        previous_raw = current_raw
+
+    scale = float(ordered[-1]["close"]) / index_values[-1]
+    return [
+        {**row, "close": round(index_values[index] * scale, 8)}
+        for index, row in enumerate(ordered)
+    ]
+
+
 def validate_corporate_actions(actions: list[dict[str, Any]], asof: dt.date | None = None) -> None:
     seen: set[tuple[str, str]] = set()
     for action in actions:
@@ -139,11 +178,9 @@ def fetch_yahoo(
     quote = ((result.get("indicators") or {}).get("quote") or [{}])[0]
     closes = quote.get("close") or []
     volumes = quote.get("volume") or []
-    adjusted_values = (((result.get("indicators") or {}).get("adjclose") or [{}])[0]).get("adjclose") or []
-    use_adjusted = len(adjusted_values) == len(timestamps) and all(value is not None for value in adjusted_values)
     rows = []
     for index, timestamp in enumerate(timestamps):
-        close = adjusted_values[index] if use_adjusted and index < len(adjusted_values) else (closes[index] if index < len(closes) else None)
+        close = closes[index] if index < len(closes) else None
         if close is None:
             continue
         rows.append({
@@ -151,6 +188,7 @@ def fetch_yahoo(
             "close": close,
             "volume": volumes[index] if index < len(volumes) else None,
         })
+
     actions: list[dict[str, Any]] = []
     events = result.get("events") or {}
     for timestamp, item in (events.get("dividends") or {}).items():
@@ -164,24 +202,26 @@ def fetch_yahoo(
         })
     actions = [action for action in actions if dt.date.fromisoformat(action["date"]) <= asof]
     validate_corporate_actions(actions, asof)
-    meta = result.get("meta") or {}
-    bars = _normalise_bars(rows, asof)
-    quality_warnings = [] if use_adjusted else _unadjusted_discontinuities(bars)
+
+    raw_bars = _normalise_bars(rows, asof)
+    bars = _total_return_adjusted_bars(raw_bars, actions)
+    quality_warnings = _unadjusted_discontinuities(bars)
     if quality_warnings:
-        raise ValueError("unadjusted discontinuity detected: " + ", ".join(quality_warnings[:3]))
+        raise ValueError("adjusted discontinuity detected: " + ", ".join(quality_warnings[:3]))
+    meta = result.get("meta") or {}
     return MarketSeries(
         symbol=symbol,
         currency=str(meta.get("currency") or "unknown"),
         provider="yahoo-chart",
         source_url=url,
-        adjusted=use_adjusted,
+        adjusted=True,
         bars=bars,
         corporate_actions=actions,
         fetched_at=_utc_now(),
         status="ready",
         provider_attempts=[{"provider": "yahoo-chart", "status": "ready"}],
-        adjustment_status="adjusted" if use_adjusted else "unavailable",
-        quality_warnings=quality_warnings,
+        adjustment_status="total-return-from-actions",
+        quality_warnings=[],
     )
 
 
