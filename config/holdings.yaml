@@ -166,6 +166,7 @@ holdings:
     name: Vanguard FTSE Global All-Cap Acc
     symbol: VALL.L
     listing_date: 2026-08-20
+    listing_date: 2026-08-20
     exchange: LSE
     currency: GBP
     asset_type: index-etf
