@@ -147,11 +147,6 @@ def load_holdings(path: Path) -> tuple[dict[str, Any], list[Holding]]:
                 dt.date.fromisoformat(str(row["listing_date"]))
             except ValueError as exc:
                 raise ValueError(f"Holding {row.get('id', '<unknown>')} has invalid listing_date") from exc
-        if row.get("listing_date") is not None:
-            try:
-                dt.date.fromisoformat(str(row["listing_date"]))
-            except ValueError as exc:
-                raise ValueError(f"Holding {row.get('id', '<unknown>')} has invalid listing_date") from exc
     holdings = [
         Holding(
             id=str(row["id"]),
@@ -165,7 +160,6 @@ def load_holdings(path: Path) -> tuple[dict[str, Any], list[Holding]]:
             source_query=str(row["source_query"]),
             dossier_type=str(row["dossier_type"]),
             cik=int(row["cik"]) if row.get("cik") is not None else None,
-            listing_date=str(row["listing_date"]) if row.get("listing_date") is not None else None,
             listing_date=str(row["listing_date"]) if row.get("listing_date") is not None else None,
         )
         for row in rows
