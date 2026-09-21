@@ -23,7 +23,7 @@ The normal weekly command is:
 python3 run.py --scheduled --json
 ```
 
-The scheduled command accepts a Sunday run at or after 19:37 in
+The scheduled command accepts a Sunday run at or after 22:37 in
 `Europe/London`. The issue date is the last completed Sunday. Market bars are
 limited to dates on or before that issue date, so a delayed GitHub run cannot
 include Monday's partial session.
@@ -63,22 +63,22 @@ creation. Same-issue reruns preserve that timestamp.
 
 ## Methodology
 
-The momentum layer preserves the public momentum-power-scanner method:
+The momentum layer deliberately separates two concepts:
 
-1. Eight Minervini-style Stage 2 gates.
-2. Weighted performance of 40% three-month, 20% six-month, 20% nine-month,
-   and 20% twelve-month returns.
-3. Percentile RS rating on the current comparison universe.
-4. Portfolio Momentum Score for every holding with all four components present,
-   ranked across the verified coverage universe.
-5. K-ratio as the t-statistic of a log-price trend over up to 252 sessions.
+1. Portfolio Momentum ranks holdings against this collection using four equal
+   percentile components: portfolio-relative RS, 52-week-high proximity,
+   one-year return and K-ratio.
+2. Broad-market RS comes from the separate Momentum Power Scanner, which ranks
+   its full US/UK universe. Stage 2 uses that broad-market RS for gate eight.
+3. If the broad-market sidecar is missing or stale, Stage 2 is marked
+   unavailable rather than substituting the portfolio-relative rank.
+4. Yahoo histories are normalised onto one total-return-adjusted basis using
+   raw closes plus dividend and split events. Price-only fallbacks are excluded
+   from Portfolio Momentum.
+5. K-ratio is the t-statistic of a log-price trend over up to 252 sessions.
 
-Stage 2 remains a separate eight-gate badge. It does not restrict the
-portfolio-relative score.
-
-The public scanner was inspected read-only at
-`https://github.com/soylee22/momentum-power-scanner`. This repository does not
-modify or replace it.
+The Momentum Power Scanner remains a separate product and now publishes the
+small machine-readable RS sidecar consumed by this magazine.
 
 ## Checks
 
@@ -86,11 +86,12 @@ modify or replace it.
 python3 -m pytest tests -q
 python3 -m compileall -q app run.py
 cd site && npm run build
+# Pull requests also run Chromium layout/link/accessibility checks in GitHub Actions.
 ```
 
 The GitHub Pages workflow uses the repository's native timezone schedule:
 
 ```yaml
-cron: "37 19 * * 0"
+cron: "37 22 * * 0"
 timezone: "Europe/London"
 ```
