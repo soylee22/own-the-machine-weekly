@@ -120,3 +120,20 @@ def test_total_return_adjustment_neutralises_split_jump():
     adjusted = _total_return_adjusted_bars(raw, [{"type": "split", "date": "2026-05-19", "numerator": 2, "denominator": 1}])
     assert adjusted[-1]["close"] == 50.0
     assert adjusted[0]["close"] == 50.0
+
+
+def test_yahoo_known_four_for_one_split_is_adjusted_before_discontinuity_check():
+    payload = {
+        "chart": {"result": [{
+            "timestamp": [1778976000, 1779062400],
+            "meta": {"currency": "USD"},
+            "events": {"splits": {"1779062400": {"numerator": 4, "denominator": 1}}},
+            "indicators": {
+                "quote": [{"close": [100, 25], "volume": [1, 1]}],
+            },
+        }]}
+    }
+    result = fetch_yahoo("TEST", dt.date(2026, 5, 18), dt.date(2026, 5, 20), yahoo_opener(payload))
+    assert result.status == "ready"
+    assert result.adjusted is True
+    assert result.bars[0]["close"] == result.bars[1]["close"]
