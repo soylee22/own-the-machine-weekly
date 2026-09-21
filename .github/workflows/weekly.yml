@@ -2,7 +2,7 @@ name: Own the Machine Weekly
 
 on:
   schedule:
-    - cron: "37 19 * * 0"
+    - cron: "37 22 * * 0"
       timezone: "Europe/London"
   workflow_dispatch:
 
