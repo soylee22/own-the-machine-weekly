@@ -108,12 +108,17 @@ def _instrument_from_series(holding: Holding, series: MarketSeries, issue_date: 
             "error": series.error,
         },
         "metrics": metrics,
-        "return_basis": "adjusted_close" if series.adjusted else "unadjusted_close",
+        "return_basis": "total_return_adjusted" if series.adjusted else "price_close_fallback",
     }
     if series.status != "ready":
         instrument["metrics"] = performance_metrics([], issue_date)
         return instrument, None
     if metrics["freshness_status"] != "ready":
+        return instrument, None
+    if not series.adjusted:
+        instrument["market"]["quality_warnings"] = list(instrument["market"]["quality_warnings"]) + [
+            "Price-only fallback is excluded from portfolio momentum to avoid mixing return bases."
+        ]
         return instrument, None
     features = compute_trend_features(series.bars)
     return instrument, features
