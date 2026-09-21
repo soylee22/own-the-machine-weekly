@@ -108,6 +108,7 @@ def _instrument_from_series(holding: Holding, series: MarketSeries, issue_date: 
         },
         "metrics": metrics,
         "return_basis": "adjusted_close" if series.adjusted else "unadjusted_close",
+        "return_basis_comparable": bool(series.adjusted),
     }
     if series.status != "ready":
         instrument["metrics"] = performance_metrics([], issue_date)
