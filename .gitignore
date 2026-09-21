@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+site/node_modules/
+site/dist/
+site/.astro/
+data/cache/
+!data/cache/.gitkeep
+.env
+.env.*
+.DS_Store

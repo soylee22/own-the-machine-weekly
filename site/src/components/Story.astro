@@ -1,0 +1,13 @@
+---
+import {cleanTitle, shortDate, link, pct} from './format';
+const {story, index = 0} = Astro.props;
+---
+<article class="story">
+  <div class="story-no">{String(index + 1).padStart(2, '0')}</div>
+  <div class="story-body">
+    <div class="eyebrow">{story.holding_name} <span> / {story.operation_label || 'Source clipping'}</span></div>
+    <h3><a href={story.source_url} target="_blank" rel="noopener noreferrer">{cleanTitle(story)} <span class="external">↗</span></a></h3>
+    <div class="story-receipt"><span>{story.source_name}</span><time datetime={story.published_date}>{shortDate(story.published_date)}</time><span>{story.source_kind === 'primary' ? 'Issuer / primary source' : 'Reported by publisher'}</span></div>
+    <div class="story-foot"><a href={link(`dossiers/${story.holding_id}/`)}>Inside the machine →</a><span>1W {pct(story.market_context?.['1W']?.return)}</span></div>
+  </div>
+</article>

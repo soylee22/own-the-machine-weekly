@@ -1,0 +1,7 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import archive from '../../data/archive.json';
+import {link,date} from '../../components/format';
+const editions = archive.filter((x:any)=>x.ready_market_count>0);
+---
+<Layout title="The archive · Own the Machine" active="archive"><div class="wrap"><header class="page-head"><div class="eyebrow">The record</div><h1>Weeks become<br />a story.</h1><p>Each edition preserves its own market snapshot, selected clippings and source record. The archive grows with each successful Sunday run.</p></header>{editions.map((entry:any)=><article class="archive-item"><div><div class="eyebrow">Sunday edition</div><h2><a href={link(`archive/${entry.issue_date}/`)}>{date(entry.issue_date)}</a></h2><p>{entry.story_count} selected clippings · {entry.ready_market_count} current price series</p></div><a class="text-link" href={link(`archive/${entry.issue_date}/`)}>Read this edition ↗</a></article>)}</div></Layout>

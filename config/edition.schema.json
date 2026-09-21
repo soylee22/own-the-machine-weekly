@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Own the Machine Weekly edition",
+  "type": "object",
+  "required": ["schema_version", "issue_date", "status", "cutoff", "comparison_universe", "comparison_universe_fingerprint", "score_universe", "score_universe_fingerprint", "instruments", "dossiers", "editorial", "quality"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "issue_date": {"type": "string", "format": "date"},
+    "status": {"enum": ["ready", "partial", "failed"]},
+    "cutoff": {"type": "object", "required": ["issue_date", "timezone", "market_rule"]},
+    "comparison_universe": {"type": "array", "minItems": 1},
+    "comparison_universe_fingerprint": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "score_universe": {"type": "array"},
+    "score_universe_fingerprint": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "instruments": {"type": "array", "minItems": 1},
+    "dossiers": {"type": "array", "minItems": 1},
+    "editorial": {"type": "object", "required": ["feature", "stories", "quiet_holdings", "older_context", "next_week"]},
+    "quality": {"type": "object", "required": ["ready_market_count", "market_coverage_threshold", "news_discovery_ready_count", "publishable", "note"]}
+  }
+}

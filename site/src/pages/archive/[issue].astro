@@ -1,0 +1,10 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Edition from '../../components/Edition.astro';
+export async function getStaticPaths() {
+  const files = import.meta.glob('../../data/archive/*.json', {eager:true});
+  return Object.values(files).map((module:any)=>({params:{issue:module.default.issue_date},props:{edition:module.default}}));
+}
+const {edition} = Astro.props;
+---
+<Layout title={`${edition.issue_date} · Own the Machine`} active="archive"><Edition edition={edition} archived={true}/></Layout>

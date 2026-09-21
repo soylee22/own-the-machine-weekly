@@ -1,0 +1,12 @@
+{
+  "hero": {
+    "path": "/assets/nasa-engine-test.jpg",
+    "alt": "Aircraft engine test setup in NASA Glenn's low-speed wind tunnel",
+    "caption": "Aircraft engine test setup in NASA Glenn's 9-by-15-foot low-speed wind tunnel.",
+    "credit": "NASA Glenn Research Center",
+    "source": "https://www.nasa.gov/nasa-glenn-virtual-tours/",
+    "image_url": "https://www.nasa.gov/wp-content/uploads/2023/01/GRC-2022-C-04045.jpg?w=1600",
+    "reuse_note": "Informational web reuse permitted under NASA's Images and Media guidance.",
+    "depiction_note": "Historical technical image only. It does not depict a named holding or current event."
+  }
+}

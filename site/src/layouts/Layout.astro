@@ -1,0 +1,49 @@
+---
+import '../styles/global.css';
+import { link } from '../components/format';
+const {title = 'Own the Machine · Weekly', active = 'read', description = 'A weekly field journal of the companies, systems and assets behind the tickers.'} = Astro.props;
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f0ede5" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={'https://soylee22.github.io' + link('assets/nasa-engine-test.jpg')} />
+    <title>{title}</title>
+    <script is:inline>try { document.documentElement.dataset.theme = localStorage.getItem('otm-theme') || 'light'; } catch {}</script>
+  </head>
+  <body>
+    <a href="#main" class="skip">Skip to content</a>
+    <header class="masthead wrap">
+      <a href={link()} class="wordmark" aria-label="Own the Machine home">OTM<span class="mark-dot">●</span><small>A weekly field journal</small></a>
+      <nav aria-label="Main navigation">
+        <a href={link()} aria-current={active === 'read' ? 'page' : undefined}>Read</a>
+        <a href={link('data/')} aria-current={active === 'data' ? 'page' : undefined}>Data</a>
+        <a href={link('dossiers/')} aria-current={active === 'dossiers' ? 'page' : undefined}>Machines</a>
+        <a href={link('archive/')} aria-current={active === 'archive' ? 'page' : undefined}>Archive</a>
+      </nav>
+      <button class="theme-button" id="theme-switch" aria-label="Switch colour theme">Night</button>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="footer wrap">
+      <div><a class="footer-brand" href={link()}>Own the machine.</a><p>A closer look at the world behind the ticker.</p></div>
+      <div class="footer-links"><a href={link('receipts/')}>Sources & method</a><a href="https://github.com/soylee22/own-the-machine-weekly">Source code ↗</a><a href="https://soylee22.github.io/momentum-power-scanner/">Momentum Power Scanner ↗</a></div>
+      <p class="colophon">Weekly · Sunday 19:37 London<br />Public evidence. Local-currency returns. No trade recommendations.</p>
+    </footer>
+    <script>
+      const button = document.querySelector<HTMLButtonElement>('#theme-switch');
+      const refresh = () => { if (button) button.textContent = document.documentElement.dataset.theme === 'dark' ? 'Day' : 'Night'; };
+      refresh();
+      button?.addEventListener('click', () => {
+        const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+        document.documentElement.dataset.theme = theme;
+        try { localStorage.setItem('otm-theme', theme); } catch {}
+        refresh();
+      });
+    </script>
+  </body>
+</html>

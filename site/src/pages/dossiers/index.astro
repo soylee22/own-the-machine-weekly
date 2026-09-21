@@ -1,0 +1,6 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import e from '../../data/edition.json';
+import {link} from '../../components/format';
+---
+<Layout title="The machines · Own the Machine" active="dossiers"><div class="wrap"><header class="page-head"><div class="eyebrow">The permanent collection</div><h1>More than<br />a ticker.</h1><p>{e.dossiers.length} different ways of connecting engineering, people and capital. Start with what the business actually does.</p></header><section class="directory">{e.dossiers.map((d:any,i:number)=><article><div class="eyebrow">{String(i+1).padStart(2,'0')} / {d.symbol}</div><h2><a href={link(`dossiers/${d.slug}/`)}>{d.name}</a></h2><p>{d.what_it_is}</p><a class="text-link" href={link(`dossiers/${d.slug}/`)}>Open the dossier <span>↗</span></a></article>)}</section></div></Layout>

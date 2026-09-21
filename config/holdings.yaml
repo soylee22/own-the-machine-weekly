@@ -1,0 +1,184 @@
+version: 1
+coverage: verified-2026-09-21
+broad_index_etf: VALL.L
+growth_index_etf: CNX1.L
+notes: Trading 212 instrument coverage was verified read-only on 2026-09-21. No quantities, costs or balances are retained.
+holdings:
+  - id: bae-systems
+    name: BAE Systems
+    symbol: BA.L
+    exchange: LSE
+    currency: GBX
+    asset_type: equity
+    country: UK
+    official_url: https://www.baesystems.com/en-uk/our-company/news-and-media/press-releases
+    source_query: "BAE Systems"
+    dossier_type: defence-prime
+  - id: ge-aerospace
+    name: GE Aerospace
+    symbol: GE
+    exchange: NYSE
+    currency: USD
+    asset_type: equity
+    country: US
+    official_url: https://www.geaerospace.com/news
+    source_query: "GE Aerospace"
+    dossier_type: aerospace-engine
+    cik: 40545
+  - id: lockheed-martin
+    name: Lockheed Martin
+    symbol: LMT
+    exchange: NYSE
+    currency: USD
+    asset_type: equity
+    country: US
+    official_url: https://news.lockheedmartin.com/
+    source_query: "Lockheed Martin"
+    dossier_type: defence-prime
+    cik: 936468
+  - id: rheinmetall
+    name: Rheinmetall
+    symbol: RHM.DE
+    exchange: XETRA
+    currency: EUR
+    asset_type: equity
+    country: Germany
+    official_url: https://www.rheinmetall.com/en/media/news-watch/news
+    source_query: "Rheinmetall"
+    dossier_type: defence-prime
+  - id: rolls-royce
+    name: Rolls-Royce
+    symbol: RR.L
+    exchange: LSE
+    currency: GBX
+    asset_type: equity
+    country: UK
+    official_url: https://www.rolls-royce.com/media/press-releases.aspx
+    source_query: "Rolls-Royce"
+    dossier_type: aerospace-engine
+  - id: jpmorgan
+    name: JPMorgan Chase
+    symbol: JPM
+    exchange: NYSE
+    currency: USD
+    asset_type: equity
+    country: US
+    official_url: https://www.jpmorganchase.com/ir/news
+    source_query: "JPMorgan Chase"
+    dossier_type: bank
+    cik: 19617
+  - id: goldman-sachs
+    name: Goldman Sachs
+    symbol: GS
+    exchange: NYSE
+    currency: USD
+    asset_type: equity
+    country: US
+    official_url: https://www.goldmansachs.com/pressroom/press-releases
+    source_query: "Goldman Sachs"
+    dossier_type: bank
+    cik: 886982
+  - id: hsbc
+    name: HSBC
+    symbol: HSBA.L
+    exchange: LSE
+    currency: GBX
+    asset_type: equity
+    country: UK
+    official_url: https://www.hsbc.com/news-and-views/news
+    source_query: "HSBC"
+    dossier_type: bank
+  - id: mufg
+    name: MUFG
+    symbol: MUFG
+    exchange: NYSE
+    currency: USD
+    asset_type: equity-adr
+    country: US
+    official_url: https://www.mufg.jp/english/news/
+    source_query: "MUFG"
+    dossier_type: bank
+  - id: morgan-stanley
+    name: Morgan Stanley
+    symbol: MS
+    exchange: NYSE
+    currency: USD
+    asset_type: equity
+    country: US
+    official_url: https://www.morganstanley.com/press-releases
+    source_query: "Morgan Stanley"
+    dossier_type: bank
+    cik: 895421
+  - id: bp
+    name: BP
+    symbol: BP.L
+    exchange: LSE
+    currency: GBX
+    asset_type: equity
+    country: UK
+    official_url: https://www.bp.com/en/global/corporate/news-and-insights/press-releases.html
+    source_query: "BP energy"
+    dossier_type: energy
+    cik: 313807
+  - id: chevron
+    name: Chevron
+    symbol: CVX
+    exchange: NYSE
+    currency: USD
+    asset_type: equity
+    country: US
+    official_url: https://www.chevron.com/newsroom
+    source_query: "Chevron"
+    dossier_type: energy
+    cik: 93410
+  - id: exxonmobil
+    name: ExxonMobil
+    symbol: XOM
+    exchange: NYSE
+    currency: USD
+    asset_type: equity
+    country: US
+    official_url: https://corporate.exxonmobil.com/news/news-releases
+    source_query: "ExxonMobil"
+    dossier_type: energy
+    cik: 34088
+  - id: shell
+    name: Shell
+    symbol: SHEL.L
+    exchange: LSE
+    currency: GBX
+    asset_type: equity
+    country: UK
+    official_url: https://www.shell.com/media/news-and-media-releases.html
+    source_query: "Shell energy"
+    dossier_type: energy
+  - id: cnx1
+    name: iShares NASDAQ 100 Acc
+    symbol: CNX1.L
+    exchange: LSE
+    currency: GBX
+    asset_type: index-etf
+    country: UK
+    official_url: https://www.ishares.com/uk/individual/en/products/253741/CNDX
+    source_query: "iShares NASDAQ 100 UCITS ETF CNX1"
+    dossier_type: index-etf
+  - id: vall
+    name: Vanguard FTSE Global All-Cap Acc
+    symbol: VALL.L
+    exchange: LSE
+    currency: GBP
+    asset_type: index-etf
+    country: UK
+    official_url: https://www.vanguard.co.uk/professional/product/etf/equity/E161/vanguard-ftse-global-all-cap-ucits-etf-usd-acc
+    source_query: "Vanguard FTSE Global All Cap VALL"
+    dossier_type: index-etf
+  - id: sgln-gold
+    name: Gold (SGLN)
+    symbol: SGLN.L
+    exchange: LSE
+    currency: GBX
+    asset_type: gold-etc
+    country: UK
+    official_url: https://www.ishares.com/uk/individual/en/products/258441/ishares-physical-gold-etc-fund
+    source_query: "SGLN gold ETC"
+    dossier_type: gold

@@ -1,0 +1,86 @@
+name: Own the Machine Weekly
+
+on:
+  schedule:
+    - cron: "37 19 * * 0"
+      timezone: "Europe/London"
+  workflow_dispatch:
+
+concurrency:
+  group: own-the-machine-weekly-ingest
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5.6.0
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - name: Install Python test dependency
+        working-directory: .
+        run: python3 -m pip install --requirement requirements-dev.txt
+      - name: Build the dated edition
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python3 run.py --scheduled --json
+          else
+            python3 run.py --json
+          fi
+      - name: Check the generated public boundary
+        run: python3 -m pytest tests -q
+      - name: Set up Node
+        uses: actions/setup-node@v4.4.0
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - name: Configure Pages
+        uses: actions/configure-pages@v5.0.0
+      - name: Install site dependencies
+        working-directory: site
+        run: npm ci
+      - name: Build the static site
+        working-directory: site
+        run: npm run build
+      - name: Upload the Pages artefact
+        uses: actions/upload-pages-artifact@v3.0.1
+        with:
+          path: site/dist
+      - name: Commit the archive and live data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git add data/editions site/src/data
+          if git diff --cached --quiet; then
+            echo "No edition changes to commit"
+            exit 0
+          fi
+          git config user.name "own-the-machine-weekly[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Build Own the Machine Weekly edition"
+          git push origin HEAD:${{ github.ref_name }}
+
+  deploy:
+    needs: ingest
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4.0.5

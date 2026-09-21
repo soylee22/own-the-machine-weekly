@@ -1,0 +1,138 @@
+{
+  "bae-systems": {
+    "what_it_is": "A submarine yard is useful only with the people, suppliers and programme knowledge that let it build the next boat. BAE combines that long industrial memory with frigates, combat-aircraft structures and electronic systems. Delivery starts a support relationship that can last decades.",
+    "systems": ["Submarine construction at Barrow", "Type 26 frigates", "Combat-aircraft structures", "Electronic warfare", "Fleet support"],
+    "watch": "Separate funded orders from political announcements. Follow hull milestones, shipyard capacity, delivery dates and the availability of systems already in service.",
+    "against": "A full order book does not remove execution risk. Skilled labour, supplier capacity and contract terms determine whether demand becomes profitable delivery.",
+    "diagram_label": "yard to fleet",
+    "official_source": "https://www.baesystems.com/en/our-company"
+  },
+  "ge-aerospace": {
+    "what_it_is": "The visible product is a jet engine. Behind it sits a second industrial system of spare parts, inspection, repair shops and service agreements. Every installed engine adds years of maintenance work and operating evidence. GE also shares CFM International with Safran.",
+    "systems": ["CFM engines with Safran", "GE9X", "Commercial engine services", "Military propulsion", "Repair and overhaul shops"],
+    "watch": "Follow engine deliveries alongside shop capacity, spare parts and time on wing. Certification and manufacturing progress matter separately from announced aircraft orders.",
+    "against": "Engine durability problems can increase service work while also increasing warranty costs and pressure from airlines. More shop visits are not automatically good news.",
+    "diagram_label": "engine service loop",
+    "official_source": "https://www.geaerospace.com/"
+  },
+  "lockheed-martin": {
+    "what_it_is": "An F-35 combines an airframe, sensors, mission software, training and fleet support. Lockheed Martin integrates those systems into a programme shared by many customers. Its wider business includes helicopters, missiles and space systems, with different production and upgrade cycles.",
+    "systems": ["F-35 programme", "Sikorsky helicopters", "Missile systems", "Space systems", "Mission software and support"],
+    "watch": "Distinguish aircraft built from aircraft accepted by customers. Follow software releases, production rates, programme funding and sustainment milestones.",
+    "against": "A mature production line can still encounter software delays or expensive support obligations. Programme scale does not guarantee that every delivery meets its original timetable.",
+    "diagram_label": "platform and upgrades",
+    "official_source": "https://www.lockheedmartin.com/en-us/products.html"
+  },
+  "rheinmetall": {
+    "what_it_is": "Rheinmetall connects vehicles, turrets, ammunition, sensors and the factories that produce them. A qualified production line is part of the product. Expanding output requires machinery, permits, trained workers and a reliable flow of materials.",
+    "systems": ["Armoured vehicles", "Ammunition production", "Turrets and cannon", "Air-defence systems", "Factory expansion"],
+    "watch": "Track commissioned capacity and delivered output separately from planned factories. Look for funded customer orders and milestones in qualification and production.",
+    "against": "Capacity announced today may take years to qualify. Customer budgets, input availability and utilisation determine the economics of a new factory.",
+    "diagram_label": "factory to delivery",
+    "official_source": "https://www.rheinmetall.com/en/products"
+  },
+  "rolls-royce": {
+    "what_it_is": "The listed Rolls-Royce builds propulsion and power systems, not motor cars. Its civil engines sit inside long relationships with airlines. Defence propulsion, submarine nuclear technology and mtu power systems add businesses whose customers and engineering requirements differ from commercial aviation.",
+    "systems": ["Trent engines", "Business-aviation engines", "Defence propulsion", "mtu power systems", "Submarine propulsion"],
+    "watch": "Follow engine durability, flying hours, repair capacity and delivery schedules. Keep civil aerospace, defence and power-system developments distinct.",
+    "against": "An engine can be technically capable yet expensive to maintain. Durability improvements must reach operating fleets before their full economic benefit appears.",
+    "diagram_label": "power through service",
+    "official_source": "https://www.rolls-royce.com/products-and-services.aspx"
+  },
+  "jpmorgan": {
+    "what_it_is": "Chase deposits, corporate lending, investment banking, payments and custody share one organisation. A company can borrow, hedge currencies and pay suppliers through related systems. The connection between those services is as important as the individual product.",
+    "systems": ["Chase consumer banking", "Corporate lending", "Payments and treasury", "Markets and securities services", "Asset and wealth management"],
+    "watch": "Look for payment-system launches, material financing, custody mandates and changes in credit performance. Separate customer activity from general interest-rate commentary.",
+    "against": "Scale spreads technology costs but also increases operational complexity. Credit losses, regulatory capital and control failures can constrain a business with strong customer demand.",
+    "diagram_label": "cash through a network",
+    "official_source": "https://www.jpmorganchase.com/about"
+  },
+  "goldman-sachs": {
+    "what_it_is": "Goldman Sachs arranges capital, advises on transactions and makes markets for institutional clients. Prime brokerage finances investors and supports their trading. Asset and wealth management turn a different set of client relationships into continuing mandates.",
+    "systems": ["Mergers and acquisitions advice", "Debt and equity underwriting", "Institutional markets", "Prime brokerage", "Asset and wealth management"],
+    "watch": "Follow completed transactions, underwriting activity, financing commitments and durable client mandates. An announced deal is not the same as a completed fee-paying transaction.",
+    "against": "Transaction revenue depends on clients choosing to act. Strong market access does not remove exposure to delayed deals, trading losses or weaker fundraising.",
+    "diagram_label": "decision to capital",
+    "official_source": "https://www.goldmansachs.com/what-we-do"
+  },
+  "hsbc": {
+    "what_it_is": "HSBC is especially distinctive where a customer operates across borders. Trade finance, currencies, payments and wealth services connect domestic banking relationships to international flows. The practical unit is often a trade corridor rather than a single branch network.",
+    "systems": ["Hong Kong banking", "UK banking", "Trade finance", "Cross-border payments", "International wealth services"],
+    "watch": "Follow changes in trade corridors, transaction services, geographic exposure and customer franchises. Check what a restructuring changes operationally, beyond its new organisation chart.",
+    "against": "International reach brings different regulatory regimes and geopolitical exposures. Simplifying the group can reduce complexity while also changing which customer relationships it can serve.",
+    "diagram_label": "trade across borders",
+    "official_source": "https://www.hsbc.com/who-we-are"
+  },
+  "mufg": {
+    "what_it_is": "MUFG combines Japanese commercial banking, trust banking, securities and overseas banking relationships. Its strategic relationship with Morgan Stanley connects parts of its Japanese franchise to a wider institutional network. The holding here is the US-listed ADR.",
+    "systems": ["MUFG Bank", "Trust banking", "Japanese securities", "Overseas commercial banks", "Morgan Stanley alliance"],
+    "watch": "Follow lending conditions in Japan, overseas credit exposure and developments in its banking partnerships. Distinguish the underlying business from ADR and currency effects.",
+    "against": "A change in Japanese interest rates affects lending margins, bond holdings and borrowers through different channels. A single rate headline cannot describe the whole effect.",
+    "diagram_label": "relationships and capital",
+    "official_source": "https://www.mufg.jp/english/profile/"
+  },
+  "morgan-stanley": {
+    "what_it_is": "Morgan Stanley combines institutional securities with a large wealth business. Financial advisers, E*TRADE and investment management give clients several entry points. A workplace share plan, self-directed account and advisory relationship can serve different stages of the same financial life.",
+    "systems": ["Financial advisers", "E*TRADE", "Workplace financial services", "Institutional securities", "Investment management"],
+    "watch": "Follow client assets, net flows, lending to wealth clients and changes to the platforms serving them. Separate market appreciation from new money arriving.",
+    "against": "Rising assets can reflect rising markets rather than stronger client acquisition. Fee pressure, deposit movement and integration costs can change the value of those assets.",
+    "diagram_label": "client to platform",
+    "official_source": "https://www.morganstanley.com/what-we-do"
+  },
+  "bp": {
+    "what_it_is": "BP connects oil and gas production to processing, trading, shipping and customers. A molecule can pass through several parts of that system before becoming transport fuel or industrial feedstock. Geography, logistics and timing help determine where it is most valuable.",
+    "systems": ["Oil and gas production", "Trading and shipping", "Refining", "Aviation fuel", "Retail energy"],
+    "watch": "Follow project start-ups, maintenance, asset disposals and changes in capital spending. Keep physical production progress separate from movements in commodity prices.",
+    "against": "Integration cannot remove commodity exposure. Outages, weaker refining margins and poor project execution can offset stronger upstream prices.",
+    "diagram_label": "molecule to customer",
+    "official_source": "https://www.bp.com/en/global/corporate/what-we-do.html"
+  },
+  "chevron": {
+    "what_it_is": "Chevron combines repeated shale operations with large fields and LNG projects. Tengiz, Gorgon and Wheatstone illustrate how reservoir engineering connects to processing and export infrastructure. Reliable output depends on the whole chain reaching operating readiness.",
+    "systems": ["Permian production", "Tengiz", "Gorgon LNG", "Wheatstone LNG", "Refining and lubricants"],
+    "watch": "Follow first production, ramp-up rates, plant availability and project spending. A start-up announcement is the beginning of operating evidence, not its conclusion.",
+    "against": "Large projects concentrate execution risk. Geology, construction, processing reliability and export constraints can each prevent designed capacity becoming saleable output.",
+    "diagram_label": "reservoir to export",
+    "official_source": "https://www.chevron.com/what-we-do"
+  },
+  "exxonmobil": {
+    "what_it_is": "ExxonMobil extends from resource extraction into fuels, lubricants and chemicals. Permian wells, Guyana production vessels and downstream plants represent different manufacturing systems. Integration lets similar feedstocks serve several products, each with its own market.",
+    "systems": ["Permian operations", "Guyana offshore production", "LNG", "Fuels and lubricants", "Chemicals"],
+    "watch": "Follow production-vessel start-ups, drilling productivity and downstream plant changes. Compare physical output with realised margins rather than treating volume alone as success.",
+    "against": "Greater output can meet weaker prices or margins. Project execution, environmental obligations and the economics of downstream products all affect the value of integration.",
+    "diagram_label": "resource to materials",
+    "official_source": "https://corporate.exxonmobil.com/what-we-do"
+  },
+  "shell": {
+    "what_it_is": "Shell links gas production, liquefaction, shipping and customer contracts through a large LNG and trading network. A cargo has both a physical destination and a commercial position. The ability to manage those together distinguishes the system from a collection of isolated plants.",
+    "systems": ["Integrated gas", "LNG supply", "Shipping and trading", "Refining and chemicals", "Retail and lubricants"],
+    "watch": "Follow LNG capacity, cargo commitments, plant availability and major project decisions. Separate new infrastructure from rearrangements of existing supply contracts.",
+    "against": "Flexibility has limits. Long contracts, outages, shipping constraints and weaker customer demand can restrict the options that make the network valuable.",
+    "diagram_label": "gas through a network",
+    "official_source": "https://www.shell.com/what-we-do.html"
+  },
+  "sgln-gold": {
+    "what_it_is": "SGLN is a listed security backed by physical gold. Custody and the creation and redemption process connect the exchange price to bullion. It provides gold exposure through an ETC structure, rather than ownership of a gold-mining company.",
+    "systems": ["Physical bullion", "Custody", "Creation and redemption", "London listing", "Tracking and charges"],
+    "watch": "Follow product notices, custody terms and tracking alongside gold-market developments. Check the security price and the metal exposure without inventing a company operating story.",
+    "against": "Gold generates no operating cash flow. Its price can fall, and charges and market spreads affect the return received through the security.",
+    "diagram_label": "bullion to security",
+    "official_source": "https://www.ishares.com/uk/individual/en/products/258441/ishares-physical-gold-etc-fund"
+  },
+  "cnx1-nasdaq": {
+    "what_it_is": "CNX1 is the London sterling listing of an accumulating iShares fund tracking the Nasdaq-100. It combines many companies in one security, but concentration in its larger constituents still matters. Distributions are retained within the accumulating share class.",
+    "systems": ["Nasdaq-100 index", "Underlying equities", "Index rebalancing", "Accumulation", "London listing"],
+    "watch": "Follow index changes, concentration and fund notices. Important constituent developments provide context, but a constituent story is not a change to the fund itself.",
+    "against": "A large number of constituents does not guarantee broad sector diversification. Its largest positions can dominate returns, and a sterling listing does not remove currency exposure.",
+    "diagram_label": "index to fund",
+    "official_source": "https://www.ishares.com/uk/individual/en/products/253741/CNDX"
+  },
+  "vall-global": {
+    "what_it_is": "VALL is the accumulating Vanguard ETF tracking the FTSE Global All Cap Index. Its remit includes large, medium and small companies across developed and emerging markets. The London holding trades in sterling, while the share class is denominated in US dollars.",
+    "systems": ["FTSE Global All Cap Index", "Developed markets", "Emerging markets", "Small-cap exposure", "Accumulating share class"],
+    "watch": "Follow tracking, fund notices, index composition and trading spreads. Show only the ETF history that exists, with longer index history kept clearly separate.",
+    "against": "Global coverage still carries equity-market risk and uneven country weights. A new fund has limited operating and trading history, so missing long-window returns must remain missing.",
+    "diagram_label": "world market to fund",
+    "official_source": "https://www.vanguard.co.uk/professional/product/etf/equity/E161/vanguard-ftse-global-all-cap-ucits-etf-usd-acc"
+  }
+}
