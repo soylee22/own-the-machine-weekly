@@ -46,9 +46,10 @@ jobs:
         working-directory: site
         run: npx playwright install --with-deps chromium
       - name: Start static preview
-        working-directory: site
         run: |
-          npm run preview -- --host 127.0.0.1 --port 4321 > /tmp/own-machine-preview.log 2>&1 &
+          mkdir -p /tmp/pages/own-the-machine-weekly
+          cp -R site/dist/. /tmp/pages/own-the-machine-weekly/
+          python3 -m http.server 4321 --bind 127.0.0.1 --directory /tmp/pages > /tmp/own-machine-preview.log 2>&1 &
           echo $! > /tmp/own-machine-preview.pid
           curl --retry 20 --retry-delay 1 --retry-connrefused --fail http://127.0.0.1:4321/own-the-machine-weekly/ > /dev/null
       - name: Run browser, layout and accessibility checks
