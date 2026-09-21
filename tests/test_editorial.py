@@ -1,7 +1,7 @@
 import datetime as dt
 
 from app.config import Holding
-from app.editorial import build_editorial, deduplicate_events, has_concrete_terms, parse_rss
+from app.editorial import build_editorial, deduplicate_events, fetch_sec_events, has_concrete_terms, parse_rss
 
 
 HOLDING = Holding("test", "Test Holding", "TEST", "NYSE", "USD", "equity", "US", "https://example.com/news", "Test Holding", "bank")
@@ -18,6 +18,8 @@ def event(title, published_date, event_type="operational", source_kind="secondar
         "source_url": "https://example.com/story",
         "publisher_url": "https://example.com",
         "source_kind": source_kind,
+        "source_quality_tier": 4 if source_kind == "primary" else 2,
+        "evidence_status": "primary-publisher" if source_kind == "primary" else "reported-secondary",
         "event_type": event_type,
         "recency_class": "issue" if (dt.date(2026, 9, 20) - dt.date.fromisoformat(published_date)).days <= 7 else "context",
         "score": score,
@@ -54,3 +56,56 @@ def test_seven_day_stories_and_older_context_are_separate_and_quiet_is_not_top_e
     assert [row["title"] for row in result["older_context"]] == ["Factory capacity expands"]
     assert result["quiet_holdings"] == ["other"]
     assert result["next_week"]["status"] == "not-supported"
+
+
+class Response:
+    def __init__(self, payload: bytes):
+        self.payload = payload
+    def __enter__(self):
+        return self
+    def __exit__(self, *args):
+        return False
+    def read(self):
+        return self.payload
+
+
+def test_low_quality_secondary_is_not_selected():
+    weak = event("Factory contract awarded", "2026-09-18", score=99)
+    weak["source_quality_tier"] = 1
+    result = build_editorial(
+        [HOLDING],
+        [{"id": "test", "metrics": {"periods": {}}}],
+        [weak],
+        dt.date(2026, 9, 20),
+    )
+    assert result["stories"] == []
+
+
+def test_current_counterpoint_can_replace_static_fallback():
+    risk = event("Factory programme delayed after production problem", "2026-09-19", score=30)
+    result = build_editorial(
+        [HOLDING],
+        [{"id": "test", "metrics": {"periods": {}}}],
+        [risk],
+        dt.date(2026, 9, 20),
+    )
+    assert result["against_the_thesis"]["status"] == "ready"
+    assert "delayed" in result["against_the_thesis"]["title"].lower()
+
+
+def test_sec_filing_becomes_primary_evidence_event():
+    holding = Holding(
+        "sec-test", "SEC Test", "SECT", "NYSE", "USD", "equity", "US",
+        "https://example.com/news", "SEC Test", "bank", cik=123456,
+    )
+    payload = b'''{"filings":{"recent":{"form":["8-K"],"filingDate":["2026-09-18"],"accessionNumber":["0000123456-26-000001"],"primaryDocument":["form8k.htm"]}}}'''
+    events, receipt = fetch_sec_events(
+        holding,
+        dt.date(2026, 9, 20),
+        opener=lambda request, timeout=20: Response(payload),
+    )
+    assert receipt["event_count"] == 1
+    assert events[0]["event_type"] == "filing"
+    assert events[0]["source_kind"] == "primary"
+    assert events[0]["source_quality_tier"] == 4
+    assert events[0]["evidence_status"] == "primary-filing"
