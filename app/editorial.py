@@ -41,6 +41,20 @@ CONCRETE_PATTERNS = (
     r"\bprogramme\b",
 )
 CLICKBAIT_TERMS = {"price target", "buy", "sell", "should you", "stock could", "analyst"}
+HIGH_QUALITY_HOST_HINTS = {
+    "reuters.com", "ft.com", "bloomberg.com", "wsj.com", "bbc.co.uk",
+    "defensenews.com", "breakingdefense.com", "navalnews.com", "flightglobal.com",
+    "aviationweek.com", "businessgreen.com", "upstreamonline.com", "offshore-energy.biz",
+}
+LOW_QUALITY_HOST_HINTS = {
+    "ad-hoc-news.de", "stocktitan.net", "simplywall.st", "investing.com",
+}
+COUNTERPOINT_PATTERNS = (
+    r"\bdelay(?:s|ed|ing)?\b", r"\bcost overrun", r"\boverrun", r"\bshortfall",
+    r"\bcancel(?:s|led|lation)?\b", r"\binvestigat(?:e|es|ed|ion)\b", r"\bfine(?:d|s)?\b",
+    r"\brecall(?:s|ed)?\b", r"\boutage\b", r"\bfault\b", r"\bproblem\b",
+    r"\brisk\b", r"\bloss\b", r"\bmiss(?:es|ed)?\b", r"\bslip(?:s|ped)?\b",
+)
 OFFICIAL_HOST_HINTS = {
     "baesystems.com",
     "geaerospace.com",
@@ -97,6 +111,17 @@ def _source_kind(source_url: str, source_name: str, holding: Holding) -> str:
     return "secondary"
 
 
+def _source_quality(source_url: str, source_kind: str) -> int:
+    host = (urlsplit(source_url).hostname or "").lower()
+    if source_kind == "primary":
+        return 4
+    if any(host == hint or host.endswith("." + hint) for hint in HIGH_QUALITY_HOST_HINTS):
+        return 3
+    if any(host == hint or host.endswith("." + hint) for hint in LOW_QUALITY_HOST_HINTS):
+        return 1
+    return 2
+
+
 def has_concrete_terms(text: str) -> bool:
     return any(re.search(pattern, text, flags=re.IGNORECASE) for pattern in CONCRETE_PATTERNS)
 
@@ -109,7 +134,7 @@ def _event_score(event: dict[str, Any], issue_date: dt.date) -> int:
     published = dt.date.fromisoformat(event["published_date"])
     age = max(0, (issue_date - published).days)
     score = max(0, 28 - min(age, 28))
-    score += {"primary": 26, "secondary": 12, "discovery": 5}.get(event["source_kind"], 0)
+    score += {4: 28, 3: 18, 2: 8, 1: -8}.get(int(event.get("source_quality_tier", 2)), 0)
     text = f"{event['title']} {event.get('summary', '')}".lower()
     concrete = concrete_term_count(text)
     score += min(28, concrete * 5)
@@ -173,6 +198,7 @@ def parse_rss(xml_bytes: bytes, holding: Holding, issue_date: dt.date, window_da
             publisher_link = sanitise_url(source_url)
         except ValueError:
             continue
+        source_kind = _source_kind(publisher_link, source_name, holding)
         event = {
             "holding_id": holding.id,
             "holding_name": holding.name,
@@ -182,7 +208,9 @@ def parse_rss(xml_bytes: bytes, holding: Holding, issue_date: dt.date, window_da
             "source_name": source_name or "Unknown source",
             "source_url": public_link,
             "publisher_url": publisher_link,
-            "source_kind": _source_kind(publisher_link, source_name, holding),
+            "source_kind": source_kind,
+            "source_quality_tier": _source_quality(publisher_link, source_kind),
+            "evidence_status": "primary-publisher" if source_kind == "primary" else "reported-secondary",
             "event_type": "operational" if has_concrete_terms(f"{title} {summary}") else "report",
             "recency_class": "issue" if age_days <= 7 else "context",
             "age_days": age_days,
@@ -258,7 +286,28 @@ def fetch_sec_events(
             document = recent.get("primaryDocument", [""])[index]
             accession_path = accession.replace("-", "")
             filing_url = f"https://www.sec.gov/Archives/edgar/data/{int(holding.cik)}/{accession_path}/{document}"
-            records.append({"form": form, "filed_date": filed_date.isoformat(), "url": sanitise_url(filing_url)})
+            filing_link = sanitise_url(filing_url)
+            records.append({"form": form, "filed_date": filed_date.isoformat(), "url": filing_link})
+            age_days = (issue_date - filed_date).days
+            event = {
+                "holding_id": holding.id,
+                "holding_name": holding.name,
+                "title": f"{holding.name} filed {form} with the SEC",
+                "summary": "Primary regulatory filing. Open the filing for the underlying disclosure.",
+                "published_date": filed_date.isoformat(),
+                "source_name": "SEC EDGAR",
+                "source_url": filing_link,
+                "publisher_url": "https://www.sec.gov",
+                "source_kind": "primary",
+                "source_quality_tier": 4,
+                "evidence_status": "primary-filing",
+                "event_type": "filing",
+                "recency_class": "issue" if age_days <= 7 else "context",
+                "age_days": age_days,
+                "form": form,
+            }
+            event["score"] = _event_score(event, issue_date)
+            events.append(event)
         return events, {
             "holding_id": holding.id,
             "kind": "primary-feed",
@@ -267,7 +316,7 @@ def fetch_sec_events(
             "status": "ready",
             "fetched_at": fetched_at,
             "sha256": hashlib.sha256(raw).hexdigest(),
-            "event_count": 0,
+            "event_count": len(events),
             "filing_count": len(records),
             "filings": records,
         }
@@ -341,11 +390,12 @@ def build_editorial(
         if event.get("recency_class") == "issue"
         and event.get("event_type") == "operational"
         and event.get("source_kind") in {"primary", "secondary"}
+        and int(event.get("source_quality_tier", 2)) >= 2
     ]
     stories = []
     secondary_by_holding: set[str] = set()
     secondary_total = 0
-    ordered = sorted(eligible, key=lambda row: (0 if row.get("source_kind") == "primary" else 1, -int(row.get("score", 0)), row["holding_id"], row["title"]))
+    ordered = sorted(eligible, key=lambda row: (-int(row.get("source_quality_tier", 2)), -int(row.get("score", 0)), row["holding_id"], row["title"]))
     for event in ordered:
         if event.get("source_kind") == "secondary":
             if event["holding_id"] in secondary_by_holding or secondary_total >= 3:
@@ -359,6 +409,19 @@ def build_editorial(
         instrument = instrument_by_id.get(event["holding_id"])
         story["market_context"] = (instrument or {}).get("metrics", {}).get("periods", {})
         story["market_context_note"] = "Price context is shown without asserting that the event caused the move."
+        story_date = dt.date.fromisoformat(story["published_date"])
+        related_filings = []
+        for filing in events:
+            if filing.get("event_type") != "filing" or filing.get("holding_id") != story["holding_id"]:
+                continue
+            filing_date = dt.date.fromisoformat(filing["published_date"])
+            if abs((filing_date - story_date).days) <= 3:
+                related_filings.append({
+                    "form": filing.get("form"),
+                    "published_date": filing["published_date"],
+                    "source_url": filing["source_url"],
+                })
+        story["related_primary_filings"] = related_filings[:2]
         stories.append(story)
     feature = dict(stories[0]) if stories else {
         "status": "quiet",
@@ -390,6 +453,40 @@ def build_editorial(
                 "stage2_changed": (item.get("momentum") or {}).get("stage2") != (old.get("momentum") or {}).get("stage2"),
             })
     context = [event for event in events if event.get("recency_class") == "context"][:8]
+    counterpoint_candidates = []
+    if rotating_holding is not None:
+        for event in events:
+            if event.get("holding_id") != rotating_holding.id or event.get("event_type") == "filing":
+                continue
+            if int(event.get("source_quality_tier", 2)) < 2:
+                continue
+            text = f"{event.get('title', '')} {event.get('summary', '')}"
+            if any(re.search(pattern, text, flags=re.IGNORECASE) for pattern in COUNTERPOINT_PATTERNS):
+                counterpoint_candidates.append(event)
+    counterpoint_candidates.sort(
+        key=lambda row: (
+            0 if row.get("recency_class") == "issue" else 1,
+            -int(row.get("source_quality_tier", 2)),
+            -int(row.get("score", 0)),
+        )
+    )
+    against_the_thesis = (
+        {
+            "status": "ready",
+            "holding_id": rotating_holding.id,
+            "title": counterpoint_candidates[0]["title"],
+            "source_name": counterpoint_candidates[0]["source_name"],
+            "source_url": counterpoint_candidates[0]["source_url"],
+            "published_date": counterpoint_candidates[0]["published_date"],
+            "note": "A current source item worth weighing against the standing dossier thesis; not a verdict on the holding.",
+        }
+        if counterpoint_candidates
+        else {
+            "status": "dossier-fallback",
+            "holding_id": rotating_holding.id if rotating_holding else None,
+            "note": "No qualifying current counterpoint was found for the rotating machine; use the standing dossier challenge.",
+        }
+    )
     qualifying_ids = {event["holding_id"] for event in eligible}
     quiet_ids = sorted({holding.id for holding in holdings} - qualifying_ids)
     return {
@@ -404,6 +501,7 @@ def build_editorial(
         "quiet_holdings": quiet_ids,
         "older_context": context,
         "changed_since_last_week": changed,
+        "against_the_thesis": against_the_thesis,
         "next_week": {
             "status": "not-supported",
             "items": [],
