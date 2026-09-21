@@ -15,6 +15,7 @@ from .config import Holding, load_holdings
 from .dossiers import build_dossiers
 from .editorial import discover_events, build_editorial
 from .market import MarketSeries, fetch_series, performance_metrics
+from .market_rs import fetch_market_rs
 from .momentum import apply_momentum, compute_trend_features
 from .privacy import assert_public_payload
 
@@ -279,7 +280,14 @@ def build_edition(
             "freshness_status": instrument["metrics"].get("freshness_status"),
             "adjustment_status": series.adjustment_status,
         })
-    momentum = apply_momentum(features_by_id)
+    market_rs_lookup, market_rs_receipt = fetch_market_rs(issue_date, opener_value or urllib.request.urlopen, timeout)
+    market_rs_by_id = {}
+    for holding in holdings:
+        row = market_rs_lookup.get(holding.symbol)
+        if row is not None:
+            market_rs_by_id[holding.id] = row
+    receipts.append(market_rs_receipt)
+    momentum = apply_momentum(features_by_id, market_rs_by_id)
     for instrument in instruments:
         instrument["momentum"] = momentum.get(instrument["id"], {
             "portfolio_momentum_score": None,
@@ -287,6 +295,9 @@ def build_edition(
             "score_status": "unavailable",
             "score_unavailable_reason": "Insufficient fresh price history for all four components.",
             "stage2": None,
+            "stage2_status": "unavailable",
+            "market_rs_rating": None,
+            "market_rs_status": "unavailable",
             "gates": {},
             "gates_passed": None,
         })
@@ -347,6 +358,7 @@ def build_edition(
             "X enrichment is optional and not configured.",
             "Price context does not establish causal links to events.",
             "Long-window comparability can change after corporate restructuring. GE Aerospace is flagged in its dossier.",
+            "Market RS comes from the Momentum Power broad-universe scanner and is unavailable rather than substituted when that feed is stale or missing.",
         ],
     }
     assert_public_payload(edition)
