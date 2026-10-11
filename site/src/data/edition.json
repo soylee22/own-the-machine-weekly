@@ -118,7 +118,7 @@
     "status": "verified-2026-09-21"
   },
   "cutoff": {
-    "issue_date": "2026-10-04",
+    "issue_date": "2026-10-11",
     "latest_session_varies_by_listing": true,
     "market_rule": "Use completed sessions dated on or before the issue Sunday.",
     "timezone": "Europe/London"
@@ -435,140 +435,116 @@
     "changed_since_last_week": [
       {
         "holding_id": "bae-systems",
-        "latest_change": -0.025862068965517238,
+        "latest_change": -0.031754294638209224,
         "name": "BAE Systems",
         "stage2_changed": false
       },
       {
-        "holding_id": "ge-aerospace",
-        "latest_change": -0.053593808970477164,
-        "name": "GE Aerospace",
-        "stage2_changed": false
-      },
-      {
-        "holding_id": "lockheed-martin",
-        "latest_change": -0.027234571495982074,
-        "name": "Lockheed Martin",
-        "stage2_changed": false
-      },
-      {
-        "holding_id": "rheinmetall",
-        "latest_change": -0.025956839745921778,
-        "name": "Rheinmetall",
-        "stage2_changed": false
-      },
-      {
-        "holding_id": "jpmorgan",
-        "latest_change": -0.031131559365594974,
-        "name": "JPMorgan Chase",
-        "stage2_changed": false
-      },
-      {
-        "holding_id": "goldman-sachs",
-        "latest_change": -0.035159564082208106,
-        "name": "Goldman Sachs",
+        "holding_id": "rolls-royce",
+        "latest_change": -0.062279991227411347,
+        "name": "Rolls-Royce",
         "stage2_changed": false
       },
       {
         "holding_id": "hsbc",
-        "latest_change": -0.04629017475224784,
+        "latest_change": -0.032173002295803554,
         "name": "HSBC",
         "stage2_changed": false
       },
       {
-        "holding_id": "mufg",
-        "latest_change": -0.028109023123089938,
-        "name": "MUFG",
+        "holding_id": "bp",
+        "latest_change": 0.05109358304742306,
+        "name": "BP",
         "stage2_changed": false
       },
       {
-        "holding_id": "morgan-stanley",
-        "latest_change": -0.03056390440922996,
-        "name": "Morgan Stanley",
+        "holding_id": "chevron",
+        "latest_change": 0.025593851795205458,
+        "name": "Chevron",
         "stage2_changed": false
       },
       {
         "holding_id": "exxonmobil",
-        "latest_change": 0.02129645835945615,
+        "latest_change": 0.03005919209209784,
         "name": "ExxonMobil",
         "stage2_changed": false
       },
       {
-        "holding_id": "sgln-gold",
-        "latest_change": -0.031085604973696834,
-        "name": "Gold (SGLN)",
+        "holding_id": "shell",
+        "latest_change": 0.054775476157375325,
+        "name": "Shell",
         "stage2_changed": false
       }
     ],
     "event_market_rule": "An event and a price move are adjacent evidence. This edition does not infer causality.",
     "feature": {
-      "age_days": 6,
+      "age_days": 3,
       "event_type": "operational",
-      "fingerprint": "ac175bad15d069b5",
-      "headline": "Rolls-Royce invests £300 million in UK manufacturing and engineering facilities to drive aerospace and defence growth and strengthen British industrial capability - Rolls-Royce plc",
-      "holding_id": "rolls-royce",
-      "holding_name": "Rolls-Royce",
+      "fingerprint": "52721a959eab6b6a",
+      "headline": "From Factory Floor to the Battlefield: Javelin Demand Drives Rapid Production Ramp - Lockheed Martin",
+      "holding_id": "lockheed-martin",
+      "holding_name": "Lockheed Martin",
       "market_context": {
         "1D": {
           "anchor_gap_days": 0,
-          "base_date": "2026-10-01",
-          "latest_date": "2026-10-02",
-          "return": 0.0036689102872993207,
+          "base_date": "2026-10-08",
+          "latest_date": "2026-10-09",
+          "return": 0.0033471453286426645,
           "status": "ready"
         },
         "1M": {
           "anchor_gap_days": 0,
-          "base_date": "2026-09-02",
-          "latest_date": "2026-10-02",
-          "return": 0.0055819953505786835,
+          "base_date": "2026-09-09",
+          "latest_date": "2026-10-09",
+          "return": -0.02835302026290676,
           "status": "ready"
         },
         "1W": {
           "anchor_gap_days": 0,
-          "base_date": "2026-09-25",
-          "latest_date": "2026-10-02",
-          "return": -0.002835205326577994,
+          "base_date": "2026-10-02",
+          "latest_date": "2026-10-09",
+          "return": 0.00827049850562922,
           "status": "ready"
         },
         "1Y": {
           "anchor_gap_days": 0,
-          "base_date": "2025-10-02",
-          "latest_date": "2026-10-02",
-          "return": 0.2652676241284797,
+          "base_date": "2025-10-09",
+          "latest_date": "2026-10-09",
+          "return": 0.029536562441063507,
           "status": "ready"
         },
         "5Y": {
           "anchor_gap_days": 2,
-          "base_date": "2021-10-01",
-          "latest_date": "2026-10-02",
-          "return": 9.33874510580154,
+          "base_date": "2021-10-08",
+          "latest_date": "2026-10-09",
+          "return": 0.6466948593484974,
           "status": "ready"
         },
         "YTD": {
           "anchor_gap_days": 0,
           "base_date": "2025-12-31",
-          "latest_date": "2026-10-02",
-          "return": 0.2845216966695654,
+          "latest_date": "2026-10-09",
+          "return": 0.07267039360868144,
           "status": "ready"
         }
       },
       "market_context_note": "Price context is shown without asserting that the event caused the move.",
-      "operation_label": "dated source item",
-      "published_date": "2026-09-28",
+      "operation_label": "factory or capacity",
+      "published_date": "2026-10-08",
       "publisher_tier": "primary",
-      "publisher_url": "https://www.rolls-royce.com",
+      "publisher_url": "https://www.lockheedmartin.com",
       "recency_class": "issue",
-      "score": 60,
+      "score": 61,
       "source_kind": "primary",
-      "source_name": "Rolls-Royce plc",
-      "source_url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPRDNGWjVNRlZGOWxJNTlrSUsxZk1zb2R0am1QY3J6MVNrLVFBSTRmd09YYzJ6czJybnc5U0kxZzk2T0Fza1Y3NzdndmFXbXlXa0VQdTVBSWFGT216amtua2FmR1FtenB3bDAzTHl5V2l4TmJqX2RjT0huYVFzNm1JUXNLakEyamxfZUlFem1xREttcFU2bFNGUnN0U0tWVU51ZFFEMUNlSEpYaFhmdG5qYmszakxjSC1kNWh2QXlfdmIwWVlMYlZIQzJHaDR6RFk4UVRGTWMybDZhajhlRE1lU3B4RzFudG42dnYtWU9JalkyYTBZT0JSdHctYTJHRm92QTVsR1NvNWN1a1FMYzBrbw?oc=5",
+      "source_name": "Lockheed Martin",
+      "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVGQzalBsOXo3aTBHSDh3MjBFWW1FUkdXUDNoS1ZuZkM1T1NRRHJPU0Y2X1BwWjZrZjRQSWxUNlBOVW1qZndORWJoRkhUYWh2NVhBOHY5UmFLWlpub3dPek9FNk1JV0VIQjl1Y3h0TmZDWjdIdUI5LXRjNWZBdllXeFR6OGl1Mkc0dHVaSWpTdXUzSVhrYlNJSldYU01KTk03RUxYSXBrdWd6N2ZYQWtmdkRVcUViVVlmTHNaSXNUVjRUWkZnWGdSdkozS0JnUWpLTzQzeGxSMkVnQQ?oc=5",
       "status": "ready",
-      "summary": "Rolls-Royce invests £300 million in UK manufacturing and engineering facilities to drive aerospace and defence growth and strengthen British industrial capability Rolls-Royce plc",
-      "title": "Rolls-Royce invests £300 million in UK manufacturing and engineering facilities to drive aerospace and defence growth and strengthen British industrial capability - Rolls-Royce plc"
+      "summary": "From Factory Floor to the Battlefield: Javelin Demand Drives Rapid Production Ramp Lockheed Martin",
+      "title": "From Factory Floor to the Battlefield: Javelin Demand Drives Rapid Production Ramp - Lockheed Martin"
     },
     "machine_of_week": {
-      "holding_id": "hsbc",
-      "name": "HSBC",
+      "holding_id": "mufg",
+      "name": "MUFG",
       "note": "Deterministic rotation through the verified coverage universe. The dossier is not a recommendation.",
       "status": "ready"
     },
@@ -581,204 +557,14 @@
       {
         "age_days": 13,
         "event_type": "operational",
-        "fingerprint": "b04d94d4c9f2d6f2",
-        "holding_id": "lockheed-martin",
-        "holding_name": "Lockheed Martin",
-        "published_date": "2026-09-21",
-        "publisher_tier": "primary",
-        "publisher_url": "https://news.lockheedmartin.com",
-        "recency_class": "context",
-        "score": 51,
-        "source_kind": "primary",
-        "source_name": "news.lockheedmartin.com",
-        "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWC13eUJmN0ZwaG1Fc0FVNDlGQkFkUE9WOW5fLXAwWlM5Q2hUZVFYS183endEdUxESWtGVTI5UkpuUmlZZS0xY3poN2pQaG82SlZpcGdjVGxRX0ZfUlJyMFk0cWpJLWUwRkxJcmtDNExvM2RvMGpISllGeXdoSVRfWnFxSEt2T0JHWkdCcUN4WTV3OUxBNl9OdUJYXzU3ZGJDSkRwekNLQlpGckxBY0hZb2Nob1F4TlJjYWZKRElvWVYweGxiYUEzU3RRTW5tX0h6R0l4WHFOYXpQLVhxVFdHSThn?oc=5",
-        "summary": "Lockheed Martin Secures $1.2B Contract for Precision Strike Missile Increment 2 After Second Maritime Test news.lockheedmartin.com",
-        "title": "Lockheed Martin Secures $1.2B Contract for Precision Strike Missile Increment 2 After Second Maritime Test - news.lockheedmartin.com"
-      },
-      {
-        "age_days": 13,
-        "event_type": "report",
-        "fingerprint": "d37ada5516365504",
-        "holding_id": "ge-aerospace",
-        "holding_name": "GE Aerospace",
-        "published_date": "2026-09-21",
-        "publisher_tier": "primary",
-        "publisher_url": "https://www.geaerospace.com",
-        "recency_class": "context",
-        "score": 48,
-        "source_kind": "primary",
-        "source_name": "GE Aerospace",
-        "source_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZExEVVRYZVloa0lnb2NibEZES3dvRHZxbVRTRWg3Vzl5c3Y2Uk1NUnNqTVZoUDZaVlJqUnNUa3ZpaGtzTDVXT0VielpXdkFsSFZxSkpaTlE3OTdZcndPZHo4UzlYd2ZmZEw0ZTVuY3FiZFA3SUFOXzI0ZUNSbW5icVVUVFl3QU1DMHNfYURHYzlYUzJNVWRiRFVLTm1QNnJlaExn?oc=5",
-        "summary": "GE Aerospace Investing $225M to Modernize Research Center GE Aerospace",
-        "title": "GE Aerospace Investing $225M to Modernize Research Center - GE Aerospace"
-      },
-      {
-        "age_days": 13,
-        "event_type": "operational",
-        "fingerprint": "9fee09d6d95d992c",
-        "holding_id": "jpmorgan",
-        "holding_name": "JPMorgan Chase",
-        "published_date": "2026-09-21",
-        "publisher_tier": "high-quality-secondary",
-        "publisher_url": "https://www.reuters.com",
-        "recency_class": "context",
-        "score": 47,
-        "source_kind": "secondary",
-        "source_name": "reuters.com",
-        "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOczdRcTBZOTMtVlJTZ0ljR0lvX0VpdzJRbzAwaXdPN0tmVGJMNWJyRVY5d3ZsZUlENm9aWmdDN0dFellPVmMwc0JJdzA2a2dxTUVJNWdfZTJQQUhxUWJSalQyMC12UmxiR3NEZDBBQUpDdFE1V1dTQktKQUFqZ3JIc2N3SVkxMWxiTVhYYXdYelVxUU9XMGlDN3FOX0ZvSmc5dEVCdkJTNXE3dTFxUVVZQVQ4eTBhaG9EUmpWVG1FamY5UUkySGtFRQ?oc=5",
-        "summary": "Qatar's wealth fund and JP Morgan Asset Management to launch $20 billion partnership reuters.com",
-        "title": "Qatar's wealth fund and JP Morgan Asset Management to launch $20 billion partnership - reuters.com"
-      },
-      {
-        "age_days": 9,
-        "event_type": "report",
-        "fingerprint": "be1376dda1681d96",
-        "holding_id": "hsbc",
-        "holding_name": "HSBC",
-        "published_date": "2026-09-25",
-        "publisher_tier": "primary",
-        "publisher_url": "https://www.business.hsbc.com",
-        "recency_class": "context",
-        "score": 45,
-        "source_kind": "primary",
-        "source_name": "HSBC Corporate and Institutional Banking",
-        "source_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5BUTdHX0FzdE5NMXdMRkROV3J4OVBIb1pKMWNWYUZRbE93WXBoOVNNT2duMGxNRlp2ckhRczY1Y0dHWUpqY29zcERJcjZLSzNER3pNcmRsUkJmRVlJTktEcVBSNA?oc=5",
-        "summary": "HSBCnio | Dynamic banking for a new era of business HSBC Corporate and Institutional Banking",
-        "title": "HSBCnio | Dynamic banking for a new era of business - HSBC Corporate and Institutional Banking"
-      },
-      {
-        "age_days": 9,
-        "event_type": "report",
-        "fingerprint": "fd3bf451a5dc7f2f",
-        "holding_id": "bae-systems",
-        "holding_name": "BAE Systems",
-        "published_date": "2026-09-25",
-        "publisher_tier": "primary",
-        "publisher_url": "https://www.baesystems.com",
-        "recency_class": "context",
-        "score": 45,
-        "source_kind": "primary",
-        "source_name": "BAE Systems",
-        "source_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaXg4MVBmZG9iaVNPWFpzSXg5SXVpUDFKZVhLcXF6VHRybXg5dTdkVy1WRG9BSzZQLXNTU1EtYTRJck1Ka3B3dEo0MDZHUTFZRTdJa3ZBdVU2R1piaHR0TDRqWkdpbFMzUWFKdF9ELS1XUmN5M3ZmSlgzenlObUpoMGQ0X2NGdmxJc0stNHRTc2FBMWtT?oc=5",
-        "summary": "Royal Navy’s newest hunter-killer submarines sets sail BAE Systems",
-        "title": "Royal Navy’s newest hunter-killer submarines sets sail - BAE Systems"
-      },
-      {
-        "age_days": 9,
-        "event_type": "operational",
-        "fingerprint": "5d7f89862d929eb3",
-        "holding_id": "bp",
-        "holding_name": "BP",
-        "published_date": "2026-09-25",
-        "publisher_tier": "secondary",
-        "publisher_url": "https://finance.yahoo.com",
-        "recency_class": "context",
-        "score": 43,
-        "source_kind": "secondary",
-        "source_name": "Yahoo Finance",
-        "source_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYnJpYm4zU1RpNXA5dmo4cXpyemRyeTRyX1NNQ3JZajBRQTRqaVFXMlJDM0ZCR0ppcFU3MzFzQXlDMVRSa0VCYjRjclZlN3F5dWJ6MEQwUEVYNzRIZ3VDampOV2RNSmhJZmxqTDFENWE1cjJpZVg3cnlNWGtrQ2FpLUZwdkh4dGtDcnI0?oc=5",
-        "summary": "BP Walked Away From a Potential $4.5 Billion Bet on Devon Energy's Eagle Ford Shale. Here's What It Means for BP and DVN Stock. Yahoo Finance",
-        "title": "BP Walked Away From a Potential $4.5 Billion Bet on Devon Energy's Eagle Ford Shale. Here's What It Means for BP and DVN Stock. - Yahoo Finance"
-      },
-      {
-        "age_days": 12,
-        "event_type": "filing",
-        "fingerprint": "5ad7dce4be1664b9",
-        "holding_id": "ge-aerospace",
-        "holding_name": "GE Aerospace",
-        "published_date": "2026-09-22",
-        "publisher_tier": "primary",
-        "publisher_url": "https://www.sec.gov",
-        "recency_class": "context",
-        "score": 42,
-        "source_kind": "primary",
-        "source_name": "U.S. SEC",
-        "source_url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000059/ge-20260921.htm",
-        "summary": "Primary filing dated 2026-09-22. Open the filing for the underlying disclosure.",
-        "title": "GE Aerospace filed 8-K with the SEC"
-      },
-      {
-        "age_days": 10,
-        "event_type": "operational",
-        "fingerprint": "fb05a11580651d36",
-        "holding_id": "ge-aerospace",
-        "holding_name": "GE Aerospace",
-        "published_date": "2026-09-24",
-        "publisher_tier": "secondary",
-        "publisher_url": "https://finance.yahoo.com",
-        "recency_class": "context",
-        "score": 42,
-        "source_kind": "secondary",
-        "source_name": "Yahoo Finance",
-        "source_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQN0NxVFA2T0dld0VBeGVERDRZV3pxRUc1NDl0ak1lOWZBMG1ublcxQWRCWnNSaFBJTnhZdm9ZckZEMmYzazZuZUQ4WVQ3aTMtZDlwb2tnWmt5NE1SWEozLV9KSElRLV9vR1dXVXh2bjdHNnNTdVU3THdxQnhiYUJDbzBDaEprZVllYVdvekZSLUJKTF9kOFVr?oc=5",
-        "summary": "GE Aerospace is Spending $11.75 Billion to Fix a Supply-Chain Bottleneck. Will it Pay Off? Yahoo Finance",
-        "title": "GE Aerospace is Spending $11.75 Billion to Fix a Supply-Chain Bottleneck. Will it Pay Off? - Yahoo Finance"
-      }
-    ],
-    "quiet_holdings": [
-      "cnx1",
-      "sgln-gold",
-      "shell",
-      "vall"
-    ],
-    "stories": [
-      {
-        "age_days": 6,
-        "event_type": "operational",
         "fingerprint": "ac175bad15d069b5",
         "holding_id": "rolls-royce",
         "holding_name": "Rolls-Royce",
-        "market_context": {
-          "1D": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.0036689102872993207,
-            "status": "ready"
-          },
-          "1M": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": 0.0055819953505786835,
-            "status": "ready"
-          },
-          "1W": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.002835205326577994,
-            "status": "ready"
-          },
-          "1Y": {
-            "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.2652676241284797,
-            "status": "ready"
-          },
-          "5Y": {
-            "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 9.33874510580154,
-            "status": "ready"
-          },
-          "YTD": {
-            "anchor_gap_days": 0,
-            "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.2845216966695654,
-            "status": "ready"
-          }
-        },
-        "market_context_note": "Price context is shown without asserting that the event caused the move.",
-        "operation_label": "dated source item",
         "published_date": "2026-09-28",
         "publisher_tier": "primary",
         "publisher_url": "https://www.rolls-royce.com",
-        "recency_class": "issue",
-        "score": 60,
+        "recency_class": "context",
+        "score": 53,
         "source_kind": "primary",
         "source_name": "Rolls-Royce plc",
         "source_url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPRDNGWjVNRlZGOWxJNTlrSUsxZk1zb2R0am1QY3J6MVNrLVFBSTRmd09YYzJ6czJybnc5U0kxZzk2T0Fza1Y3NzdndmFXbXlXa0VQdTVBSWFGT216amtua2FmR1FtenB3bDAzTHl5V2l4TmJqX2RjT0huYVFzNm1JUXNLakEyamxfZUlFem1xREttcFU2bFNGUnN0U0tWVU51ZFFEMUNlSEpYaFhmdG5qYmszakxjSC1kNWh2QXlfdmIwWVlMYlZIQzJHaDR6RFk4UVRGTWMybDZhajhlRE1lU3B4RzFudG42dnYtWU9JalkyYTBZT0JSdHctYTJHRm92QTVsR1NvNWN1a1FMYzBrbw?oc=5",
@@ -786,62 +572,16 @@
         "title": "Rolls-Royce invests £300 million in UK manufacturing and engineering facilities to drive aerospace and defence growth and strengthen British industrial capability - Rolls-Royce plc"
       },
       {
-        "age_days": 2,
+        "age_days": 9,
         "event_type": "operational",
         "fingerprint": "93a29f9256cc2f42",
         "holding_id": "rheinmetall",
         "holding_name": "Rheinmetall",
-        "market_context": {
-          "1D": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.011736135296360972,
-            "status": "ready"
-          },
-          "1M": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.12243213225553162,
-            "status": "ready"
-          },
-          "1W": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.025956839745921778,
-            "status": "ready"
-          },
-          "1Y": {
-            "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": -0.5133610941800606,
-            "status": "ready"
-          },
-          "5Y": {
-            "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 10.97959598120147,
-            "status": "ready"
-          },
-          "YTD": {
-            "anchor_gap_days": 1,
-            "base_date": "2025-12-30",
-            "latest_date": "2026-10-02",
-            "return": -0.38086809615935713,
-            "status": "ready"
-          }
-        },
-        "market_context_note": "Price context is shown without asserting that the event caused the move.",
-        "operation_label": "launch",
         "published_date": "2026-10-02",
         "publisher_tier": "primary",
         "publisher_url": "https://www.rheinmetall.com",
-        "recency_class": "issue",
-        "score": 57,
+        "recency_class": "context",
+        "score": 50,
         "source_kind": "primary",
         "source_name": "Rheinmetall",
         "source_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQY0NiUUl0a2hWMjRET0dKZURQV19LT1ZhbWR1Wld0amdQbk15RDZGallqaWpSVXJLcTV3eFBYS0Myemg4NzFSdGVoVno5U1Rfa0hRQkpLRzRBNjFOcTBQazlMWTVid2E4X3hqelhQbzd0cGVwTlZxaDZWY1prT21rV3FaV21OTnh6UEJOT2lSNE9DVHdEVzNBSTk1ZkxzYzVRdWczZklKdDhqOGdGQjJOMFU5TmVoakMtaGJfYmd6N1ZEZEQ3Q2s4MzFnYS1DaF8zdVUwcmxaekNpQ2EzNUR6ZQ?oc=5",
@@ -849,125 +589,33 @@
         "title": "Rheinmetall and Argotec launch their first satellite into space with SpaceX - Rheinmetall"
       },
       {
-        "age_days": 3,
+        "age_days": 10,
         "event_type": "operational",
-        "fingerprint": "2d2dbb547e2e92d6",
-        "holding_id": "ge-aerospace",
-        "holding_name": "GE Aerospace",
-        "market_context": {
-          "1D": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": -0.00905924311687989,
-            "status": "ready"
-          },
-          "1M": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.060515940637329235,
-            "status": "ready"
-          },
-          "1W": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.053593808970477164,
-            "status": "ready"
-          },
-          "1Y": {
-            "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.037743658960876836,
-            "status": "ready"
-          },
-          "5Y": {
-            "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 3.80539412069972,
-            "status": "ready"
-          },
-          "YTD": {
-            "anchor_gap_days": 0,
-            "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.007685547122787462,
-            "status": "ready"
-          }
-        },
-        "market_context_note": "Price context is shown without asserting that the event caused the move.",
-        "operation_label": "delivery",
+        "fingerprint": "2067ebc6791d0509",
+        "holding_id": "bae-systems",
+        "holding_name": "BAE Systems",
         "published_date": "2026-10-01",
         "publisher_tier": "primary",
-        "publisher_url": "https://www.geaerospace.com",
-        "recency_class": "issue",
-        "score": 56,
+        "publisher_url": "https://www.baesystems.com",
+        "recency_class": "context",
+        "score": 49,
         "source_kind": "primary",
-        "source_name": "GE Aerospace",
-        "source_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMnpKRExvWDU4S3BSVWwyNUlOU0dJRUJNQkRTT0h0dEFFRWR2UUF0eWZKMVVfV2MyMHRIdEdPV1c1WmQzMGxJRnV3LXpjWktkUGtxNjc4cE1GbXdKZHF1ZFJ4SmtXVEtMalpTdUp3R3JrTmJab0h5OWxBb1RPa1FKSTk0amk1SEhLaXBtaERyd3E1NUV0cjh4TndPUUNqNl9KamhPZmV6R1FpWHdsYzVheTBpN0FPT0E?oc=5",
-        "summary": "How Readiness Stays Ready: The F110 Delivers Power, Reliability, and Scale for the F-15EX GE Aerospace",
-        "title": "How Readiness Stays Ready: The F110 Delivers Power, Reliability, and Scale for the F-15EX - GE Aerospace"
+        "source_name": "BAE Systems",
+        "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWlJyRzRRT0F2UWl4ZjFfTThWdGp0YXJXZ3Z2MDVjbXhFNHBSSWxBRWZPTWRkakFUZlRuVUJEVUFBaDlsemhSQWtMeEtyRHVzbXpDc1ZmLWVFaEduRVNGU3pLT1QtZUV3OUQ2MzVTRm1vdmxfSFRmTzRack5BeUNJMHlmeFhjZkt3N3hKc0FFSnhwZFEtSzVYOFgyWkE0enJLSUlfS2t0dHVvcFRjWTNNbWRkYw?oc=5",
+        "summary": "BAE Systems demonstrates integrated counter-drone capability in live trials BAE Systems",
+        "title": "BAE Systems demonstrates integrated counter-drone capability in live trials - BAE Systems"
       },
       {
-        "age_days": 3,
+        "age_days": 10,
         "event_type": "operational",
         "fingerprint": "ab33cdbd702f0d70",
         "holding_id": "rolls-royce",
         "holding_name": "Rolls-Royce",
-        "market_context": {
-          "1D": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.0036689102872993207,
-            "status": "ready"
-          },
-          "1M": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": 0.0055819953505786835,
-            "status": "ready"
-          },
-          "1W": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.002835205326577994,
-            "status": "ready"
-          },
-          "1Y": {
-            "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.2652676241284797,
-            "status": "ready"
-          },
-          "5Y": {
-            "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 9.33874510580154,
-            "status": "ready"
-          },
-          "YTD": {
-            "anchor_gap_days": 0,
-            "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.2845216966695654,
-            "status": "ready"
-          }
-        },
-        "market_context_note": "Price context is shown without asserting that the event caused the move.",
-        "operation_label": "production",
         "published_date": "2026-10-01",
         "publisher_tier": "primary",
         "publisher_url": "https://www.rolls-royce.com",
-        "recency_class": "issue",
-        "score": 56,
+        "recency_class": "context",
+        "score": 49,
         "source_kind": "primary",
         "source_name": "Rolls-Royce plc",
         "source_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOUzA5cmV6RHE1YUQ5Xzc0S0dvQTJkS1JZRElXYkRKNmZnNHA5T2hVVmN1WGl0MnlHRE9QdTQtVnJfOHJYR1ZtU0drM3lWUllsTFdGNmVnYm5ib3FEUUV6elpkbVNvcDhzdUlycTBaS2tvRjdkLXZiaVBvTVBsQTdsNzR3RGRPUmQwbFZrMXp3MGgzQ0lEMUdWWVpmNGI2UlFrT09GVGd2S2VTNVc3SlA3bXZ3a0p6ejRFMmw4bjU0bmZnOWxyODZJYUtxX0tUdTVoZ3ZsbVlPVDBibUFGcWNGbHVYNHpCRmRCT2hTcHMwbzJ3VGRWWlNXS0hCeTZMcE0?oc=5",
@@ -975,62 +623,33 @@
         "title": "Rolls-Royce becomes first high-speed engine manufacturer to license local production in Saudi Arabia - Rolls-Royce plc"
       },
       {
-        "age_days": 5,
+        "age_days": 13,
+        "event_type": "operational",
+        "fingerprint": "902c83730afcde1f",
+        "holding_id": "rolls-royce",
+        "holding_name": "Rolls-Royce",
+        "published_date": "2026-09-28",
+        "publisher_tier": "high-quality-secondary",
+        "publisher_url": "https://www.reuters.com",
+        "recency_class": "context",
+        "score": 47,
+        "source_kind": "secondary",
+        "source_name": "Reuters",
+        "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNHFudElVazVpa2hMUThQT043RGRSSWY2X1dKQ09vMVM0S2YyUk9KeEo5dWxWVm1FTHZmY3ZjRnRNck83WFd0VVdodTYwR1dOMWdKd3BjclZZZUJfWFRVRGlKQzlSeUdUUzZNZ2VwTFdfWFdVdnY2QkhjaDYtLWNFd3gtRUpCQ3Q5N3E3NjY3YkJiNW0xRlhnNFRBV2dodEpRb1luUGliRGNMbFAzVE8w?oc=5",
+        "summary": "Rolls-Royce to invest $398 million in UK manufacturing Reuters",
+        "title": "Rolls-Royce to invest $398 million in UK manufacturing - Reuters"
+      },
+      {
+        "age_days": 12,
         "event_type": "operational",
         "fingerprint": "b585b5fc768b461b",
         "holding_id": "hsbc",
         "holding_name": "HSBC",
-        "market_context": {
-          "1D": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.0036186159846904875,
-            "status": "ready"
-          },
-          "1M": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.06665803990092678,
-            "status": "ready"
-          },
-          "1W": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.04629017475224784,
-            "status": "ready"
-          },
-          "1Y": {
-            "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.38194709170499097,
-            "status": "ready"
-          },
-          "5Y": {
-            "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 2.7107937059200866,
-            "status": "ready"
-          },
-          "YTD": {
-            "anchor_gap_days": 0,
-            "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.2286589633451892,
-            "status": "ready"
-          }
-        },
-        "market_context_note": "Price context is shown without asserting that the event caused the move.",
-        "operation_label": "launch",
         "published_date": "2026-09-29",
         "publisher_tier": "primary",
         "publisher_url": "https://www.hsbc.com",
-        "recency_class": "issue",
-        "score": 54,
+        "recency_class": "context",
+        "score": 47,
         "source_kind": "primary",
         "source_name": "HSBC",
         "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTVgtUGw4SnJpVkZSVmVfVTFmTUoxM3Rob24zZ1Mta2FFVUItUGlpNUNKSFBVdkdQVERCT3JKU1lSRVd1NmVYeDVuT1lueVZhcFJvQWRrLUVuWjZiTTROR2tnMEx4cUVPWUV6VkRJUkx1RHFseVFtUjlwaThHLTRDbjFMUkpjY3FtQjA2c2RtZUExMU4yLW9DX29KeVJ4Y09KblVTaVVIUE80NXJGaFlsNXpXbEl2UzBvTUJiSg?oc=5",
@@ -1038,193 +657,423 @@
         "title": "HSBC launches HSBCnio digital banking solution for businesses | HSBC news | HSBC Holdings plc - HSBC"
       },
       {
-        "age_days": 3,
+        "age_days": 20,
         "event_type": "operational",
-        "fingerprint": "7c482b46a8800c3f",
-        "holding_id": "bae-systems",
-        "holding_name": "BAE Systems",
-        "market_context": {
-          "1D": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": -0.011322696860525006,
-            "status": "ready"
-          },
-          "1M": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.033459119496855316,
-            "status": "ready"
-          },
-          "1W": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.025862068965517238,
-            "status": "ready"
-          },
-          "1Y": {
-            "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": -0.06730782110155609,
-            "status": "ready"
-          },
-          "5Y": {
-            "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 2.4044080599732487,
-            "status": "ready"
-          },
-          "YTD": {
-            "anchor_gap_days": 0,
-            "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.12089106983299547,
-            "status": "ready"
-          }
-        },
-        "market_context_note": "Price context is shown without asserting that the event caused the move.",
-        "operation_label": "contract or order",
-        "published_date": "2026-10-01",
-        "publisher_tier": "secondary",
-        "publisher_url": "https://satnews.com",
-        "recency_class": "issue",
-        "score": 54,
-        "source_kind": "secondary",
-        "source_name": "satnews.com",
-        "source_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQllFaHhMYjRPSmFMQUNzSVRnSDJWRFdOT3o1Wjgzak56VkQ0UlUzc2lLc3dlYUowdnM3TUJzcHNCa256QTBlaF9EbEM2Z2ppVHV2cFdnOU9wd1J3cHBkS1gzYWtPN3NuY3FwV0doLS1NV0ZCWDdSSGowZDdvSDB0LXZXSDdqZ0lrcU5UankzckpSTkNOQmFYRWpvTmxRN1gzSXNOeGZUM25PNW5RVnFGbS1QVm44anZrZW1KeVBCVF9hTm1vZ0ItMnBKcW9kZ0FOc2x4SnNKcVE?oc=5",
-        "summary": "BAE Systems Awarded $16 Million Collins Aerospace Contract to Deliver M-Code GPS for U.S. Navy Carrier Landings satnews.com",
-        "title": "BAE Systems Awarded $16 Million Collins Aerospace Contract to Deliver M-Code GPS for U.S. Navy Carrier Landings - satnews.com"
+        "fingerprint": "eaf1ad982f81701a",
+        "holding_id": "lockheed-martin",
+        "holding_name": "Lockheed Martin",
+        "published_date": "2026-09-21",
+        "publisher_tier": "primary",
+        "publisher_url": "https://news.lockheedmartin.com",
+        "recency_class": "context",
+        "score": 44,
+        "source_kind": "primary",
+        "source_name": "Lockheed Martin",
+        "source_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWC13eUJmN0ZwaG1Fc0FVNDlGQkFkUE9WOW5fLXAwWlM5Q2hUZVFYS183endEdUxESWtGVTI5UkpuUmlZZS0xY3poN2pQaG82SlZpcGdjVGxRX0ZfUlJyMFk0cWpJLWUwRkxJcmtDNExvM2RvMGpISllGeXdoSVRfWnFxSEt2T0JHWkdCcUN4WTV3OUxBNl9OdUJYXzU3ZGJDSkRwekNLQlpGckxBY0hZb2Nob1F4TlJjYWZKRElvWVYweGxiYUEzU3RRTW5tX0h6R0l4WHFOYXpQLVhxVFdHSThn?oc=5",
+        "summary": "Lockheed Martin Secures $1.2B Contract for Precision Strike Missile Increment 2 After Second Maritime Test Lockheed Martin",
+        "title": "Lockheed Martin Secures $1.2B Contract for Precision Strike Missile Increment 2 After Second Maritime Test - Lockheed Martin"
       },
       {
-        "age_days": 6,
-        "event_type": "operational",
-        "fingerprint": "d3eafe4c2c1c7b28",
+        "age_days": 11,
+        "event_type": "report",
+        "fingerprint": "6b75c75ddbd550b5",
         "holding_id": "rolls-royce",
         "holding_name": "Rolls-Royce",
-        "market_context": {
-          "1D": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.0036689102872993207,
-            "status": "ready"
-          },
-          "1M": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": 0.0055819953505786835,
-            "status": "ready"
-          },
-          "1W": {
-            "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.002835205326577994,
-            "status": "ready"
-          },
-          "1Y": {
-            "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.2652676241284797,
-            "status": "ready"
-          },
-          "5Y": {
-            "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 9.33874510580154,
-            "status": "ready"
-          },
-          "YTD": {
-            "anchor_gap_days": 0,
-            "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.2845216966695654,
-            "status": "ready"
-          }
-        },
-        "market_context_note": "Price context is shown without asserting that the event caused the move.",
-        "operation_label": "dated source item",
-        "published_date": "2026-09-28",
+        "published_date": "2026-09-30",
         "publisher_tier": "high-quality-secondary",
-        "publisher_url": "https://www.reuters.com",
-        "recency_class": "issue",
-        "score": 54,
+        "publisher_url": "https://www.bbc.co.uk",
+        "recency_class": "context",
+        "score": 44,
         "source_kind": "secondary",
-        "source_name": "reuters.com",
-        "source_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNHFudElVazVpa2hMUThQT043RGRSSWY2X1dKQ09vMVM0S2YyUk9KeEo5dWxWVm1FTHZmY3ZjRnRNck83WFd0VVdodTYwR1dOMWdKd3BjclZZZUJfWFRVRGlKQzlSeUdUUzZNZ2VwTFdfWFdVdnY2QkhjaDYtLWNFd3gtRUpCQ3Q5N3E3NjY3YkJiNW0xRlhnNFRBV2dodEpRb1luUGliRGNMbFAzVE8w?oc=5",
-        "summary": "Rolls-Royce to invest $398 million in UK manufacturing reuters.com",
-        "title": "Rolls-Royce to invest $398 million in UK manufacturing - reuters.com"
-      },
+        "source_name": "BBC",
+        "source_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5aeVE2MDg4eVNZYkdVb0Vtb0hIUGR6MU91by14VFdHMi1mSjlsdTJ0OGxPRjlHVGJBenpXVllHa3dIazRGLWJseG14WjdhUGxISWVqazctSjlKQ1VFLUE?oc=5",
+        "summary": "Construction begins on new £112m Sinfin Rolls-Royce facilities BBC",
+        "title": "Construction begins on new £112m Sinfin Rolls-Royce facilities - BBC"
+      }
+    ],
+    "quiet_holdings": [
+      "cnx1",
+      "sgln-gold",
+      "shell"
+    ],
+    "stories": [
       {
-        "age_days": 5,
+        "age_days": 3,
         "event_type": "operational",
-        "fingerprint": "ed4718717be6247e",
+        "fingerprint": "52721a959eab6b6a",
         "holding_id": "lockheed-martin",
         "holding_name": "Lockheed Martin",
         "market_context": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": -0.0001780343026707154,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.0033471453286426645,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.049176906651208885,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.02835302026290676,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.027234571495982074,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": 0.00827049850562922,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.038268078975060904,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.029536562441063507,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.661127826995771,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.6466948593484974,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.06387171310746664,
+            "latest_date": "2026-10-09",
+            "return": 0.07267039360868144,
+            "status": "ready"
+          }
+        },
+        "market_context_note": "Price context is shown without asserting that the event caused the move.",
+        "operation_label": "factory or capacity",
+        "published_date": "2026-10-08",
+        "publisher_tier": "primary",
+        "publisher_url": "https://www.lockheedmartin.com",
+        "recency_class": "issue",
+        "score": 61,
+        "source_kind": "primary",
+        "source_name": "Lockheed Martin",
+        "source_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVGQzalBsOXo3aTBHSDh3MjBFWW1FUkdXUDNoS1ZuZkM1T1NRRHJPU0Y2X1BwWjZrZjRQSWxUNlBOVW1qZndORWJoRkhUYWh2NVhBOHY5UmFLWlpub3dPek9FNk1JV0VIQjl1Y3h0TmZDWjdIdUI5LXRjNWZBdllXeFR6OGl1Mkc0dHVaSWpTdXUzSVhrYlNJSldYU01KTk03RUxYSXBrdWd6N2ZYQWtmdkRVcUViVVlmTHNaSXNUVjRUWkZnWGdSdkozS0JnUWpLTzQzeGxSMkVnQQ?oc=5",
+        "summary": "From Factory Floor to the Battlefield: Javelin Demand Drives Rapid Production Ramp Lockheed Martin",
+        "title": "From Factory Floor to the Battlefield: Javelin Demand Drives Rapid Production Ramp - Lockheed Martin"
+      },
+      {
+        "age_days": 3,
+        "event_type": "operational",
+        "fingerprint": "e7fb4788a6a5b330",
+        "holding_id": "lockheed-martin",
+        "holding_name": "Lockheed Martin",
+        "market_context": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.0033471453286426645,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.02835302026290676,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": 0.00827049850562922,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.029536562441063507,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.6466948593484974,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-10-09",
+            "return": 0.07267039360868144,
+            "status": "ready"
+          }
+        },
+        "market_context_note": "Price context is shown without asserting that the event caused the move.",
+        "operation_label": "delivery",
+        "published_date": "2026-10-08",
+        "publisher_tier": "primary",
+        "publisher_url": "https://news.lockheedmartin.com",
+        "recency_class": "issue",
+        "score": 56,
+        "source_kind": "primary",
+        "source_name": "Lockheed Martin",
+        "source_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQc0c4U1o1V09fV09PUXNGaWFRT2ZRVUFLUW1UN3FUUWZxRmVjOHBZMWlQNEdSX3BnQ09xVjI3TDBLSkwxeXF6ZFBTc0lyN0kzVkhYMlZYWHJYQXJNLUpfd3cwZXlyc2xSYTMtTXRMVlNQd3FiVUFFMTBEeWNGdmlpS3BfZm9fRkU2c25qTnZ5OUZOem53ZFFMN1BYWTh1R0V4WG9RUy0ySEh2dmFQaWYxbGRSOGt4dXAtZG5Rc1JnSUdrQlFTRVVTSmU1R19DUnFSdFkwcHhoMU1VZ1o0b1V0SFFkeVljWTBsSnZFY3hVTmg?oc=5",
+        "summary": "Lockheed Martin to Deliver S-70™ BLACK HAWK® Helicopter Training Devices and Services to the Philippine Air Force Lockheed Martin",
+        "title": "Lockheed Martin to Deliver S-70™ BLACK HAWK® Helicopter Training Devices and Services to the Philippine Air Force - Lockheed Martin"
+      },
+      {
+        "age_days": 5,
+        "event_type": "operational",
+        "fingerprint": "b752099451693051",
+        "holding_id": "lockheed-martin",
+        "holding_name": "Lockheed Martin",
+        "market_context": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.0033471453286426645,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.02835302026290676,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": 0.00827049850562922,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.029536562441063507,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.6466948593484974,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-10-09",
+            "return": 0.07267039360868144,
+            "status": "ready"
+          }
+        },
+        "market_context_note": "Price context is shown without asserting that the event caused the move.",
+        "operation_label": "dated source item",
+        "published_date": "2026-10-06",
+        "publisher_tier": "primary",
+        "publisher_url": "https://news.lockheedmartin.com",
+        "recency_class": "issue",
+        "score": 54,
+        "source_kind": "primary",
+        "source_name": "Lockheed Martin",
+        "source_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVmZsTVctbzJsaHNmS2Fja2p1aEZtd0pYU1hDZE0tNWJkN3JTazFYa0FFSzh6blp3Y2xRS0J0aURubXhac2ZITVNMMmIxa1JkeEFIUnc2RktCeDRQUW9zWTFyZDdPc0RtX3lCOVNrSG5GS0NaQng5YnhneUtfdFZYeDNlU1FnR1BoVjFSVFFxZXJYZkhYUUFDWUpnUDh4NnNsaW9iSDhFcEFVMGtHZEpiZlp3MA?oc=5",
+        "summary": "Lockheed Martin Announces First Flight of Morocco’s First F 16 Block 72 Lockheed Martin",
+        "title": "Lockheed Martin Announces First Flight of Morocco’s First F 16 Block 72 - Lockheed Martin"
+      },
+      {
+        "age_days": 2,
+        "event_type": "operational",
+        "fingerprint": "4985dd328490b3f8",
+        "holding_id": "bae-systems",
+        "holding_name": "BAE Systems",
+        "market_context": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.012796079499047153,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.020279167764024275,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": -0.031754294638209224,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": -0.07675685055870074,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 2.238976073276611,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-10-09",
+            "return": 0.08529796454418093,
             "status": "ready"
           }
         },
         "market_context_note": "Price context is shown without asserting that the event caused the move.",
         "operation_label": "contract or order",
-        "published_date": "2026-09-29",
+        "published_date": "2026-10-09",
         "publisher_tier": "secondary",
-        "publisher_url": "https://defence-industry.eu",
+        "publisher_url": "https://www.bairdmaritime.com",
         "recency_class": "issue",
-        "score": 52,
+        "score": 55,
         "source_kind": "secondary",
-        "source_name": "Defence Industry Europe",
-        "source_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNbzh5bDlCSDFQUU5iQWQ3amJic1YzUHBhOGI3NUdCdktMcUJtanM5djZGTS0tMzhld2FTRmFuZ1JXQm9RQ3NmY1JhWXRSa3BJSUljMk1RMmJqVXdXcjdRakNzS29HZjZFdFVqVEs4QVpmYUdlbE01TUozOWo3NmlMd0k2NGplQ2N1dDVWcnBtUHk5d3lfcEIxTkxsdjJobEp2VmZqZV9XdjlYU1dXY1hRMnNHSWtxaVUyR04xeWV0bjNxNmFUWXNDNUR6aFRZRlBGeDFUVGV1bGFPNlJzaDdWZUVFQWY0NHdXejNpUnNoa1IyRWxZVkpzY3VwWQ?oc=5",
-        "summary": "L3Harris wins seven-year Lockheed Martin contract worth more than $6 billion to expand propulsion production for THAAD missile interceptors Defence Industry Europe",
-        "title": "L3Harris wins seven-year Lockheed Martin contract worth more than $6 billion to expand propulsion production for THAAD missile interceptors - Defence Industry Europe"
+        "source_name": "Baird Maritime",
+        "source_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNkVRM3NhOTBIQ2NmS1I3TklkQjJKclRvTGxoS01MMEt2bzkwM1g5S0x5SlJwdmNmYlYxdzBtcFNsRjgxTVVkUU1fdnhMSm5FOUxIV0tuVUZhZkkxX1dUT0JUMnE4TGIxOW9TakFIRFRKalpMMl9ZZ2NtcEFMZjZTbmdSUmVVeHV2WlpJY2F3SkxVYmZGR2FIZW9mZWRRX3PSAawBQVVfeXFMTXk3d3pNc3ZsWlhmNHVWWlNaeGpxV0h1OEw4WUFleGZmRU9HWXozSk9UMlQ0aGEzYTlxSEo0MWxMbldyUEJKT19GRnh1eW9JUG9Idm56MnpLWTF0Q3E5OExucGlicHNseG9Ed2lzSm0wUVJ4TTNMazZ2SjRycXhRN0d1dmtMcldmNzJpUnRxQlJxNkE2NWVvYnRKOW5JSTlUcU1lUVV2NDEyNnRYeQ?oc=5",
+        "summary": "US Marine Corps awards $230m contract for new amphibious recovery vehicles Baird Maritime",
+        "title": "US Marine Corps awards $230m contract for new amphibious recovery vehicles - Baird Maritime"
+      },
+      {
+        "age_days": 2,
+        "event_type": "operational",
+        "fingerprint": "744411ff69b8b117",
+        "holding_id": "lockheed-martin",
+        "holding_name": "Lockheed Martin",
+        "market_context": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.0033471453286426645,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.02835302026290676,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": 0.00827049850562922,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.029536562441063507,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.6466948593484974,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-10-09",
+            "return": 0.07267039360868144,
+            "status": "ready"
+          }
+        },
+        "market_context_note": "Price context is shown without asserting that the event caused the move.",
+        "operation_label": "contract or order",
+        "published_date": "2026-10-09",
+        "publisher_tier": "secondary",
+        "publisher_url": "https://finance.yahoo.com",
+        "recency_class": "issue",
+        "score": 55,
+        "source_kind": "secondary",
+        "source_name": "Yahoo Finance",
+        "source_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM1BmcmtwV2c3TC00RjYtWnlrWjV6c3kzazZwLS1HblcySEVwbkp5MUxsX0w3VGlxclN4RHhQUEl3Rzk1M0ZiMU9wRzZTcnBla2RFNkNZbkxOeWZ6cjJtYkl3clhZc1p1TnJySmp2YWRqdjVJcDE3NHBZVmVtSnQzcXk4RVBwOUZGcVJvbkd3azM1TWlpZUFMV0tETQ?oc=5",
+        "summary": "$209M contract could push Lockheed deal past $1.7 billion Yahoo Finance",
+        "title": "$209M contract could push Lockheed deal past $1.7 billion - Yahoo Finance"
+      },
+      {
+        "age_days": 2,
+        "event_type": "operational",
+        "fingerprint": "0c0ae1f757b8c403",
+        "holding_id": "rheinmetall",
+        "holding_name": "Rheinmetall",
+        "market_context": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.004492406749748934,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.07240225904055797,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": -0.01860178531291723,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": -0.5018451159363051,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 10.539237154248053,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 1,
+            "base_date": "2025-12-30",
+            "latest_date": "2026-10-09",
+            "return": -0.39238505491497844,
+            "status": "ready"
+          }
+        },
+        "market_context_note": "Price context is shown without asserting that the event caused the move.",
+        "operation_label": "production",
+        "published_date": "2026-10-09",
+        "publisher_tier": "high-quality-secondary",
+        "publisher_url": "https://www.janes.com",
+        "recency_class": "issue",
+        "score": 51,
+        "source_kind": "secondary",
+        "source_name": "Janes",
+        "source_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPaWhoRVFUMXN5SGV3bktNUS1tZGJ5eEJZVlFibUZHbUJDYzA5dXprVmd3eFhMSlJCN2lISE9qWWZyRGQwSUFPSkluZ1dkZkIxSFFzd290Y0Q4ckNKcV9zajdneVZNVTJhMWVHTmdOekxac1lRTVpSd3Q0OGdRNUdjTHpZdzFtTk9HbW9PTDdCeG44ckpuX0tiZDhDS1JzUGRCN3V6VmhlYktlS2wxME1lajU2bzBYbUlBV3JENXZxZ3pWV3VSMEZ2Uw?oc=5",
+        "summary": "Land Forces 2026: Rheinmetall advances dual Boxer production Janes",
+        "title": "Land Forces 2026: Rheinmetall advances dual Boxer production - Janes"
       }
     ],
     "voices_worth_reading": {
@@ -1232,7 +1081,7 @@
       "status": "not-configured"
     }
   },
-  "generated_at": "2026-10-04T21:52:19+00:00",
+  "generated_at": "2026-10-11T22:23:17+00:00",
   "image": {
     "alt": "Aircraft engine test setup in NASA Glenn's low-speed wind tunnel",
     "caption": "Aircraft engine test setup in NASA Glenn's 9-by-15-foot low-speed wind tunnel.",
@@ -1258,31 +1107,6 @@
         "adjustment_status": "adjusted",
         "bar_count": 1534,
         "close_tail": [
-          {
-            "close": 2043.0,
-            "date": "2026-09-17",
-            "volume": 11160631
-          },
-          {
-            "close": 2025.0,
-            "date": "2026-09-18",
-            "volume": 11467161
-          },
-          {
-            "close": 2050.0,
-            "date": "2026-09-21",
-            "volume": 3853855
-          },
-          {
-            "close": 1993.0,
-            "date": "2026-09-22",
-            "volume": 12393226
-          },
-          {
-            "close": 2023.0,
-            "date": "2026-09-23",
-            "volume": 4955216
-          },
           {
             "close": 1992.5,
             "date": "2026-09-24",
@@ -1317,6 +1141,31 @@
             "close": 1921.0,
             "date": "2026-10-02",
             "volume": 3184018
+          },
+          {
+            "close": 1934.0,
+            "date": "2026-10-05",
+            "volume": 2642826
+          },
+          {
+            "close": 1855.0,
+            "date": "2026-10-06",
+            "volume": 4721899
+          },
+          {
+            "close": 1826.0,
+            "date": "2026-10-07",
+            "volume": 6351942
+          },
+          {
+            "close": 1836.5,
+            "date": "2026-10-08",
+            "volume": 3762719
+          },
+          {
+            "close": 1860.0,
+            "date": "2026-10-09",
+            "volume": 2231575
           }
         ],
         "corporate_actions": [
@@ -1384,62 +1233,62 @@
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BA.L?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BA.L?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 1921.0,
-        "latest_date": "2026-10-02",
+        "latest_close": 1860.0,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": -0.011322696860525006,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.012796079499047153,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.033459119496855316,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.020279167764024275,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.025862068965517238,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": -0.031754294638209224,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": -0.06730782110155609,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": -0.07675685055870074,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 2.4044080599732487,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 2.238976073276611,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.12089106983299547,
+            "latest_date": "2026-10-09",
+            "return": 0.08529796454418093,
             "status": "ready"
           }
         }
       },
       "momentum": {
-        "composite": 0.21875,
-        "dist_from_high": 0.17580126254670012,
+        "composite": 0.1875,
+        "dist_from_high": 0.20197311209623228,
         "gates": {
           "g1_price_above_150_200": false,
           "g2_sma150_above_sma200": true,
@@ -1452,34 +1301,34 @@
         },
         "gates_passed": 4,
         "high_52w": 2330.74853516,
-        "k_ratio": 6.11217859556568,
+        "k_ratio": 5.830548166401832,
         "low_52w": 1609.32641602,
         "market_rs_rating": null,
-        "portfolio_momentum_score": 0.21875,
+        "portfolio_momentum_score": 0.1875,
         "portfolio_rs_rating": 13.2,
-        "price": 1921.0,
+        "price": 1860.0,
         "rank_overall": 14,
-        "return_12m": -0.06503842075305644,
-        "return_3m": -0.05135802469135797,
-        "return_6m": -0.1606783894545526,
-        "return_9m": 0.03792937968328802,
+        "return_12m": -0.06162172069204974,
+        "return_3m": 0.006493506493506551,
+        "return_6m": -0.17158733859210207,
+        "return_9m": -0.1112275625653858,
         "rs_rating": 13.2,
         "score_components": {
-          "high_proximity_percentile": 0.375,
+          "high_proximity_percentile": 0.25,
           "k_ratio_percentile": 0.25,
           "one_year_percentile": 0.125,
           "rs_percentile": 0.125
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 2041.7724877931332,
-        "sma200": 2019.3767059329502,
-        "sma200_21d_ago": 1989.1276483157,
-        "sma50": 2059.41,
+        "sma150": 2029.8971329754002,
+        "sma200": 2023.19881713895,
+        "sma200_21d_ago": 1994.22981384305,
+        "sma50": 2044.32,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
-        "weeks_strengthening": 2,
-        "weighted_perf": -0.058100695981407394
+        "weeks_strengthening": 1,
+        "weighted_perf": -0.06628992177250491
       },
       "name": "BAE Systems",
       "return_basis": "adjusted_close",
@@ -1498,67 +1347,67 @@
       "market": {
         "adjusted": true,
         "adjustment_status": "adjusted",
-        "bar_count": 1525,
+        "bar_count": 1526,
         "close_tail": [
           {
-            "close": 313.47000122,
-            "date": "2026-09-17",
-            "volume": 5326800
-          },
-          {
-            "close": 314.26998901,
-            "date": "2026-09-18",
-            "volume": 10440000
-          },
-          {
-            "close": 319.01000977,
-            "date": "2026-09-21",
-            "volume": 3794700
-          },
-          {
-            "close": 319.22000122,
-            "date": "2026-09-22",
-            "volume": 3400800
-          },
-          {
-            "close": 319.79998779,
-            "date": "2026-09-23",
-            "volume": 4353100
-          },
-          {
-            "close": 319.77999878,
+            "close": 319.29446411,
             "date": "2026-09-24",
             "volume": 3726300
           },
           {
-            "close": 327.08999634,
+            "close": 326.59338379,
             "date": "2026-09-25",
             "volume": 4287300
           },
           {
-            "close": 318.23999023,
+            "close": 317.75680542,
             "date": "2026-09-28",
             "volume": 4173000
           },
           {
-            "close": 317.89001465,
+            "close": 317.40734863,
             "date": "2026-09-29",
             "volume": 3731400
           },
           {
-            "close": 312.29000854,
+            "close": 311.81585693,
             "date": "2026-09-30",
             "volume": 4186400
           },
           {
-            "close": 312.39001465,
+            "close": 311.91571045,
             "date": "2026-10-01",
             "volume": 3438600
           },
           {
-            "close": 309.55999756,
+            "close": 309.08999634,
             "date": "2026-10-02",
             "volume": 4163300
+          },
+          {
+            "close": 306.33999634,
+            "date": "2026-10-05",
+            "volume": 5408700
+          },
+          {
+            "close": 309.39001465,
+            "date": "2026-10-06",
+            "volume": 3517300
+          },
+          {
+            "close": 303.61999512,
+            "date": "2026-10-07",
+            "volume": 3914500
+          },
+          {
+            "close": 305.61999512,
+            "date": "2026-10-08",
+            "volume": 6387500
+          },
+          {
+            "close": 308.20001221,
+            "date": "2026-10-09",
+            "volume": 2949700
           }
         ],
         "corporate_actions": [
@@ -1683,6 +1532,11 @@
             "type": "dividend"
           },
           {
+            "amount": 0.47,
+            "date": "2026-10-05",
+            "type": "dividend"
+          },
+          {
             "date": "2021-08-02",
             "denominator": 8.0,
             "numerator": 1.0,
@@ -1704,62 +1558,62 @@
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GE?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GE?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 309.55999756,
-        "latest_date": "2026-10-02",
+        "latest_close": 308.20001221,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": -0.00905924311687989,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.008441911953394943,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.060515940637329235,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.051476105438343356,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.053593808970477164,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": -0.0028793689234155595,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.037743658960876836,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.035101266542158394,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 3.80539412069972,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 3.841890310746038,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.007685547122787462,
+            "latest_date": "2026-10-09",
+            "return": 0.004784094915851078,
             "status": "ready"
           }
         }
       },
       "momentum": {
-        "composite": 0.25,
-        "dist_from_high": 0.18797545624749468,
+        "composite": 0.28125,
+        "dist_from_high": 0.19031358586717717,
         "gates": {
           "g1_price_above_150_200": false,
           "g2_sma150_above_sma200": true,
@@ -1771,35 +1625,35 @@
           "g8_rs_rating_ge_70": null
         },
         "gates_passed": 4,
-        "high_52w": 381.22000122,
-        "k_ratio": 10.8586824857098,
-        "low_52w": 272.90982056,
+        "high_52w": 380.64120483,
+        "k_ratio": 9.833248195042119,
+        "low_52w": 272.49545288,
         "market_rs_rating": null,
-        "portfolio_momentum_score": 0.25,
+        "portfolio_momentum_score": 0.28125,
         "portfolio_rs_rating": 19.4,
-        "price": 309.55999756,
+        "price": 308.20001221,
         "rank_overall": 12,
-        "return_12m": 0.03281149025220498,
-        "return_3m": -0.18252877483920626,
-        "return_6m": 0.10238251449210378,
-        "return_9m": 0.007685547122787462,
+        "return_12m": 0.024119457465811456,
+        "return_3m": -0.12662371691796226,
+        "return_6m": 0.002281237046007467,
+        "return_9m": -0.01569895709679614,
         "rs_rating": 19.4,
         "score_components": {
-          "high_proximity_percentile": 0.3125,
+          "high_proximity_percentile": 0.375,
           "k_ratio_percentile": 0.3125,
-          "one_year_percentile": 0.1875,
+          "one_year_percentile": 0.25,
           "rs_percentile": 0.1875
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 326.04747701006664,
-        "sma200": 323.43831130985,
-        "sma200_21d_ago": 320.4728785704,
-        "sma50": 341.7248004154,
+        "sma150": 324.6885253904667,
+        "sma200": 323.08089355435,
+        "sma200_21d_ago": 320.82705657925,
+        "sma50": 336.2315496824,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
         "weeks_strengthening": 1,
-        "weighted_perf": -0.044435599562263256
+        "weighted_perf": -0.04850913928418035
       },
       "name": "GE Aerospace",
       "return_basis": "adjusted_close",
@@ -1818,33 +1672,8 @@
       "market": {
         "adjusted": true,
         "adjustment_status": "adjusted",
-        "bar_count": 1525,
+        "bar_count": 1526,
         "close_tail": [
-          {
-            "close": 538.09002686,
-            "date": "2026-09-17",
-            "volume": 1343000
-          },
-          {
-            "close": 533.38000488,
-            "date": "2026-09-18",
-            "volume": 2857500
-          },
-          {
-            "close": 535.40002441,
-            "date": "2026-09-21",
-            "volume": 965900
-          },
-          {
-            "close": 522.34002686,
-            "date": "2026-09-22",
-            "volume": 1425700
-          },
-          {
-            "close": 524.67999268,
-            "date": "2026-09-23",
-            "volume": 1134100
-          },
           {
             "close": 523.70001221,
             "date": "2026-09-24",
@@ -1879,6 +1708,31 @@
             "close": 505.41000366,
             "date": "2026-10-02",
             "volume": 1064000
+          },
+          {
+            "close": 506.63000488,
+            "date": "2026-10-05",
+            "volume": 1011700
+          },
+          {
+            "close": 510.11999512,
+            "date": "2026-10-06",
+            "volume": 850400
+          },
+          {
+            "close": 499.22000122,
+            "date": "2026-10-07",
+            "volume": 1074000
+          },
+          {
+            "close": 507.89001465,
+            "date": "2026-10-08",
+            "volume": 1111900
+          },
+          {
+            "close": 509.58999634,
+            "date": "2026-10-09",
+            "volume": 805600
           }
         ],
         "corporate_actions": [
@@ -2006,62 +1860,62 @@
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/LMT?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/LMT?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 505.41000366,
-        "latest_date": "2026-10-02",
+        "latest_close": 509.58999634,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": -0.0001780343026707154,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.0033471453286426645,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.049176906651208885,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.02835302026290676,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.027234571495982074,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": 0.00827049850562922,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.038268078975060904,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.029536562441063507,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.661127826995771,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.6466948593484974,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.06387171310746664,
+            "latest_date": "2026-10-09",
+            "return": 0.07267039360868144,
             "status": "ready"
           }
         }
       },
       "momentum": {
-        "composite": 0.203125,
-        "dist_from_high": 0.2435862560002719,
+        "composite": 0.1875,
+        "dist_from_high": 0.23733026758754747,
         "gates": {
           "g1_price_above_150_200": false,
           "g2_sma150_above_sma200": false,
@@ -2073,35 +1927,35 @@
           "g8_rs_rating_ge_70": null
         },
         "gates_passed": 2,
-        "high_52w": 668.16607666,
-        "k_ratio": 5.370652399372559,
+        "high_52w": 668.16601562,
+        "k_ratio": 4.639179861892241,
         "low_52w": 431.37786865,
         "market_rs_rating": null,
-        "portfolio_momentum_score": 0.203125,
+        "portfolio_momentum_score": 0.1875,
         "portfolio_rs_rating": 25.5,
-        "price": 505.41000366,
+        "price": 509.58999634,
         "rank_overall": 15,
-        "return_12m": 0.03901710775460954,
-        "return_3m": -0.05476566329125343,
-        "return_6m": -0.17810938819858324,
-        "return_9m": 0.06387171310746664,
+        "return_12m": 0.01699838713262891,
+        "return_3m": -0.01524554219271368,
+        "return_6m": -0.15906505802940163,
+        "return_9m": 0.0007301903030598744,
         "rs_rating": 25.5,
         "score_components": {
           "high_proximity_percentile": 0.125,
           "k_ratio_percentile": 0.1875,
-          "one_year_percentile": 0.25,
+          "one_year_percentile": 0.1875,
           "rs_percentile": 0.25
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 554.1049186200667,
-        "sma200": 556.93585281385,
-        "sma200_21d_ago": 549.26737854,
-        "sma50": 554.2202655032,
+        "sma150": 549.0365724694001,
+        "sma200": 557.9162983705,
+        "sma200_21d_ago": 551.06087570195,
+        "sma50": 547.4998321536,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
         "weeks_strengthening": 2,
-        "weighted_perf": -0.036950378783802786
+        "weighted_perf": -0.03436551299582804
       },
       "name": "Lockheed Martin",
       "return_basis": "adjusted_close",
@@ -2122,31 +1976,6 @@
         "adjustment_status": "adjusted",
         "bar_count": 1548,
         "close_tail": [
-          {
-            "close": 1016.20001221,
-            "date": "2026-09-17",
-            "volume": 110142
-          },
-          {
-            "close": 1011.79998779,
-            "date": "2026-09-18",
-            "volume": 317077
-          },
-          {
-            "close": 1010.59997559,
-            "date": "2026-09-21",
-            "volume": 126925
-          },
-          {
-            "close": 991.40002441,
-            "date": "2026-09-22",
-            "volume": 139547
-          },
-          {
-            "close": 1025.0,
-            "date": "2026-09-23",
-            "volume": 166331
-          },
           {
             "close": 990.0,
             "date": "2026-09-24",
@@ -2181,6 +2010,31 @@
             "close": 956.90002441,
             "date": "2026-10-02",
             "volume": 207997
+          },
+          {
+            "close": 980.20001221,
+            "date": "2026-10-05",
+            "volume": 199391
+          },
+          {
+            "close": 953.0,
+            "date": "2026-10-06",
+            "volume": 331600
+          },
+          {
+            "close": 926.20001221,
+            "date": "2026-10-07",
+            "volume": 217545
+          },
+          {
+            "close": 934.90002441,
+            "date": "2026-10-08",
+            "volume": 151962
+          },
+          {
+            "close": 939.09997559,
+            "date": "2026-10-09",
+            "volume": 160785
           }
         ],
         "corporate_actions": [
@@ -2218,62 +2072,62 @@
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RHM.DE?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RHM.DE?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 956.90002441,
-        "latest_date": "2026-10-02",
+        "latest_close": 939.09997559,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.011736135296360972,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.004492406749748934,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.12243213225553162,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.07240225904055797,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.025956839745921778,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": -0.01860178531291723,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": -0.5133610941800606,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": -0.5018451159363051,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 10.97959598120147,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 10.539237154248053,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 1,
             "base_date": "2025-12-30",
-            "latest_date": "2026-10-02",
-            "return": -0.38086809615935713,
+            "latest_date": "2026-10-09",
+            "return": -0.39238505491497844,
             "status": "ready"
           }
         }
       },
       "momentum": {
         "composite": 0.0625,
-        "dist_from_high": 0.5001474575932182,
+        "dist_from_high": 0.5059964125027612,
         "gates": {
           "g1_price_above_150_200": false,
           "g2_sma150_above_sma200": false,
@@ -2285,18 +2139,18 @@
           "g8_rs_rating_ge_70": null
         },
         "gates_passed": 0,
-        "high_52w": 1914.36462402,
-        "k_ratio": -32.93549209108978,
-        "low_52w": 945.79998779,
+        "high_52w": 1900.99829102,
+        "k_ratio": -33.14295966912139,
+        "low_52w": 926.20001221,
         "market_rs_rating": null,
         "portfolio_momentum_score": 0.0625,
         "portfolio_rs_rating": 7.1,
-        "price": 956.90002441,
+        "price": 939.09997559,
         "rank_overall": 16,
-        "return_12m": -0.5075338183474289,
-        "return_3m": -0.1391687248804503,
-        "return_6m": -0.3875380975833824,
-        "return_9m": -0.4704302128583149,
+        "return_12m": -0.49602181809152746,
+        "return_3m": -0.041636950508870396,
+        "return_6m": -0.3740186273411886,
+        "return_9m": -0.5005334796962801,
         "rs_rating": 7.1,
         "score_components": {
           "high_proximity_percentile": 0.0625,
@@ -2306,14 +2160,14 @@
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 1212.8773083496667,
-        "sma200": 1334.5088101198,
-        "sma200_21d_ago": 1390.6442782595,
-        "sma50": 1084.6860009762,
+        "sma150": 1191.2581644694667,
+        "sma200": 1319.9454483033999,
+        "sma200_21d_ago": 1377.1552685549,
+        "sma50": 1067.9460009762,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
-        "weeks_strengthening": 2,
-        "weighted_perf": -0.3287679157100054
+        "weeks_strengthening": 1,
+        "weighted_perf": -0.2907695652293474
       },
       "name": "Rheinmetall",
       "return_basis": "adjusted_close",
@@ -2334,31 +2188,6 @@
         "adjustment_status": "unavailable",
         "bar_count": 1533,
         "close_tail": [
-          {
-            "close": 1479.80004883,
-            "date": "2026-09-17",
-            "volume": 9884739
-          },
-          {
-            "close": 1450.0,
-            "date": "2026-09-18",
-            "volume": 36283644
-          },
-          {
-            "close": 1504.80004883,
-            "date": "2026-09-21",
-            "volume": 24164335
-          },
-          {
-            "close": 1481.80004883,
-            "date": "2026-09-22",
-            "volume": 18864189
-          },
-          {
-            "close": 1503.19995117,
-            "date": "2026-09-23",
-            "volume": 8686515
-          },
           {
             "close": 1484.0,
             "date": "2026-09-24",
@@ -2393,6 +2222,31 @@
             "close": 1477.19995117,
             "date": "2026-10-02",
             "volume": 10276001
+          },
+          {
+            "close": 1478.0,
+            "date": "2026-10-05",
+            "volume": 5398647
+          },
+          {
+            "close": 1438.19995117,
+            "date": "2026-10-06",
+            "volume": 12639365
+          },
+          {
+            "close": 1404.40002441,
+            "date": "2026-10-07",
+            "volume": 23759504
+          },
+          {
+            "close": 1367.0,
+            "date": "2026-10-08",
+            "volume": 19706582
+          },
+          {
+            "close": 1385.19995117,
+            "date": "2026-10-09",
+            "volume": 62767479
           }
         ],
         "corporate_actions": [
@@ -2420,62 +2274,62 @@
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RR.L?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RR.L?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 1477.19995117,
-        "latest_date": "2026-10-02",
+        "latest_close": 1385.19995117,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.0036689102872993207,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.013313790175566886,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": 0.0055819953505786835,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.04191457712914026,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.002835205326577994,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": -0.062279991227411347,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.2652676241284797,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.19930731703030302,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 9.33874510580154,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 8.63952665671925,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.2845216966695654,
+            "latest_date": "2026-10-09",
+            "return": 0.20452169666956532,
             "status": "ready"
           }
         }
       },
       "momentum": {
-        "composite": 0.640625,
-        "dist_from_high": 0.059347982546685996,
+        "composite": 0.609375,
+        "dist_from_high": 0.11793178194172513,
         "gates": {
           "g1_price_above_150_200": true,
           "g2_sma150_above_sma200": true,
@@ -2488,34 +2342,34 @@
         },
         "gates_passed": 6,
         "high_52w": 1570.40002441,
-        "k_ratio": 25.254143736751693,
+        "k_ratio": 25.292256644738824,
         "low_52w": 1029.0,
         "market_rs_rating": null,
-        "portfolio_momentum_score": 0.640625,
+        "portfolio_momentum_score": 0.609375,
         "portfolio_rs_rating": 56.1,
-        "price": 1477.19995117,
-        "rank_overall": 7,
-        "return_12m": 0.2652676241284797,
-        "return_3m": -0.017819181402925488,
-        "return_6m": 0.24291119156079088,
-        "return_9m": 0.199512749630532,
+        "price": 1385.19995117,
+        "rank_overall": 8,
+        "return_12m": 0.19930731703030302,
+        "return_3m": -0.02133677597793504,
+        "return_6m": 0.09122414095889297,
+        "return_9m": 0.0763014383605285,
         "rs_rating": 56.1,
         "score_components": {
-          "high_proximity_percentile": 0.6875,
-          "k_ratio_percentile": 0.75,
-          "one_year_percentile": 0.5625,
+          "high_proximity_percentile": 0.5625,
+          "k_ratio_percentile": 0.8125,
+          "one_year_percentile": 0.5,
           "rs_percentile": 0.5625
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 1350.7513305662,
-        "sma200": 1324.2709979246501,
-        "sma200_21d_ago": 1282.9814971922,
-        "sma50": 1488.1200048826001,
+        "sma150": 1354.0699967445335,
+        "sma200": 1330.9799975583999,
+        "sma200_21d_ago": 1293.23649780255,
+        "sma50": 1487.7440039058001,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
         "weeks_strengthening": 2,
-        "weighted_perf": 0.13441064050279034
+        "weighted_perf": 0.06483186887877089
       },
       "name": "Rolls-Royce",
       "return_basis": "unadjusted_close",
@@ -2534,67 +2388,67 @@
       "market": {
         "adjusted": true,
         "adjustment_status": "adjusted",
-        "bar_count": 1525,
+        "bar_count": 1526,
         "close_tail": [
           {
-            "close": 349.30999756,
-            "date": "2026-09-17",
-            "volume": 6480100
-          },
-          {
-            "close": 349.67001343,
-            "date": "2026-09-18",
-            "volume": 18312400
-          },
-          {
-            "close": 352.04000854,
-            "date": "2026-09-21",
-            "volume": 6414700
-          },
-          {
-            "close": 340.0,
-            "date": "2026-09-22",
-            "volume": 11485600
-          },
-          {
-            "close": 337.52999878,
-            "date": "2026-09-23",
-            "volume": 7068500
-          },
-          {
-            "close": 338.55999756,
+            "close": 336.8793335,
             "date": "2026-09-24",
             "volume": 6934300
           },
           {
-            "close": 343.05999756,
+            "close": 341.35699463,
             "date": "2026-09-25",
             "volume": 11460300
           },
           {
-            "close": 336.58999634,
+            "close": 334.9190979,
             "date": "2026-09-28",
             "volume": 10483700
           },
           {
-            "close": 334.98001099,
+            "close": 333.31710815,
             "date": "2026-09-29",
             "volume": 7254900
           },
           {
-            "close": 330.82998657,
+            "close": 329.18768311,
             "date": "2026-09-30",
             "volume": 9113300
           },
           {
-            "close": 333.17999268,
+            "close": 331.52603149,
             "date": "2026-10-01",
             "volume": 8160000
           },
           {
-            "close": 332.38000488,
+            "close": 330.73001099,
             "date": "2026-10-02",
             "volume": 6658200
+          },
+          {
+            "close": 330.73001099,
+            "date": "2026-10-05",
+            "volume": 5346100
+          },
+          {
+            "close": 331.27999878,
+            "date": "2026-10-06",
+            "volume": 6286800
+          },
+          {
+            "close": 329.57998657,
+            "date": "2026-10-07",
+            "volume": 7003000
+          },
+          {
+            "close": 331.42001343,
+            "date": "2026-10-08",
+            "volume": 8060800
+          },
+          {
+            "close": 332.98999023,
+            "date": "2026-10-09",
+            "volume": 5052000
           }
         ],
         "corporate_actions": [
@@ -2717,67 +2571,72 @@
             "amount": 1.5,
             "date": "2026-07-06",
             "type": "dividend"
+          },
+          {
+            "amount": 1.65,
+            "date": "2026-10-06",
+            "type": "dividend"
           }
         ],
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/JPM?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/JPM?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 332.38000488,
-        "latest_date": "2026-10-02",
+        "latest_close": 332.98999023,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": -0.0024010679439816496,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.0047371212853191125,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.06692492352577495,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.056549695739462336,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.031131559365594974,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": 0.006833305611531948,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.10141008525126582,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.11086727010953035,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 1.253781417603839,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 1.214644920399794,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.046178950553090514,
+            "latest_date": "2026-10-09",
+            "return": 0.053327866906442534,
             "status": "ready"
           }
         }
       },
       "momentum": {
-        "composite": 0.453125,
-        "dist_from_high": 0.08981868792779668,
+        "composite": 0.46875,
+        "dist_from_high": 0.08359917547590895,
         "gates": {
           "g1_price_above_150_200": true,
           "g2_sma150_above_sma200": true,
@@ -2789,35 +2648,35 @@
           "g8_rs_rating_ge_70": null
         },
         "gates_passed": 5,
-        "high_52w": 365.17999268,
-        "k_ratio": 15.360273999208298,
-        "low_52w": 280.13787842,
+        "high_52w": 363.3671875,
+        "k_ratio": 15.497833533351093,
+        "low_52w": 278.7472229,
         "market_rs_rating": null,
-        "portfolio_momentum_score": 0.453125,
+        "portfolio_momentum_score": 0.46875,
         "portfolio_rs_rating": 50.0,
-        "price": 332.38000488,
+        "price": 332.98999023,
         "rank_overall": 10,
-        "return_12m": 0.09020847879247929,
-        "return_3m": -0.015811904301520352,
-        "return_6m": 0.13912438861857845,
-        "return_9m": 0.046178950553090514,
+        "return_12m": 0.11634806960624999,
+        "return_3m": 0.00036250411617344547,
+        "return_6m": 0.08483825578204618,
+        "return_9m": 0.02452830631244196,
         "rs_rating": 50.0,
         "score_components": {
-          "high_proximity_percentile": 0.5625,
+          "high_proximity_percentile": 0.625,
           "k_ratio_percentile": 0.375,
           "one_year_percentile": 0.375,
           "rs_percentile": 0.5
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 323.5307204184,
-        "sma200": 320.1588896181,
-        "sma200_21d_ago": 315.69729019174997,
-        "sma50": 352.23679992700005,
+        "sma150": 323.2391884352,
+        "sma200": 319.0800540157,
+        "sma200_21d_ago": 315.61526580765,
+        "sma50": 348.5376013178,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
         "weeks_strengthening": 3,
-        "weighted_perf": 0.04877760187222151
+        "weighted_perf": 0.04528792798661701
       },
       "name": "JPMorgan Chase",
       "return_basis": "adjusted_close",
@@ -2836,33 +2695,8 @@
       "market": {
         "adjusted": true,
         "adjustment_status": "adjusted",
-        "bar_count": 1525,
+        "bar_count": 1526,
         "close_tail": [
-          {
-            "close": 951.4699707,
-            "date": "2026-09-17",
-            "volume": 3286700
-          },
-          {
-            "close": 942.0,
-            "date": "2026-09-18",
-            "volume": 3980200
-          },
-          {
-            "close": 959.39001465,
-            "date": "2026-09-21",
-            "volume": 1863000
-          },
-          {
-            "close": 949.48999023,
-            "date": "2026-09-22",
-            "volume": 2052500
-          },
-          {
-            "close": 936.35998535,
-            "date": "2026-09-23",
-            "volume": 2131500
-          },
           {
             "close": 923.28997803,
             "date": "2026-09-24",
@@ -2897,6 +2731,31 @@
             "close": 902.55999756,
             "date": "2026-10-02",
             "volume": 1606500
+          },
+          {
+            "close": 893.46002197,
+            "date": "2026-10-05",
+            "volume": 1897300
+          },
+          {
+            "close": 897.17999268,
+            "date": "2026-10-06",
+            "volume": 2048700
+          },
+          {
+            "close": 887.21002197,
+            "date": "2026-10-07",
+            "volume": 2389700
+          },
+          {
+            "close": 882.59002686,
+            "date": "2026-10-08",
+            "volume": 1753500
+          },
+          {
+            "close": 895.32000732,
+            "date": "2026-10-09",
+            "volume": 1858600
           }
         ],
         "corporate_actions": [
@@ -3024,62 +2883,62 @@
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GS?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GS?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 902.55999756,
-        "latest_date": "2026-10-02",
+        "latest_close": 895.32000732,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.006568765278486266,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.014423435652552774,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.10141174716067658,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.129726489802498,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.035159564082208106,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": -0.008021616579033886,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.18082561969058264,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.17048238426309337,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 1.681134324615936,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 1.5728944697028209,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.04183379404845411,
+            "latest_date": "2026-10-09",
+            "return": 0.033476602813517164,
             "status": "ready"
           }
         }
       },
       "momentum": {
-        "composite": 0.390625,
-        "dist_from_high": 0.21273845370369704,
+        "composite": 0.359375,
+        "dist_from_high": 0.21905356397550332,
         "gates": {
           "g1_price_above_150_200": false,
           "g2_sma150_above_sma200": true,
@@ -3092,34 +2951,34 @@
         },
         "gates_passed": 4,
         "high_52w": 1146.45507812,
-        "k_ratio": 21.542694815278306,
+        "k_ratio": 18.684735380320507,
         "low_52w": 730.23742676,
         "market_rs_rating": null,
-        "portfolio_momentum_score": 0.390625,
-        "portfolio_rs_rating": 37.8,
-        "price": 902.55999756,
+        "portfolio_momentum_score": 0.359375,
+        "portfolio_rs_rating": 31.6,
+        "price": 895.32000732,
         "rank_overall": 11,
-        "return_12m": 0.17161060475594736,
-        "return_3m": -0.14053925215038432,
-        "return_6m": 0.055545102247449796,
-        "return_9m": 0.04183379404845411,
-        "rs_rating": 37.8,
+        "return_12m": 0.17568283373571636,
+        "return_3m": -0.139787418656098,
+        "return_6m": -0.0045493466936779026,
+        "return_9m": -0.02824477787926627,
+        "rs_rating": 31.6,
         "score_components": {
           "high_proximity_percentile": 0.1875,
-          "k_ratio_percentile": 0.5625,
+          "k_ratio_percentile": 0.5,
           "one_year_percentile": 0.4375,
-          "rs_percentile": 0.375
+          "rs_percentile": 0.3125
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 966.6993644203333,
-        "sma200": 952.1418774412,
-        "sma200_21d_ago": 936.4967266842999,
-        "sma50": 1001.0559326172,
+        "sma150": 968.3434061684,
+        "sma200": 952.6382330319499,
+        "sma200_21d_ago": 943.1688955686,
+        "sma50": 987.7047753905999,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
-        "weeks_strengthening": 3,
-        "weighted_perf": -0.0024178006497834817
+        "weeks_strengthening": 2,
+        "weighted_perf": -0.027337225629884776
       },
       "name": "Goldman Sachs",
       "return_basis": "adjusted_close",
@@ -3140,31 +2999,6 @@
         "adjustment_status": "unavailable",
         "bar_count": 1533,
         "close_tail": [
-          {
-            "close": 1537.40002441,
-            "date": "2026-09-17",
-            "volume": 16208430
-          },
-          {
-            "close": 1512.59997559,
-            "date": "2026-09-18",
-            "volume": 51220387
-          },
-          {
-            "close": 1533.80004883,
-            "date": "2026-09-21",
-            "volume": 10789145
-          },
-          {
-            "close": 1509.40002441,
-            "date": "2026-09-22",
-            "volume": 15080870
-          },
-          {
-            "close": 1514.59997559,
-            "date": "2026-09-23",
-            "volume": 19485821
-          },
           {
             "close": 1499.80004883,
             "date": "2026-09-24",
@@ -3199,6 +3033,31 @@
             "close": 1442.19995117,
             "date": "2026-10-02",
             "volume": 19701653
+          },
+          {
+            "close": 1459.0,
+            "date": "2026-10-05",
+            "volume": 14665063
+          },
+          {
+            "close": 1472.19995117,
+            "date": "2026-10-06",
+            "volume": 18412597
+          },
+          {
+            "close": 1408.0,
+            "date": "2026-10-07",
+            "volume": 30808714
+          },
+          {
+            "close": 1380.59997559,
+            "date": "2026-10-08",
+            "volume": 24504661
+          },
+          {
+            "close": 1395.80004883,
+            "date": "2026-10-09",
+            "volume": 18164004
           }
         ],
         "corporate_actions": [
@@ -3301,64 +3160,64 @@
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/HSBA.L?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/HSBA.L?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 1442.19995117,
-        "latest_date": "2026-10-02",
+        "latest_close": 1395.80004883,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.0036186159846904875,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.011009759169019473,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.06665803990092678,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.09901878851993773,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.04629017475224784,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": -0.032173002295803554,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.38194709170499097,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.3838985550376399,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 2.7107937059200866,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 2.3268980799700287,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.2286589633451892,
+            "latest_date": "2026-10-09",
+            "return": 0.18912931569672486,
             "status": "ready"
           }
         }
       },
       "momentum": {
-        "composite": 0.734375,
-        "dist_from_high": 0.09715792592235818,
+        "composite": 0.6875,
+        "dist_from_high": 0.12620506604440618,
         "gates": {
-          "g1_price_above_150_200": true,
+          "g1_price_above_150_200": false,
           "g2_sma150_above_sma200": true,
           "g3_sma200_trending_up": true,
           "g4_sma50_above_150_200": true,
@@ -3367,36 +3226,36 @@
           "g7_within_25pct_of_52w_high": true,
           "g8_rs_rating_ge_70": null
         },
-        "gates_passed": 6,
+        "gates_passed": 5,
         "high_52w": 1597.40002441,
-        "k_ratio": 48.23484172099432,
+        "k_ratio": 43.03497919504786,
         "low_52w": 964.29998779,
         "market_rs_rating": null,
-        "portfolio_momentum_score": 0.734375,
+        "portfolio_momentum_score": 0.6875,
         "portfolio_rs_rating": 62.2,
-        "price": 1442.19995117,
-        "rank_overall": 6,
-        "return_12m": 0.38194709170499097,
-        "return_3m": -0.015966174133279387,
-        "return_6m": 0.12093889206600217,
-        "return_9m": 0.21010227561730654,
+        "price": 1395.80004883,
+        "rank_overall": 7,
+        "return_12m": 0.3838985550376399,
+        "return_3m": -0.04528040435704517,
+        "return_6m": 0.041486419702866595,
+        "return_9m": 0.16881603240938436,
         "rs_rating": 62.2,
         "score_components": {
           "high_proximity_percentile": 0.5,
-          "k_ratio_percentile": 1.0,
-          "one_year_percentile": 0.8125,
+          "k_ratio_percentile": 0.9375,
+          "one_year_percentile": 0.6875,
           "rs_percentile": 0.625
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 1410.2160026042,
-        "sma200": 1368.18600280765,
-        "sma200_21d_ago": 1321.2000024414,
-        "sma50": 1529.82,
+        "sma150": 1413.9293351237334,
+        "sma200": 1375.0730023194,
+        "sma200_21d_ago": 1333.84700195315,
+        "sma50": 1516.387998047,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
-        "weeks_strengthening": 3,
-        "weighted_perf": 0.1362111822243482
+        "weeks_strengthening": 2,
+        "weighted_perf": 0.10072803968716013
       },
       "name": "HSBC",
       "return_basis": "unadjusted_close",
@@ -3415,33 +3274,8 @@
       "market": {
         "adjusted": true,
         "adjustment_status": "adjusted",
-        "bar_count": 1525,
+        "bar_count": 1526,
         "close_tail": [
-          {
-            "close": 23.5,
-            "date": "2026-09-17",
-            "volume": 2658500
-          },
-          {
-            "close": 23.12999916,
-            "date": "2026-09-18",
-            "volume": 2294100
-          },
-          {
-            "close": 23.42000008,
-            "date": "2026-09-21",
-            "volume": 2039200
-          },
-          {
-            "close": 23.09000015,
-            "date": "2026-09-22",
-            "volume": 3000000
-          },
-          {
-            "close": 22.81999969,
-            "date": "2026-09-23",
-            "volume": 2529000
-          },
           {
             "close": 22.56999969,
             "date": "2026-09-24",
@@ -3476,6 +3310,31 @@
             "close": 22.81999969,
             "date": "2026-10-02",
             "volume": 2991900
+          },
+          {
+            "close": 22.96999931,
+            "date": "2026-10-05",
+            "volume": 2391300
+          },
+          {
+            "close": 23.20000076,
+            "date": "2026-10-06",
+            "volume": 1762800
+          },
+          {
+            "close": 22.64999962,
+            "date": "2026-10-07",
+            "volume": 2803800
+          },
+          {
+            "close": 22.47999954,
+            "date": "2026-10-08",
+            "volume": 4008200
+          },
+          {
+            "close": 22.37999916,
+            "date": "2026-10-09",
+            "volume": 2480400
           }
         ],
         "corporate_actions": [
@@ -3498,62 +3357,62 @@
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MUFG?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MUFG?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 22.81999969,
-        "latest_date": "2026-10-02",
+        "latest_close": 22.37999916,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.008841681811361024,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": -0.004448415571453368,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.02561914551453759,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.03284357173874586,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.028109023123089938,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": -0.01928135565193778,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.4798962108695397,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.45893083058411843,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 3.0865567343851206,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 3.0077623805976206,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.4388398599751293,
+            "latest_date": "2026-10-09",
+            "return": 0.41109707690876474,
             "status": "ready"
           }
         }
       },
       "momentum": {
-        "composite": 0.90625,
-        "dist_from_high": 0.05428924639879685,
+        "composite": 0.84375,
+        "dist_from_high": 0.0725238317828437,
         "gates": {
           "g1_price_above_150_200": true,
           "g2_sma150_above_sma200": true,
@@ -3566,34 +3425,34 @@
         },
         "gates_passed": 6,
         "high_52w": 24.12999916,
-        "k_ratio": 42.925287291861906,
+        "k_ratio": 43.3288251791046,
         "low_52w": 14.61999989,
         "market_rs_rating": null,
-        "portfolio_momentum_score": 0.90625,
-        "portfolio_rs_rating": 99.0,
-        "price": 22.81999969,
-        "rank_overall": 2,
-        "return_12m": 0.45814698045340907,
-        "return_3m": 0.07794046309706015,
-        "return_6m": 0.30549200746718075,
-        "return_9m": 0.4388398599751293,
-        "rs_rating": 99.0,
+        "portfolio_momentum_score": 0.84375,
+        "portfolio_rs_rating": 74.5,
+        "price": 22.37999916,
+        "rank_overall": 3,
+        "return_12m": 0.45703122756449344,
+        "return_3m": 0.02005463169421362,
+        "return_6m": 0.2398892023443655,
+        "return_9m": 0.3337305268013073,
+        "rs_rating": 74.5,
         "score_components": {
-          "high_proximity_percentile": 0.75,
-          "k_ratio_percentile": 0.9375,
+          "high_proximity_percentile": 0.6875,
+          "k_ratio_percentile": 1.0,
           "one_year_percentile": 0.9375,
-          "rs_percentile": 1.0
+          "rs_percentile": 0.75
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 20.192666650933333,
-        "sma200": 19.58209997625,
-        "sma200_21d_ago": 18.7821499966,
-        "sma50": 22.8431999584,
+        "sma150": 20.3673999654,
+        "sma200": 19.7579999682,
+        "sma200_21d_ago": 18.990849995450002,
+        "sma50": 22.859599914,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
-        "weeks_strengthening": 4,
-        "weighted_perf": 0.2716719548179679
+        "weeks_strengthening": 3,
+        "weighted_perf": 0.2141520440197187
       },
       "name": "MUFG",
       "return_basis": "adjusted_close",
@@ -3612,33 +3471,8 @@
       "market": {
         "adjusted": true,
         "adjustment_status": "adjusted",
-        "bar_count": 1525,
+        "bar_count": 1526,
         "close_tail": [
-          {
-            "close": 203.52000427,
-            "date": "2026-09-17",
-            "volume": 4804100
-          },
-          {
-            "close": 202.58000183,
-            "date": "2026-09-18",
-            "volume": 7446500
-          },
-          {
-            "close": 206.11999512,
-            "date": "2026-09-21",
-            "volume": 4040600
-          },
-          {
-            "close": 200.17999268,
-            "date": "2026-09-22",
-            "volume": 7799600
-          },
-          {
-            "close": 198.38999939,
-            "date": "2026-09-23",
-            "volume": 4341300
-          },
           {
             "close": 196.32000732,
             "date": "2026-09-24",
@@ -3673,6 +3507,31 @@
             "close": 190.30999756,
             "date": "2026-10-02",
             "volume": 6322400
+          },
+          {
+            "close": 190.19000244,
+            "date": "2026-10-05",
+            "volume": 4298700
+          },
+          {
+            "close": 191.02000427,
+            "date": "2026-10-06",
+            "volume": 4902100
+          },
+          {
+            "close": 189.71000671,
+            "date": "2026-10-07",
+            "volume": 5050100
+          },
+          {
+            "close": 187.44000244,
+            "date": "2026-10-08",
+            "volume": 5854800
+          },
+          {
+            "close": 190.02000427,
+            "date": "2026-10-09",
+            "volume": 4724300
           }
         ],
         "corporate_actions": [
@@ -3800,62 +3659,62 @@
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MS?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MS?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 190.30999756,
-        "latest_date": "2026-10-02",
+        "latest_close": 190.02000427,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.01223340842062326,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.013764414193421004,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.10154852712994422,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.11762248020665378,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.03056390440922996,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": -0.0015237943025488976,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.2532143611832294,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.24353758732280806,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 1.2529926248904042,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 1.227298482292932,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.08965535802001168,
+            "latest_date": "2026-10-09",
+            "return": 0.08799494739371894,
             "status": "ready"
           }
         }
       },
       "momentum": {
         "composite": 0.515625,
-        "dist_from_high": 0.16273199709905972,
+        "dist_from_high": 0.16400782131158664,
         "gates": {
           "g1_price_above_150_200": false,
           "g2_sma150_above_sma200": true,
@@ -3868,34 +3727,34 @@
         },
         "gates_passed": 4,
         "high_52w": 227.29878235,
-        "k_ratio": 24.789163646845342,
+        "k_ratio": 22.296827619536252,
         "low_52w": 148.49372864,
         "market_rs_rating": null,
         "portfolio_momentum_score": 0.515625,
         "portfolio_rs_rating": 43.9,
-        "price": 190.30999756,
+        "price": 190.02000427,
         "rank_overall": 9,
-        "return_12m": 0.2405138479588942,
-        "return_3m": -0.13841692307088416,
-        "return_6m": 0.1602796730282674,
-        "return_9m": 0.08965535802001168,
+        "return_12m": 0.24849126176402714,
+        "return_3m": -0.13579978667066772,
+        "return_6m": 0.08136014056793273,
+        "return_9m": 0.045872628304871155,
         "rs_rating": 43.9,
         "score_components": {
           "high_proximity_percentile": 0.4375,
-          "k_ratio_percentile": 0.6875,
-          "one_year_percentile": 0.5,
+          "k_ratio_percentile": 0.625,
+          "one_year_percentile": 0.5625,
           "rs_percentile": 0.4375
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 197.67942850753332,
-        "sma200": 192.4963080598,
-        "sma200_21d_ago": 188.69598144545,
-        "sma50": 209.324816284,
+        "sma150": 198.57219197586667,
+        "sma200": 192.90458122255,
+        "sma200_21d_ago": 190.1361218262,
+        "sma50": 207.33160095160002,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
-        "weeks_strengthening": 3,
-        "weighted_perf": 0.04272300657308099
+        "weeks_strengthening": 2,
+        "weighted_perf": 0.020824891459099118
       },
       "name": "Morgan Stanley",
       "return_basis": "adjusted_close",
@@ -3916,31 +3775,6 @@
         "adjustment_status": "unavailable",
         "bar_count": 1533,
         "close_tail": [
-          {
-            "close": 564.0,
-            "date": "2026-09-17",
-            "volume": 39983572
-          },
-          {
-            "close": 558.70001221,
-            "date": "2026-09-18",
-            "volume": 65910449
-          },
-          {
-            "close": 542.90002441,
-            "date": "2026-09-21",
-            "volume": 41854286
-          },
-          {
-            "close": 542.29998779,
-            "date": "2026-09-22",
-            "volume": 28385509
-          },
-          {
-            "close": 557.20001221,
-            "date": "2026-09-23",
-            "volume": 43313868
-          },
           {
             "close": 571.79998779,
             "date": "2026-09-24",
@@ -3975,6 +3809,31 @@
             "close": 557.79998779,
             "date": "2026-10-02",
             "volume": 29528616
+          },
+          {
+            "close": 563.20001221,
+            "date": "2026-10-05",
+            "volume": 20478980
+          },
+          {
+            "close": 560.90002441,
+            "date": "2026-10-06",
+            "volume": 29471709
+          },
+          {
+            "close": 562.0,
+            "date": "2026-10-07",
+            "volume": 26757731
+          },
+          {
+            "close": 584.79998779,
+            "date": "2026-10-08",
+            "volume": 35375169
+          },
+          {
+            "close": 586.29998779,
+            "date": "2026-10-09",
+            "volume": 38870656
           }
         ],
         "corporate_actions": [
@@ -4102,62 +3961,62 @@
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BP.L?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BP.L?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 557.79998779,
-        "latest_date": "2026-10-02",
+        "latest_close": 586.29998779,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.0012565288649648565,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.002564979533718148,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": 0.02820274247004617,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": 0.052414312474301505,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.0012533790689345237,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": 0.05109358304742306,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.3202366574911244,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.35529352640478407,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.6505399249501629,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.6583227493653538,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.2888170136932897,
+            "latest_date": "2026-10-09",
+            "return": 0.3546672928153598,
             "status": "ready"
           }
         }
       },
       "momentum": {
-        "composite": 0.625,
-        "dist_from_high": 0.07999340421692143,
+        "composite": 0.6875,
+        "dist_from_high": 0.03298697081110162,
         "gates": {
           "g1_price_above_150_200": true,
           "g2_sma150_above_sma200": true,
@@ -4170,34 +4029,34 @@
         },
         "gates_passed": 7,
         "high_52w": 606.29998779,
-        "k_ratio": 17.658718081821053,
+        "k_ratio": 17.541370352069418,
         "low_52w": 410.45001221,
         "market_rs_rating": null,
-        "portfolio_momentum_score": 0.625,
-        "portfolio_rs_rating": 74.5,
-        "price": 557.79998779,
-        "rank_overall": 8,
-        "return_12m": 0.3163421540766962,
-        "return_3m": 0.1923899152395916,
-        "return_6m": -0.05649530400912084,
-        "return_9m": 0.28156229245261355,
-        "rs_rating": 74.5,
+        "portfolio_momentum_score": 0.6875,
+        "portfolio_rs_rating": 80.6,
+        "price": 586.29998779,
+        "rank_overall": 6,
+        "return_12m": 0.39429247988109406,
+        "return_3m": 0.16099007483168326,
+        "return_6m": 0.012258244872801916,
+        "return_9m": 0.3743553197525378,
+        "rs_rating": 80.6,
         "score_components": {
-          "high_proximity_percentile": 0.625,
+          "high_proximity_percentile": 0.75,
           "k_ratio_percentile": 0.4375,
-          "one_year_percentile": 0.6875,
-          "rs_percentile": 0.75
+          "one_year_percentile": 0.75,
+          "rs_percentile": 0.8125
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 537.7923327636666,
-        "sma200": 515.6114994811501,
-        "sma200_21d_ago": 504.34274993885003,
-        "sma50": 543.2080017092,
+        "sma150": 540.4873327636,
+        "sma200": 519.2674995421501,
+        "sma200_21d_ago": 506.73674972535,
+        "sma50": 546.4560009767999,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
         "weeks_strengthening": 4,
-        "weighted_perf": 0.18523779459987444
+        "weighted_perf": 0.22057723883396008
       },
       "name": "BP",
       "return_basis": "unadjusted_close",
@@ -4216,33 +4075,8 @@
       "market": {
         "adjusted": true,
         "adjustment_status": "adjusted",
-        "bar_count": 1525,
+        "bar_count": 1526,
         "close_tail": [
-          {
-            "close": 211.57000732,
-            "date": "2026-09-17",
-            "volume": 7387300
-          },
-          {
-            "close": 209.50999451,
-            "date": "2026-09-18",
-            "volume": 47298700
-          },
-          {
-            "close": 203.66999817,
-            "date": "2026-09-21",
-            "volume": 8464000
-          },
-          {
-            "close": 202.41000366,
-            "date": "2026-09-22",
-            "volume": 9344100
-          },
-          {
-            "close": 205.50999451,
-            "date": "2026-09-23",
-            "volume": 8257800
-          },
           {
             "close": 205.6499939,
             "date": "2026-09-24",
@@ -4277,6 +4111,31 @@
             "close": 206.69000244,
             "date": "2026-10-02",
             "volume": 6669900
+          },
+          {
+            "close": 206.47000122,
+            "date": "2026-10-05",
+            "volume": 6445100
+          },
+          {
+            "close": 207.58000183,
+            "date": "2026-10-06",
+            "volume": 5468800
+          },
+          {
+            "close": 205.1499939,
+            "date": "2026-10-07",
+            "volume": 5733000
+          },
+          {
+            "close": 211.55000305,
+            "date": "2026-10-08",
+            "volume": 7620800
+          },
+          {
+            "close": 211.97999573,
+            "date": "2026-10-09",
+            "volume": 6298800
           }
         ],
         "corporate_actions": [
@@ -4404,62 +4263,62 @@
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CVX?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CVX?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 206.69000244,
-        "latest_date": "2026-10-02",
+        "latest_close": 211.97999573,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": -0.001979737556366934,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.002032581771688191,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.024034358151487023,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.008559009638856807,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": 0.010956251031629005,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": 0.025593851795205458,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.4007601080250216,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.4530005148494738,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 1.420839797924614,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 1.3973192129921506,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.39401405843487725,
+            "latest_date": "2026-10-09",
+            "return": 0.4296922476468923,
             "status": "ready"
           }
         }
       },
       "momentum": {
         "composite": 0.859375,
-        "dist_from_high": 0.050879375546425375,
+        "dist_from_high": 0.026587722948387738,
         "gates": {
           "g1_price_above_150_200": true,
           "g2_sma150_above_sma200": true,
@@ -4472,17 +4331,17 @@
         },
         "gates_passed": 7,
         "high_52w": 217.77000427,
-        "k_ratio": 26.297900568096836,
+        "k_ratio": 26.27058510123514,
         "low_52w": 142.76341248,
         "market_rs_rating": null,
         "portfolio_momentum_score": 0.859375,
         "portfolio_rs_rating": 86.8,
-        "price": 206.69000244,
-        "rank_overall": 3,
-        "return_12m": 0.3897953285190823,
-        "return_3m": 0.24029633861380773,
-        "return_6m": 0.057463184882795115,
-        "return_9m": 0.39401405843487725,
+        "price": 211.97999573,
+        "rank_overall": 2,
+        "return_12m": 0.4331535261617685,
+        "return_3m": 0.1736003964313042,
+        "return_6m": 0.14446294815670013,
+        "return_9m": 0.3682851593737684,
         "rs_rating": 86.8,
         "score_components": {
           "high_proximity_percentile": 0.8125,
@@ -4492,14 +4351,14 @@
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 190.82196370413334,
-        "sma200": 184.13069572425,
-        "sma200_21d_ago": 177.62986045805,
-        "sma50": 201.9435150142,
+        "sma150": 191.58966420466666,
+        "sma200": 185.73751434304998,
+        "sma200_21d_ago": 179.1920727536,
+        "sma50": 203.8328283688,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
         "weeks_strengthening": 5,
-        "weighted_perf": 0.264373049812874
+        "weighted_perf": 0.2586204853109691
       },
       "name": "Chevron",
       "return_basis": "adjusted_close",
@@ -4518,33 +4377,8 @@
       "market": {
         "adjusted": true,
         "adjustment_status": "adjusted",
-        "bar_count": 1525,
+        "bar_count": 1526,
         "close_tail": [
-          {
-            "close": 163.27000427,
-            "date": "2026-09-17",
-            "volume": 10976500
-          },
-          {
-            "close": 163.53999329,
-            "date": "2026-09-18",
-            "volume": 37640600
-          },
-          {
-            "close": 158.30000305,
-            "date": "2026-09-21",
-            "volume": 15752500
-          },
-          {
-            "close": 158.71000671,
-            "date": "2026-09-22",
-            "volume": 14189400
-          },
-          {
-            "close": 161.22999573,
-            "date": "2026-09-23",
-            "volume": 12569300
-          },
           {
             "close": 162.13999939,
             "date": "2026-09-24",
@@ -4579,6 +4413,31 @@
             "close": 164.00999451,
             "date": "2026-10-02",
             "volume": 11287000
+          },
+          {
+            "close": 164.0,
+            "date": "2026-10-05",
+            "volume": 12475500
+          },
+          {
+            "close": 164.47999573,
+            "date": "2026-10-06",
+            "volume": 9285400
+          },
+          {
+            "close": 164.05000305,
+            "date": "2026-10-07",
+            "volume": 9516200
+          },
+          {
+            "close": 168.5,
+            "date": "2026-10-08",
+            "volume": 13288100
+          },
+          {
+            "close": 168.94000244,
+            "date": "2026-10-09",
+            "volume": 8083600
           }
         ],
         "corporate_actions": [
@@ -4706,62 +4565,62 @@
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 164.00999451,
-        "latest_date": "2026-10-02",
+        "latest_close": 168.94000244,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.0011597312996629583,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.0026112904451038865,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.0008528747803991932,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": 0.028679332840898297,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": 0.02129645835945615,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": 0.03005919209209784,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.5164295781828698,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.5396008077954146,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 2.207447946463212,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 2.237443946846681,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.3902289115697841,
+            "latest_date": "2026-10-09",
+            "return": 0.43201806947464827,
             "status": "ready"
           }
         }
       },
       "momentum": {
-        "composite": 0.90625,
-        "dist_from_high": 0.03136081136569129,
+        "composite": 0.921875,
+        "dist_from_high": 0.0022442999265989004,
         "gates": {
           "g1_price_above_150_200": true,
           "g2_sma150_above_sma200": true,
@@ -4774,34 +4633,34 @@
         },
         "gates_passed": 7,
         "high_52w": 169.32000732,
-        "k_ratio": 25.296280876647085,
+        "k_ratio": 24.83924819944531,
         "low_52w": 107.52367401,
         "market_rs_rating": null,
-        "portfolio_momentum_score": 0.90625,
-        "portfolio_rs_rating": 92.9,
-        "price": 164.00999451,
+        "portfolio_momentum_score": 0.921875,
+        "portfolio_rs_rating": 99.0,
+        "price": 168.94000244,
         "rank_overall": 1,
-        "return_12m": 0.5069510602162213,
-        "return_3m": 0.2098504030969397,
-        "return_6m": 0.034242340978530406,
-        "return_9m": 0.3902289115697841,
-        "rs_rating": 92.9,
+        "return_12m": 0.5246126932232769,
+        "return_3m": 0.17662389720001404,
+        "return_6m": 0.12247076234424159,
+        "return_9m": 0.4020750780569229,
+        "rs_rating": 99.0,
         "score_components": {
-          "high_proximity_percentile": 0.875,
-          "k_ratio_percentile": 0.8125,
+          "high_proximity_percentile": 0.9375,
+          "k_ratio_percentile": 0.75,
           "one_year_percentile": 1.0,
-          "rs_percentile": 0.9375
+          "rs_percentile": 1.0
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 152.81771270733333,
-        "sma200": 147.6484060286,
-        "sma200_21d_ago": 142.62761596675,
-        "sma50": 160.21746429360002,
+        "sma150": 153.36492472306668,
+        "sma200": 148.9382788466,
+        "sma200_21d_ago": 143.79281742089998,
+        "sma50": 161.34762969899998,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
         "weeks_strengthening": 5,
-        "weighted_perf": 0.27022462379168305
+        "weighted_perf": 0.2804812656048939
       },
       "name": "ExxonMobil",
       "return_basis": "adjusted_close",
@@ -4822,31 +4681,6 @@
         "adjustment_status": "adjusted",
         "bar_count": 1534,
         "close_tail": [
-          {
-            "close": 3571.0,
-            "date": "2026-09-17",
-            "volume": 6883922
-          },
-          {
-            "close": 3539.0,
-            "date": "2026-09-18",
-            "volume": 23628589
-          },
-          {
-            "close": 3488.5,
-            "date": "2026-09-21",
-            "volume": 5373072
-          },
-          {
-            "close": 3510.0,
-            "date": "2026-09-22",
-            "volume": 10585659
-          },
-          {
-            "close": 3580.0,
-            "date": "2026-09-23",
-            "volume": 7990133
-          },
           {
             "close": 3641.0,
             "date": "2026-09-24",
@@ -4881,6 +4715,31 @@
             "close": 3596.5,
             "date": "2026-10-02",
             "volume": 9527062
+          },
+          {
+            "close": 3631.5,
+            "date": "2026-10-05",
+            "volume": 6577260
+          },
+          {
+            "close": 3651.0,
+            "date": "2026-10-06",
+            "volume": 22140922
+          },
+          {
+            "close": 3648.0,
+            "date": "2026-10-07",
+            "volume": 7678546
+          },
+          {
+            "close": 3780.5,
+            "date": "2026-10-08",
+            "volume": 7560862
+          },
+          {
+            "close": 3793.5,
+            "date": "2026-10-09",
+            "volume": 10914135
           }
         ],
         "corporate_actions": [
@@ -5008,62 +4867,62 @@
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SHEL.L?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SHEL.L?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 3596.5,
-        "latest_date": "2026-10-02",
+        "latest_close": 3793.5,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.00208971858456386,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.0034386985848433582,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": 0.04458321231484175,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": 0.08261986301369872,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.0040155081694821515,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": 0.054775476157375325,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.3472421174124971,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.3667861704067401,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 1.1868422917990435,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 1.224547151660945,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": 0.31294828479437276,
+            "latest_date": "2026-10-09",
+            "return": 0.3848656522639937,
             "status": "ready"
           }
         }
       },
       "momentum": {
-        "composite": 0.75,
-        "dist_from_high": 0.015870844164728417,
+        "composite": 0.828125,
+        "dist_from_high": 0.0,
         "gates": {
           "g1_price_above_150_200": true,
           "g2_sma150_above_sma200": true,
@@ -5075,35 +4934,35 @@
           "g8_rs_rating_ge_70": null
         },
         "gates_passed": 7,
-        "high_52w": 3654.5,
-        "k_ratio": 20.99542547790999,
+        "high_52w": 3793.5,
+        "k_ratio": 21.510877398743798,
         "low_52w": 2561.30371094,
         "market_rs_rating": null,
-        "portfolio_momentum_score": 0.75,
-        "portfolio_rs_rating": 80.6,
-        "price": 3596.5,
+        "portfolio_momentum_score": 0.828125,
+        "portfolio_rs_rating": 92.9,
+        "price": 3793.5,
         "rank_overall": 4,
-        "return_12m": 0.33128960709933164,
-        "return_3m": 0.23495723960744996,
-        "return_6m": 0.015136362185218966,
-        "return_9m": 0.3139072507474978,
-        "rs_rating": 80.6,
+        "return_12m": 0.4075969879310737,
+        "return_3m": 0.22027342987877696,
+        "return_6m": 0.0931058430762961,
+        "return_9m": 0.42571170083198306,
+        "rs_rating": 92.9,
         "score_components": {
-          "high_proximity_percentile": 0.9375,
-          "k_ratio_percentile": 0.5,
-          "one_year_percentile": 0.75,
-          "rs_percentile": 0.8125
+          "high_proximity_percentile": 1.0,
+          "k_ratio_percentile": 0.5625,
+          "one_year_percentile": 0.8125,
+          "rs_percentile": 0.9375
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 3292.430563150867,
-        "sma200": 3164.99122436515,
-        "sma200_21d_ago": 3080.6500170898003,
-        "sma50": 3437.8192089841996,
+        "sma150": 3312.148885091067,
+        "sma200": 3190.38447631825,
+        "sma200_21d_ago": 3098.0440173339,
+        "sma50": 3478.7478564452003,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
-        "weeks_strengthening": 4,
-        "weighted_perf": 0.22604953984938966
+        "weeks_strengthening": 5,
+        "weighted_perf": 0.2733922783193814
       },
       "name": "Shell",
       "return_basis": "adjusted_close",
@@ -5124,31 +4983,6 @@
         "adjustment_status": "unavailable",
         "bar_count": 1527,
         "close_tail": [
-          {
-            "close": 126640.0,
-            "date": "2026-09-17",
-            "volume": 3904
-          },
-          {
-            "close": 126530.0,
-            "date": "2026-09-18",
-            "volume": 3261
-          },
-          {
-            "close": 130100.0,
-            "date": "2026-09-21",
-            "volume": 6208
-          },
-          {
-            "close": 131940.0,
-            "date": "2026-09-22",
-            "volume": 5288
-          },
-          {
-            "close": 132100.0,
-            "date": "2026-09-23",
-            "volume": 4961
-          },
           {
             "close": 131530.0,
             "date": "2026-09-24",
@@ -5183,68 +5017,93 @@
             "close": 133830.0,
             "date": "2026-10-02",
             "volume": 3833
+          },
+          {
+            "close": 134680.0,
+            "date": "2026-10-05",
+            "volume": 4537
+          },
+          {
+            "close": 135530.0,
+            "date": "2026-10-06",
+            "volume": 4069
+          },
+          {
+            "close": 135120.0,
+            "date": "2026-10-07",
+            "volume": 3556
+          },
+          {
+            "close": 134720.0,
+            "date": "2026-10-08",
+            "volume": 5018
+          },
+          {
+            "close": 133800.0,
+            "date": "2026-10-09",
+            "volume": 3096
           }
         ],
         "corporate_actions": [],
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CNX1.L?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CNX1.L?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 133830.0,
-        "latest_date": "2026-10-02",
+        "latest_close": 133800.0,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.013249545729860701,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": -0.006828978622327786,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": 0.07918716232561884,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": 0.07271706886875662,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": 0.009732910819375329,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": -0.0002241649854293204,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.26123833757421533,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.2411873840445269,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 1.1880696820816334,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 1.174690374800897,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 7,
             "base_date": "2025-12-24",
-            "latest_date": "2026-10-02",
-            "return": 0.23175333640128848,
+            "latest_date": "2026-10-09",
+            "return": 0.23147722043258168,
             "status": "ready"
           }
         }
       },
       "momentum": {
-        "composite": 0.734375,
-        "dist_from_high": 0.0,
+        "composite": 0.71875,
+        "dist_from_high": 0.012764701542094001,
         "gates": {
           "g1_price_above_150_200": true,
           "g2_sma150_above_sma200": true,
@@ -5256,35 +5115,35 @@
           "g8_rs_rating_ge_70": null
         },
         "gates_passed": 7,
-        "high_52w": 133830.0,
-        "k_ratio": 22.282524987512083,
+        "high_52w": 135530.0,
+        "k_ratio": 22.834065239134585,
         "low_52w": 100630.0,
         "market_rs_rating": null,
-        "portfolio_momentum_score": 0.734375,
+        "portfolio_momentum_score": 0.71875,
         "portfolio_rs_rating": 68.4,
-        "price": 133830.0,
+        "price": 133800.0,
         "rank_overall": 5,
-        "return_12m": 0.279567836313223,
-        "return_3m": 0.04416009986736369,
-        "return_6m": 0.28657950394154974,
-        "return_9m": 0.23175333640128848,
+        "return_12m": 0.27477134146341453,
+        "return_3m": 0.056872037914691864,
+        "return_6m": 0.2466225659181962,
+        "return_9m": 0.21802457897132443,
         "rs_rating": 68.4,
         "score_components": {
-          "high_proximity_percentile": 1.0,
-          "k_ratio_percentile": 0.625,
+          "high_proximity_percentile": 0.875,
+          "k_ratio_percentile": 0.6875,
           "one_year_percentile": 0.625,
           "rs_percentile": 0.6875
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 120901.76666666666,
-        "sma200": 117519.0,
-        "sma200_21d_ago": 115516.7,
-        "sma50": 125839.8,
+        "sma150": 121832.43333333333,
+        "sma200": 118159.45,
+        "sma200_21d_ago": 115885.2,
+        "sma50": 127311.0,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
-        "weeks_strengthening": 7,
-        "weighted_perf": 0.17724417527815772
+        "weeks_strengthening": 6,
+        "weighted_perf": 0.1706325124364638
       },
       "name": "iShares NASDAQ 100 Acc",
       "return_basis": "unadjusted_close",
@@ -5303,33 +5162,8 @@
       "market": {
         "adjusted": false,
         "adjustment_status": "unavailable",
-        "bar_count": 30,
+        "bar_count": 35,
         "close_tail": [
-          {
-            "close": 3.7190001,
-            "date": "2026-09-17",
-            "volume": 8133688
-          },
-          {
-            "close": 3.6954999,
-            "date": "2026-09-18",
-            "volume": 9130058
-          },
-          {
-            "close": 3.74650002,
-            "date": "2026-09-21",
-            "volume": 9906556
-          },
-          {
-            "close": 3.76999998,
-            "date": "2026-09-22",
-            "volume": 10250270
-          },
-          {
-            "close": 3.76799989,
-            "date": "2026-09-23",
-            "volume": 10910777
-          },
           {
             "close": 3.74499989,
             "date": "2026-09-24",
@@ -5348,7 +5182,7 @@
           {
             "close": 3.74049997,
             "date": "2026-09-29",
-            "volume": 11289468
+            "volume": 11289469
           },
           {
             "close": 3.74000001,
@@ -5363,61 +5197,86 @@
           {
             "close": 3.75399995,
             "date": "2026-10-02",
-            "volume": 6979938
+            "volume": 6979939
+          },
+          {
+            "close": 3.77850008,
+            "date": "2026-10-05",
+            "volume": 10441503
+          },
+          {
+            "close": 3.79250002,
+            "date": "2026-10-06",
+            "volume": 8777291
+          },
+          {
+            "close": 3.76550007,
+            "date": "2026-10-07",
+            "volume": 11075528
+          },
+          {
+            "close": 3.74900007,
+            "date": "2026-10-08",
+            "volume": 7999132
+          },
+          {
+            "close": 3.7644999,
+            "date": "2026-10-09",
+            "volume": 7107473
           }
         ],
         "corporate_actions": [],
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VALL.L?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VALL.L?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 3.75399995,
-        "latest_date": "2026-10-02",
+        "latest_close": 3.7644999,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": 0.010361950950495302,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.004134390426938639,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": 0.014594567370343592,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": 0.021989914185015502,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.0026567455258780237,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": 0.00279700323384402,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": null,
             "base_date": null,
-            "latest_date": "2026-10-02",
+            "latest_date": "2026-10-09",
             "return": null,
             "status": "missing"
           },
           "5Y": {
             "anchor_gap_days": null,
             "base_date": null,
-            "latest_date": "2026-10-02",
+            "latest_date": "2026-10-09",
             "return": null,
             "status": "missing"
           },
           "YTD": {
             "anchor_gap_days": null,
             "base_date": null,
-            "latest_date": "2026-10-02",
+            "latest_date": "2026-10-09",
             "return": null,
             "status": "missing"
           }
@@ -5452,31 +5311,6 @@
         "bar_count": 1534,
         "close_tail": [
           {
-            "close": 6333.0,
-            "date": "2026-09-17",
-            "volume": 1051346
-          },
-          {
-            "close": 6317.0,
-            "date": "2026-09-18",
-            "volume": 573674
-          },
-          {
-            "close": 6314.0,
-            "date": "2026-09-21",
-            "volume": 299089
-          },
-          {
-            "close": 6297.0,
-            "date": "2026-09-22",
-            "volume": 298449
-          },
-          {
-            "close": 6265.0,
-            "date": "2026-09-23",
-            "volume": 310308
-          },
-          {
             "close": 6235.0,
             "date": "2026-09-24",
             "volume": 169871
@@ -5510,108 +5344,133 @@
             "close": 6078.0,
             "date": "2026-10-02",
             "volume": 154641
+          },
+          {
+            "close": 6074.0,
+            "date": "2026-10-05",
+            "volume": 162945
+          },
+          {
+            "close": 6084.0,
+            "date": "2026-10-06",
+            "volume": 141701
+          },
+          {
+            "close": 6034.0,
+            "date": "2026-10-07",
+            "volume": 206119
+          },
+          {
+            "close": 6039.0,
+            "date": "2026-10-08",
+            "volume": 189104
+          },
+          {
+            "close": 6141.0,
+            "date": "2026-10-09",
+            "volume": 217774
           }
         ],
         "corporate_actions": [],
         "error": null,
         "provider": "yahoo-chart",
         "quality_warnings": [],
-        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SGLN.L?period1=1599264000&period2=1791158400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SGLN.L?period1=1599868800&period2=1791763200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
         "status": "ready"
       },
       "metrics": {
         "freshness_days": 2,
         "freshness_status": "ready",
-        "latest_close": 6078.0,
-        "latest_date": "2026-10-02",
+        "latest_close": 6141.0,
+        "latest_date": "2026-10-09",
         "periods": {
           "1D": {
             "anchor_gap_days": 0,
-            "base_date": "2026-10-01",
-            "latest_date": "2026-10-02",
-            "return": -0.005562827225130906,
+            "base_date": "2026-10-08",
+            "latest_date": "2026-10-09",
+            "return": 0.016890213611524985,
             "status": "ready"
           },
           "1M": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-02",
-            "latest_date": "2026-10-02",
-            "return": -0.03231969431619164,
+            "base_date": "2026-09-09",
+            "latest_date": "2026-10-09",
+            "return": -0.02523809523809528,
             "status": "ready"
           },
           "1W": {
             "anchor_gap_days": 0,
-            "base_date": "2026-09-25",
-            "latest_date": "2026-10-02",
-            "return": -0.031085604973696834,
+            "base_date": "2026-10-02",
+            "latest_date": "2026-10-09",
+            "return": 0.01036525172754188,
             "status": "ready"
           },
           "1Y": {
             "anchor_gap_days": 0,
-            "base_date": "2025-10-02",
-            "latest_date": "2026-10-02",
-            "return": 0.09612263300270518,
+            "base_date": "2025-10-09",
+            "latest_date": "2026-10-09",
+            "return": 0.04884713919726735,
             "status": "ready"
           },
           "5Y": {
             "anchor_gap_days": 2,
-            "base_date": "2021-10-01",
-            "latest_date": "2026-10-02",
-            "return": 1.3995262534544017,
+            "base_date": "2021-10-08",
+            "latest_date": "2026-10-09",
+            "return": 1.440779014308426,
             "status": "ready"
           },
           "YTD": {
             "anchor_gap_days": 0,
             "base_date": "2025-12-31",
-            "latest_date": "2026-10-02",
-            "return": -0.022358050506675275,
+            "latest_date": "2026-10-09",
+            "return": -0.01222454560077213,
             "status": "ready"
           }
         }
       },
       "momentum": {
-        "composite": 0.25,
-        "dist_from_high": 0.20962288686605982,
+        "composite": 0.28125,
+        "dist_from_high": 0.20143042912873863,
         "gates": {
           "g1_price_above_150_200": false,
           "g2_sma150_above_sma200": false,
-          "g3_sma200_trending_up": true,
+          "g3_sma200_trending_up": false,
           "g4_sma50_above_150_200": false,
           "g5_price_above_sma50": false,
           "g6_30pct_above_52w_low": false,
           "g7_within_25pct_of_52w_high": true,
           "g8_rs_rating_ge_70": null
         },
-        "gates_passed": 2,
+        "gates_passed": 1,
         "high_52w": 7690.0,
-        "k_ratio": -1.00507179458678,
-        "low_52w": 5695.0,
+        "k_ratio": -2.265730138324982,
+        "low_52w": 5776.0,
         "market_rs_rating": null,
-        "portfolio_momentum_score": 0.25,
-        "portfolio_rs_rating": 31.6,
-        "price": 6078.0,
+        "portfolio_momentum_score": 0.28125,
+        "portfolio_rs_rating": 37.8,
+        "price": 6141.0,
         "rank_overall": 13,
-        "return_12m": 0.08496965369510878,
-        "return_3m": 0.008629273149684646,
-        "return_6m": -0.11231196144296773,
-        "return_9m": -0.047484720263281655,
-        "rs_rating": 31.6,
+        "return_12m": 0.052442159383033315,
+        "return_3m": 0.05442994505494503,
+        "return_6m": -0.0963802236609771,
+        "return_9m": -0.07806635640294246,
+        "rs_rating": 37.8,
         "score_components": {
-          "high_proximity_percentile": 0.25,
+          "high_proximity_percentile": 0.3125,
           "k_ratio_percentile": 0.125,
           "one_year_percentile": 0.3125,
-          "rs_percentile": 0.3125
+          "rs_percentile": 0.375
         },
         "score_status": "ready",
         "score_unavailable_reason": null,
-        "sma150": 6433.1466666666665,
-        "sma200": 6541.01,
-        "sma200_21d_ago": 6529.88,
-        "sma50": 6233.48,
+        "sma150": 6385.86,
+        "sma200": 6534.175,
+        "sma200_21d_ago": 6536.7,
+        "sma50": 6250.72,
         "stage2": null,
         "stage2_status": "market-rs-unavailable",
         "weeks_strengthening": 4,
-        "weighted_perf": -0.011513696342354263
+        "weighted_perf": -0.002628906114199237
       },
       "name": "Gold (SGLN)",
       "return_basis": "adjusted_close",
@@ -5619,7 +5478,7 @@
       "symbol": "SGLN.L"
     }
   ],
-  "issue_date": "2026-10-04",
+  "issue_date": "2026-10-11",
   "limitations": [
     "Coverage was verified read-only on 2026-09-21. This application retains no Trading 212 account data.",
     "No units, costs, balances or portfolio values are ingested or emitted.",
@@ -5628,7 +5487,7 @@
     "Long-window comparability can change after corporate restructuring. GE Aerospace is flagged in its dossier."
   ],
   "quality": {
-    "event_count": 789,
+    "event_count": 879,
     "failed_market_count": 0,
     "market_coverage_ratio": 1.0,
     "market_coverage_threshold": 14,
@@ -5641,107 +5500,114 @@
     "ready_market_count": 17,
     "source_provider_failed_count": 0,
     "source_provider_ready_count": 25,
-    "story_count": 8
+    "story_count": 6
   },
   "schema_version": 1,
   "score_changes": [
     {
-      "change": -0.140625,
-      "current_score": 0.734375,
-      "holding_id": "hsbc",
-      "name": "HSBC",
-      "previous_score": 0.875
-    },
-    {
-      "change": 0.125,
-      "current_score": 0.625,
-      "holding_id": "bp",
-      "name": "BP",
-      "previous_score": 0.5
-    },
-    {
-      "change": 0.109375,
-      "current_score": 0.859375,
-      "holding_id": "chevron",
-      "name": "Chevron",
+      "change": 0.078125,
+      "current_score": 0.828125,
+      "holding_id": "shell",
+      "name": "Shell",
       "previous_score": 0.75
     },
     {
-      "change": 0.078125,
-      "current_score": 0.90625,
-      "holding_id": "exxonmobil",
-      "name": "ExxonMobil",
-      "previous_score": 0.828125
+      "change": 0.0625,
+      "current_score": 0.6875,
+      "holding_id": "bp",
+      "name": "BP",
+      "previous_score": 0.625
     },
     {
-      "change": -0.078125,
-      "current_score": 0.515625,
-      "holding_id": "morgan-stanley",
-      "name": "Morgan Stanley",
-      "previous_score": 0.59375
-    },
-    {
-      "change": -0.03125,
-      "current_score": 0.21875,
-      "holding_id": "bae-systems",
-      "name": "BAE Systems",
-      "previous_score": 0.25
-    },
-    {
-      "change": -0.03125,
-      "current_score": 0.390625,
-      "holding_id": "goldman-sachs",
-      "name": "Goldman Sachs",
-      "previous_score": 0.421875
-    },
-    {
-      "change": -0.03125,
-      "current_score": 0.90625,
+      "change": -0.0625,
+      "current_score": 0.84375,
       "holding_id": "mufg",
       "name": "MUFG",
-      "previous_score": 0.9375
+      "previous_score": 0.90625
+    },
+    {
+      "change": -0.046875,
+      "current_score": 0.6875,
+      "holding_id": "hsbc",
+      "name": "HSBC",
+      "previous_score": 0.734375
     },
     {
       "change": -0.03125,
-      "current_score": 0.75,
-      "holding_id": "shell",
-      "name": "Shell",
-      "previous_score": 0.78125
+      "current_score": 0.1875,
+      "holding_id": "bae-systems",
+      "name": "BAE Systems",
+      "previous_score": 0.21875
     },
     {
-      "change": 0.015625,
-      "current_score": 0.734375,
-      "holding_id": "cnx1",
-      "name": "iShares NASDAQ 100 Acc",
-      "previous_score": 0.71875
-    },
-    {
-      "change": 0.015625,
-      "current_score": 0.25,
-      "holding_id": "sgln-gold",
-      "name": "Gold (SGLN)",
-      "previous_score": 0.234375
-    },
-    {
-      "change": 0.0,
-      "current_score": 0.25,
+      "change": 0.03125,
+      "current_score": 0.28125,
       "holding_id": "ge-aerospace",
       "name": "GE Aerospace",
       "previous_score": 0.25
     },
     {
-      "change": 0.0,
-      "current_score": 0.453125,
+      "change": -0.03125,
+      "current_score": 0.359375,
+      "holding_id": "goldman-sachs",
+      "name": "Goldman Sachs",
+      "previous_score": 0.390625
+    },
+    {
+      "change": -0.03125,
+      "current_score": 0.609375,
+      "holding_id": "rolls-royce",
+      "name": "Rolls-Royce",
+      "previous_score": 0.640625
+    },
+    {
+      "change": 0.03125,
+      "current_score": 0.28125,
+      "holding_id": "sgln-gold",
+      "name": "Gold (SGLN)",
+      "previous_score": 0.25
+    },
+    {
+      "change": -0.015625,
+      "current_score": 0.71875,
+      "holding_id": "cnx1",
+      "name": "iShares NASDAQ 100 Acc",
+      "previous_score": 0.734375
+    },
+    {
+      "change": 0.015625,
+      "current_score": 0.921875,
+      "holding_id": "exxonmobil",
+      "name": "ExxonMobil",
+      "previous_score": 0.90625
+    },
+    {
+      "change": 0.015625,
+      "current_score": 0.46875,
       "holding_id": "jpmorgan",
       "name": "JPMorgan Chase",
       "previous_score": 0.453125
     },
     {
-      "change": 0.0,
-      "current_score": 0.203125,
+      "change": -0.015625,
+      "current_score": 0.1875,
       "holding_id": "lockheed-martin",
       "name": "Lockheed Martin",
       "previous_score": 0.203125
+    },
+    {
+      "change": 0.0,
+      "current_score": 0.859375,
+      "holding_id": "chevron",
+      "name": "Chevron",
+      "previous_score": 0.859375
+    },
+    {
+      "change": 0.0,
+      "current_score": 0.515625,
+      "holding_id": "morgan-stanley",
+      "name": "Morgan Stanley",
+      "previous_score": 0.515625
     },
     {
       "change": 0.0,
@@ -5749,13 +5615,6 @@
       "holding_id": "rheinmetall",
       "name": "Rheinmetall",
       "previous_score": 0.0625
-    },
-    {
-      "change": 0.0,
-      "current_score": 0.640625,
-      "holding_id": "rolls-royce",
-      "name": "Rolls-Royce",
-      "previous_score": 0.640625
     }
   ],
   "score_universe": [
@@ -5847,7 +5706,7 @@
         "adjustment_status": "adjusted",
         "freshness_status": "ready",
         "holding_id": "bae-systems",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5855,7 +5714,7 @@
         "adjustment_status": "adjusted",
         "freshness_status": "ready",
         "holding_id": "ge-aerospace",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5863,7 +5722,7 @@
         "adjustment_status": "adjusted",
         "freshness_status": "ready",
         "holding_id": "lockheed-martin",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5871,7 +5730,7 @@
         "adjustment_status": "adjusted",
         "freshness_status": "ready",
         "holding_id": "rheinmetall",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5879,7 +5738,7 @@
         "adjustment_status": "unavailable",
         "freshness_status": "ready",
         "holding_id": "rolls-royce",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5887,7 +5746,7 @@
         "adjustment_status": "adjusted",
         "freshness_status": "ready",
         "holding_id": "jpmorgan",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5895,7 +5754,7 @@
         "adjustment_status": "adjusted",
         "freshness_status": "ready",
         "holding_id": "goldman-sachs",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5903,7 +5762,7 @@
         "adjustment_status": "unavailable",
         "freshness_status": "ready",
         "holding_id": "hsbc",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5911,7 +5770,7 @@
         "adjustment_status": "adjusted",
         "freshness_status": "ready",
         "holding_id": "mufg",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5919,7 +5778,7 @@
         "adjustment_status": "adjusted",
         "freshness_status": "ready",
         "holding_id": "morgan-stanley",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5927,7 +5786,7 @@
         "adjustment_status": "unavailable",
         "freshness_status": "ready",
         "holding_id": "bp",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5935,7 +5794,7 @@
         "adjustment_status": "adjusted",
         "freshness_status": "ready",
         "holding_id": "chevron",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5943,7 +5802,7 @@
         "adjustment_status": "adjusted",
         "freshness_status": "ready",
         "holding_id": "exxonmobil",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5951,7 +5810,7 @@
         "adjustment_status": "adjusted",
         "freshness_status": "ready",
         "holding_id": "shell",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5959,7 +5818,7 @@
         "adjustment_status": "unavailable",
         "freshness_status": "ready",
         "holding_id": "cnx1",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5967,7 +5826,7 @@
         "adjustment_status": "unavailable",
         "freshness_status": "ready",
         "holding_id": "vall",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       },
@@ -5975,20 +5834,20 @@
         "adjustment_status": "adjusted",
         "freshness_status": "ready",
         "holding_id": "sgln-gold",
-        "latest_date": "2026-10-02",
+        "latest_date": "2026-10-09",
         "provider": "yahoo-chart",
         "status": "ready"
       }
     ],
     "news": [
       {
-        "event_count": 56,
+        "event_count": 39,
         "holding_id": "bae-systems",
         "provider": "google-news-rss",
         "status": "ready"
       },
       {
-        "event_count": 62,
+        "event_count": 67,
         "holding_id": "ge-aerospace",
         "provider": "google-news-rss",
         "status": "ready"
@@ -6000,7 +5859,7 @@
         "status": "ready"
       },
       {
-        "event_count": 85,
+        "event_count": 93,
         "holding_id": "lockheed-martin",
         "provider": "google-news-rss",
         "status": "ready"
@@ -6012,19 +5871,19 @@
         "status": "ready"
       },
       {
-        "event_count": 46,
+        "event_count": 61,
         "holding_id": "rheinmetall",
         "provider": "google-news-rss",
         "status": "ready"
       },
       {
-        "event_count": 59,
+        "event_count": 79,
         "holding_id": "rolls-royce",
         "provider": "google-news-rss",
         "status": "ready"
       },
       {
-        "event_count": 60,
+        "event_count": 63,
         "holding_id": "jpmorgan",
         "provider": "google-news-rss",
         "status": "ready"
@@ -6036,7 +5895,7 @@
         "status": "ready"
       },
       {
-        "event_count": 67,
+        "event_count": 78,
         "holding_id": "goldman-sachs",
         "provider": "google-news-rss",
         "status": "ready"
@@ -6048,19 +5907,19 @@
         "status": "ready"
       },
       {
-        "event_count": 64,
+        "event_count": 80,
         "holding_id": "hsbc",
         "provider": "google-news-rss",
         "status": "ready"
       },
       {
-        "event_count": 29,
+        "event_count": 40,
         "holding_id": "mufg",
         "provider": "google-news-rss",
         "status": "ready"
       },
       {
-        "event_count": 76,
+        "event_count": 65,
         "holding_id": "morgan-stanley",
         "provider": "google-news-rss",
         "status": "ready"
@@ -6072,7 +5931,7 @@
         "status": "ready"
       },
       {
-        "event_count": 29,
+        "event_count": 37,
         "holding_id": "bp",
         "provider": "google-news-rss",
         "status": "ready"
@@ -6084,7 +5943,7 @@
         "status": "ready"
       },
       {
-        "event_count": 83,
+        "event_count": 94,
         "holding_id": "chevron",
         "provider": "google-news-rss",
         "status": "ready"
@@ -6096,7 +5955,7 @@
         "status": "ready"
       },
       {
-        "event_count": 79,
+        "event_count": 74,
         "holding_id": "exxonmobil",
         "provider": "google-news-rss",
         "status": "ready"
@@ -6108,7 +5967,7 @@
         "status": "ready"
       },
       {
-        "event_count": 11,
+        "event_count": 12,
         "holding_id": "shell",
         "provider": "google-news-rss",
         "status": "ready"
@@ -6120,7 +5979,7 @@
         "status": "ready"
       },
       {
-        "event_count": 12,
+        "event_count": 15,
         "holding_id": "vall",
         "provider": "google-news-rss",
         "status": "ready"

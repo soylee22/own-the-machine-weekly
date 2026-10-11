@@ -1,5 +1,12 @@
 [
   {
+    "issue_date": "2026-10-11",
+    "path": "archive/2026-10-11.json",
+    "ready_market_count": 17,
+    "status": "ready",
+    "story_count": 6
+  },
+  {
     "issue_date": "2026-10-04",
     "path": "archive/2026-10-04.json",
     "ready_market_count": 17,
