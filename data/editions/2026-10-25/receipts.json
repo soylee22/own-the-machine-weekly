@@ -1,0 +1,566 @@
+[
+  {
+    "adjusted": true,
+    "adjustment_status": "adjusted",
+    "corporate_action_count": 13,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:00+00:00",
+    "holding_id": "bae-systems",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BA.L?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": true,
+    "adjustment_status": "adjusted",
+    "corporate_action_count": 28,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:00+00:00",
+    "holding_id": "ge-aerospace",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GE?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": true,
+    "adjustment_status": "adjusted",
+    "corporate_action_count": 24,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:01+00:00",
+    "holding_id": "lockheed-martin",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/LMT?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": true,
+    "adjustment_status": "adjusted",
+    "corporate_action_count": 6,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:01+00:00",
+    "holding_id": "rheinmetall",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RHM.DE?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": false,
+    "adjustment_status": "unavailable",
+    "corporate_action_count": 4,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:01+00:00",
+    "holding_id": "rolls-royce",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/RR.L?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": true,
+    "adjustment_status": "adjusted",
+    "corporate_action_count": 25,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:01+00:00",
+    "holding_id": "jpmorgan",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/JPM?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": true,
+    "adjustment_status": "adjusted",
+    "corporate_action_count": 24,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:01+00:00",
+    "holding_id": "goldman-sachs",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GS?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": false,
+    "adjustment_status": "unavailable",
+    "corporate_action_count": 19,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:01+00:00",
+    "holding_id": "hsbc",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/HSBA.L?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": true,
+    "adjustment_status": "adjusted",
+    "corporate_action_count": 3,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:02+00:00",
+    "holding_id": "mufg",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MUFG?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": true,
+    "adjustment_status": "adjusted",
+    "corporate_action_count": 24,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:02+00:00",
+    "holding_id": "morgan-stanley",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/MS?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": false,
+    "adjustment_status": "unavailable",
+    "corporate_action_count": 24,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:02+00:00",
+    "holding_id": "bp",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BP.L?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": true,
+    "adjustment_status": "adjusted",
+    "corporate_action_count": 24,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:02+00:00",
+    "holding_id": "chevron",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CVX?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": true,
+    "adjustment_status": "adjusted",
+    "corporate_action_count": 24,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:02+00:00",
+    "holding_id": "exxonmobil",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": true,
+    "adjustment_status": "adjusted",
+    "corporate_action_count": 24,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:02+00:00",
+    "holding_id": "shell",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SHEL.L?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": false,
+    "adjustment_status": "unavailable",
+    "corporate_action_count": 0,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:03+00:00",
+    "holding_id": "cnx1",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CNX1.L?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": false,
+    "adjustment_status": "unavailable",
+    "corporate_action_count": 0,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:03+00:00",
+    "holding_id": "vall",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/VALL.L?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "adjusted": true,
+    "adjustment_status": "adjusted",
+    "corporate_action_count": 0,
+    "error": null,
+    "fetched_at": "2026-10-25T22:00:03+00:00",
+    "holding_id": "sgln-gold",
+    "kind": "market-data",
+    "provider": "yahoo-chart",
+    "quality_warnings": [],
+    "status": "ready",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/SGLN.L?period1=1601078400&period2=1792972800&interval=1d&events=div%2Csplits&includeAdjustedClose=true"
+  },
+  {
+    "event_count": 79,
+    "fetched_at": "2026-10-25T22:00:03+00:00",
+    "holding_id": "bae-systems",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "5cf0ff36ba68efd3625dd0d44a5fa037d6e6aaf46936c1966634a41b8012c6ab",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=BAE%20Systems&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 77,
+    "fetched_at": "2026-10-25T22:00:03+00:00",
+    "holding_id": "ge-aerospace",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "36426683a503dc1ebd4ea6fbda24368b772ee9d1f5493b4a3a1f4eb87f57c0d1",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=GE%20Aerospace&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 0,
+    "fetched_at": "2026-10-25T22:00:04+00:00",
+    "filing_count": 2,
+    "filings": [
+      {
+        "filed_date": "2026-10-20",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000064/ge-20260930.htm"
+      },
+      {
+        "filed_date": "2026-10-20",
+        "form": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/40545/000004054526000063/ge-20261020.htm"
+      }
+    ],
+    "holding_id": "ge-aerospace",
+    "kind": "primary-feed",
+    "provider": "sec",
+    "sha256": "4eecde71e589783bb8ed002dd52a8c77c26d982e6702c346aadb4bbb649c7fa4",
+    "status": "ready",
+    "url": "https://data.sec.gov/submissions/CIK0000040545.json"
+  },
+  {
+    "event_count": 100,
+    "fetched_at": "2026-10-25T22:00:04+00:00",
+    "holding_id": "lockheed-martin",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "8d39e85ce87c6b71c4f7202a2d32d26cc26119049a6db819c7bab25c873c270c",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=Lockheed%20Martin&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 0,
+    "fetched_at": "2026-10-25T22:00:05+00:00",
+    "filing_count": 2,
+    "filings": [
+      {
+        "filed_date": "2026-10-22",
+        "form": "10-Q",
+        "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066928/lmt-20260927.htm"
+      },
+      {
+        "filed_date": "2026-10-22",
+        "form": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/936468/000162828026066780/lmt-20261022.htm"
+      }
+    ],
+    "holding_id": "lockheed-martin",
+    "kind": "primary-feed",
+    "provider": "sec",
+    "sha256": "eafca611ca4dad43e4eb38c95643a4bb05f92fe352bad421e01a6573fa2d8071",
+    "status": "ready",
+    "url": "https://data.sec.gov/submissions/CIK0000936468.json"
+  },
+  {
+    "event_count": 88,
+    "fetched_at": "2026-10-25T22:00:05+00:00",
+    "holding_id": "rheinmetall",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "5aeb612d24668021bd528e357320ccd295e0da28bf7703e7aa78be5598df8ef3",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=Rheinmetall&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 69,
+    "fetched_at": "2026-10-25T22:00:05+00:00",
+    "holding_id": "rolls-royce",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "7efab79c8ba60cb9604cf87b840566c2f95c1ec34085f5d4021d5a2a6453921f",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=Rolls-Royce&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 55,
+    "fetched_at": "2026-10-25T22:00:06+00:00",
+    "holding_id": "jpmorgan",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "4a65da27ce4656ad776c7658cd77adf0ac9b2651fe1f867d7e6cab92f4c08f80",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=JPMorgan%20Chase&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 0,
+    "fetched_at": "2026-10-25T22:00:06+00:00",
+    "filing_count": 3,
+    "filings": [
+      {
+        "filed_date": "2026-10-20",
+        "form": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/19617/000119312526426704/d351999d8k.htm"
+      },
+      {
+        "filed_date": "2026-10-13",
+        "form": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065616/jpm-20261013.htm"
+      },
+      {
+        "filed_date": "2026-10-13",
+        "form": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/jpm-20261013.htm"
+      }
+    ],
+    "holding_id": "jpmorgan",
+    "kind": "primary-feed",
+    "provider": "sec",
+    "sha256": "53a4eb254d61cc700372279f7d9e116d1ee8f57ae38a33dce8e7f264fee6a7df",
+    "status": "ready",
+    "url": "https://data.sec.gov/submissions/CIK0000019617.json"
+  },
+  {
+    "event_count": 75,
+    "fetched_at": "2026-10-25T22:00:07+00:00",
+    "holding_id": "goldman-sachs",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "29fb0d6e3aceb3cda4b6c8e4c87cb0c4fe8ed676e56d5108219f25cffad4c5cd",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=Goldman%20Sachs&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 0,
+    "fetched_at": "2026-10-25T22:00:07+00:00",
+    "filing_count": 1,
+    "filings": [
+      {
+        "filed_date": "2026-10-13",
+        "form": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000529/gs-20261013.htm"
+      }
+    ],
+    "holding_id": "goldman-sachs",
+    "kind": "primary-feed",
+    "provider": "sec",
+    "sha256": "e40e8637413bbc249e49c7afbc0c5d73996e48dde5a1b3423875dd66d59b1b28",
+    "status": "ready",
+    "url": "https://data.sec.gov/submissions/CIK0000886982.json"
+  },
+  {
+    "event_count": 90,
+    "fetched_at": "2026-10-25T22:00:08+00:00",
+    "holding_id": "hsbc",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "fc5fa7562ab682c934b3bfdd9e1f856015926ebfb0aee9b97dea337a304bd492",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=HSBC&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 51,
+    "fetched_at": "2026-10-25T22:00:08+00:00",
+    "holding_id": "mufg",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "45ad0706d0952f6fe91868435c684b8bc2992dfc6d7aba51e7136274761f99fd",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=MUFG&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 60,
+    "fetched_at": "2026-10-25T22:00:09+00:00",
+    "holding_id": "morgan-stanley",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "dadf35ec833d764f3d8d0938af5d32b7cee30652f6209b904cab264d1b1074d9",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=Morgan%20Stanley&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 0,
+    "fetched_at": "2026-10-25T22:00:09+00:00",
+    "filing_count": 1,
+    "filings": [
+      {
+        "filed_date": "2026-10-14",
+        "form": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/ms-20261014.htm"
+      }
+    ],
+    "holding_id": "morgan-stanley",
+    "kind": "primary-feed",
+    "provider": "sec",
+    "sha256": "fa47cfc6c385fd7be22d309f324f0363a80390907e18abddf4e5ddafa885dc3d",
+    "status": "ready",
+    "url": "https://data.sec.gov/submissions/CIK0000895421.json"
+  },
+  {
+    "event_count": 47,
+    "fetched_at": "2026-10-25T22:00:10+00:00",
+    "holding_id": "bp",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "de9b937aa32f2ef870865dab9f5d972005486603010975eea137392fe75bec29",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=BP%20energy&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 0,
+    "fetched_at": "2026-10-25T22:00:10+00:00",
+    "filing_count": 1,
+    "filings": [
+      {
+        "filed_date": "2026-10-13",
+        "form": "6-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/313807/000165495426008895/a6390y.htm"
+      }
+    ],
+    "holding_id": "bp",
+    "kind": "primary-feed",
+    "provider": "sec",
+    "sha256": "bfed240ed70dc5be59d868ce53e23a47c571fe1e0e835178353bf212af8c2cda",
+    "status": "ready",
+    "url": "https://data.sec.gov/submissions/CIK0000313807.json"
+  },
+  {
+    "event_count": 82,
+    "fetched_at": "2026-10-25T22:00:11+00:00",
+    "holding_id": "chevron",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "b2d5f76756f2911a77c8fc6a846afc9a8e77b4ff045300f4af8eadfdc1aa3e96",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=Chevron&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 0,
+    "fetched_at": "2026-10-25T22:00:11+00:00",
+    "filing_count": 2,
+    "filings": [
+      {
+        "filed_date": "2026-10-06",
+        "form": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000192/cvx-20261006.htm"
+      },
+      {
+        "filed_date": "2026-10-05",
+        "form": "8-K",
+        "url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000188/cvx-20260930.htm"
+      }
+    ],
+    "holding_id": "chevron",
+    "kind": "primary-feed",
+    "provider": "sec",
+    "sha256": "41de2a2bd644d986cac6c091c1afbaaafa5ba0fe473226aca56f2844f9a2b037",
+    "status": "ready",
+    "url": "https://data.sec.gov/submissions/CIK0000093410.json"
+  },
+  {
+    "event_count": 57,
+    "fetched_at": "2026-10-25T22:00:12+00:00",
+    "holding_id": "exxonmobil",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "650416d4a80441fa38d4f928097a4aa183b9494cdf59c3d609071acba3a0a91f",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=ExxonMobil&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 0,
+    "fetched_at": "2026-10-25T22:00:12+00:00",
+    "filing_count": 0,
+    "filings": [],
+    "holding_id": "exxonmobil",
+    "kind": "primary-feed",
+    "provider": "sec",
+    "sha256": "c86c3d1c16e5ac086be3ac2f5eaedbb3c2891ac3127a10d2566b0049cbde82df",
+    "status": "ready",
+    "url": "https://data.sec.gov/submissions/CIK0000034088.json"
+  },
+  {
+    "event_count": 14,
+    "fetched_at": "2026-10-25T22:00:12+00:00",
+    "holding_id": "shell",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "3cc02427eee9b73081ca98d4385fbf5fdedf4c39e1841ad85c491b7a78572bf4",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=Shell%20energy&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 2,
+    "fetched_at": "2026-10-25T22:00:13+00:00",
+    "holding_id": "cnx1",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "dba6d3cf125192fb9eee0f7dbfc2fd6b97d7ebd5cc3547752993a135384a2c6f",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=iShares%20NASDAQ%20100%20UCITS%20ETF%20CNX1&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 19,
+    "fetched_at": "2026-10-25T22:00:13+00:00",
+    "holding_id": "vall",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "5316119c03fe7040a6eacf27c3b9167bec3b3c8aefcf71bac40c448cd95b8b05",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=Vanguard%20FTSE%20Global%20All%20Cap%20VALL&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "event_count": 1,
+    "fetched_at": "2026-10-25T22:00:13+00:00",
+    "holding_id": "sgln-gold",
+    "kind": "discovery-feed",
+    "provider": "google-news-rss",
+    "sha256": "2da2144fa930ba45f7107970a5df1dce7e2f693dcf1ca4dcc0f777ee7305fd07",
+    "status": "ready",
+    "url": "https://news.google.com/rss/search?q=SGLN%20gold%20ETC&hl=en-GB&gl=GB&ceid=GB:en"
+  },
+  {
+    "credit": "NASA Glenn Research Center",
+    "image_url": "https://www.nasa.gov/wp-content/uploads/2023/01/GRC-2022-C-04045.jpg?w=1600",
+    "kind": "image",
+    "local_asset": "/assets/nasa-engine-test.jpg",
+    "provider": "NASA Glenn Research Center",
+    "reuse_note": "Informational web reuse permitted under NASA's Images and Media guidance.",
+    "status": "recorded",
+    "url": "https://www.nasa.gov/nasa-glenn-virtual-tours/"
+  }
+]
