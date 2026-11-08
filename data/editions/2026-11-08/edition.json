@@ -1,0 +1,5847 @@
+{
+  "comparison_universe": [
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "bae-systems",
+      "name": "BAE Systems",
+      "symbol": "BA.L"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "ge-aerospace",
+      "name": "GE Aerospace",
+      "symbol": "GE"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "lockheed-martin",
+      "name": "Lockheed Martin",
+      "symbol": "LMT"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "rheinmetall",
+      "name": "Rheinmetall",
+      "symbol": "RHM.DE"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "rolls-royce",
+      "name": "Rolls-Royce",
+      "symbol": "RR.L"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "jpmorgan",
+      "name": "JPMorgan Chase",
+      "symbol": "JPM"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "goldman-sachs",
+      "name": "Goldman Sachs",
+      "symbol": "GS"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "hsbc",
+      "name": "HSBC",
+      "symbol": "HSBA.L"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "mufg",
+      "name": "MUFG",
+      "symbol": "MUFG"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "morgan-stanley",
+      "name": "Morgan Stanley",
+      "symbol": "MS"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "bp",
+      "name": "BP",
+      "symbol": "BP.L"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "chevron",
+      "name": "Chevron",
+      "symbol": "CVX"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "exxonmobil",
+      "name": "ExxonMobil",
+      "symbol": "XOM"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "shell",
+      "name": "Shell",
+      "symbol": "SHEL.L"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "cnx1",
+      "name": "iShares NASDAQ 100 Acc",
+      "symbol": "CNX1.L"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "vall",
+      "name": "Vanguard FTSE Global All-Cap Acc",
+      "symbol": "VALL.L"
+    },
+    {
+      "coverage": "verified-2026-09-21",
+      "id": "sgln-gold",
+      "name": "Gold (SGLN)",
+      "symbol": "SGLN.L"
+    }
+  ],
+  "comparison_universe_changes": {
+    "added": [],
+    "changed": false,
+    "current_fingerprint": "5ddf7ec9b7acd38e17683b54f8e492e33af666c8bf60689d85660623a9bcea6a",
+    "previous_fingerprint": "5ddf7ec9b7acd38e17683b54f8e492e33af666c8bf60689d85660623a9bcea6a",
+    "removed": []
+  },
+  "comparison_universe_fingerprint": "5ddf7ec9b7acd38e17683b54f8e492e33af666c8bf60689d85660623a9bcea6a",
+  "coverage": {
+    "broad_index_etf": "VALL.L",
+    "growth_index_etf": "CNX1.L",
+    "note": "Trading 212 instrument coverage was verified read-only on 2026-09-21. No quantities, costs or balances are retained.",
+    "status": "verified-2026-09-21"
+  },
+  "cutoff": {
+    "issue_date": "2026-11-08",
+    "latest_session_varies_by_listing": true,
+    "market_rule": "Use completed sessions dated on or before the issue Sunday.",
+    "timezone": "Europe/London"
+  },
+  "dossiers": [
+    {
+      "against": "A full order book does not remove execution risk. Skilled labour, supplier capacity and contract terms determine whether demand becomes profitable delivery.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "yard to fleet",
+      "name": "BAE Systems",
+      "official_source": "https://www.baesystems.com/en/our-company",
+      "slug": "bae-systems",
+      "symbol": "BA.L",
+      "systems": [
+        "Submarine construction at Barrow",
+        "Type 26 frigates",
+        "Combat-aircraft structures",
+        "Electronic warfare",
+        "Fleet support"
+      ],
+      "watch": "Separate funded orders from political announcements. Follow hull milestones, shipyard capacity, delivery dates and the availability of systems already in service.",
+      "what_it_is": "A submarine yard is useful only with the people, suppliers and programme knowledge that let it build the next boat. BAE combines that long industrial memory with frigates, combat-aircraft structures and electronic systems. Delivery starts a support relationship that can last decades."
+    },
+    {
+      "against": "Engine durability problems can increase service work while also increasing warranty costs and pressure from airlines. More shop visits are not automatically good news.",
+      "comparability_note": "The five-year price series spans GE Aerospace's 2024 separation from General Electric's former industrial businesses. Treat long-window comparability as limited.",
+      "diagram_label": "engine service loop",
+      "name": "GE Aerospace",
+      "official_source": "https://www.geaerospace.com/",
+      "slug": "ge-aerospace",
+      "symbol": "GE",
+      "systems": [
+        "CFM engines with Safran",
+        "GE9X",
+        "Commercial engine services",
+        "Military propulsion",
+        "Repair and overhaul shops"
+      ],
+      "watch": "Follow engine deliveries alongside shop capacity, spare parts and time on wing. Certification and manufacturing progress matter separately from announced aircraft orders.",
+      "what_it_is": "The visible product is a jet engine. Behind it sits a second industrial system of spare parts, inspection, repair shops and service agreements. Every installed engine adds years of maintenance work and operating evidence. GE also shares CFM International with Safran."
+    },
+    {
+      "against": "A mature production line can still encounter software delays or expensive support obligations. Programme scale does not guarantee that every delivery meets its original timetable.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "platform and upgrades",
+      "name": "Lockheed Martin",
+      "official_source": "https://www.lockheedmartin.com/en-us/products.html",
+      "slug": "lockheed-martin",
+      "symbol": "LMT",
+      "systems": [
+        "F-35 programme",
+        "Sikorsky helicopters",
+        "Missile systems",
+        "Space systems",
+        "Mission software and support"
+      ],
+      "watch": "Distinguish aircraft built from aircraft accepted by customers. Follow software releases, production rates, programme funding and sustainment milestones.",
+      "what_it_is": "An F-35 combines an airframe, sensors, mission software, training and fleet support. Lockheed Martin integrates those systems into a programme shared by many customers. Its wider business includes helicopters, missiles and space systems, with different production and upgrade cycles."
+    },
+    {
+      "against": "Capacity announced today may take years to qualify. Customer budgets, input availability and utilisation determine the economics of a new factory.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "factory to delivery",
+      "name": "Rheinmetall",
+      "official_source": "https://www.rheinmetall.com/en/products",
+      "slug": "rheinmetall",
+      "symbol": "RHM.DE",
+      "systems": [
+        "Armoured vehicles",
+        "Ammunition production",
+        "Turrets and cannon",
+        "Air-defence systems",
+        "Factory expansion"
+      ],
+      "watch": "Track commissioned capacity and delivered output separately from planned factories. Look for funded customer orders and milestones in qualification and production.",
+      "what_it_is": "Rheinmetall connects vehicles, turrets, ammunition, sensors and the factories that produce them. A qualified production line is part of the product. Expanding output requires machinery, permits, trained workers and a reliable flow of materials."
+    },
+    {
+      "against": "An engine can be technically capable yet expensive to maintain. Durability improvements must reach operating fleets before their full economic benefit appears.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "power through service",
+      "name": "Rolls-Royce",
+      "official_source": "https://www.rolls-royce.com/products-and-services.aspx",
+      "slug": "rolls-royce",
+      "symbol": "RR.L",
+      "systems": [
+        "Trent engines",
+        "Business-aviation engines",
+        "Defence propulsion",
+        "mtu power systems",
+        "Submarine propulsion"
+      ],
+      "watch": "Follow engine durability, flying hours, repair capacity and delivery schedules. Keep civil aerospace, defence and power-system developments distinct.",
+      "what_it_is": "The listed Rolls-Royce builds propulsion and power systems, not motor cars. Its civil engines sit inside long relationships with airlines. Defence propulsion, submarine nuclear technology and mtu power systems add businesses whose customers and engineering requirements differ from commercial aviation."
+    },
+    {
+      "against": "Scale spreads technology costs but also increases operational complexity. Credit losses, regulatory capital and control failures can constrain a business with strong customer demand.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "cash through a network",
+      "name": "JPMorgan Chase",
+      "official_source": "https://www.jpmorganchase.com/about",
+      "slug": "jpmorgan",
+      "symbol": "JPM",
+      "systems": [
+        "Chase consumer banking",
+        "Corporate lending",
+        "Payments and treasury",
+        "Markets and securities services",
+        "Asset and wealth management"
+      ],
+      "watch": "Look for payment-system launches, material financing, custody mandates and changes in credit performance. Separate customer activity from general interest-rate commentary.",
+      "what_it_is": "Chase deposits, corporate lending, investment banking, payments and custody share one organisation. A company can borrow, hedge currencies and pay suppliers through related systems. The connection between those services is as important as the individual product."
+    },
+    {
+      "against": "Transaction revenue depends on clients choosing to act. Strong market access does not remove exposure to delayed deals, trading losses or weaker fundraising.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "decision to capital",
+      "name": "Goldman Sachs",
+      "official_source": "https://www.goldmansachs.com/what-we-do",
+      "slug": "goldman-sachs",
+      "symbol": "GS",
+      "systems": [
+        "Mergers and acquisitions advice",
+        "Debt and equity underwriting",
+        "Institutional markets",
+        "Prime brokerage",
+        "Asset and wealth management"
+      ],
+      "watch": "Follow completed transactions, underwriting activity, financing commitments and durable client mandates. An announced deal is not the same as a completed fee-paying transaction.",
+      "what_it_is": "Goldman Sachs arranges capital, advises on transactions and makes markets for institutional clients. Prime brokerage finances investors and supports their trading. Asset and wealth management turn a different set of client relationships into continuing mandates."
+    },
+    {
+      "against": "International reach brings different regulatory regimes and geopolitical exposures. Simplifying the group can reduce complexity while also changing which customer relationships it can serve.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "trade across borders",
+      "name": "HSBC",
+      "official_source": "https://www.hsbc.com/who-we-are",
+      "slug": "hsbc",
+      "symbol": "HSBA.L",
+      "systems": [
+        "Hong Kong banking",
+        "UK banking",
+        "Trade finance",
+        "Cross-border payments",
+        "International wealth services"
+      ],
+      "watch": "Follow changes in trade corridors, transaction services, geographic exposure and customer franchises. Check what a restructuring changes operationally, beyond its new organisation chart.",
+      "what_it_is": "HSBC is especially distinctive where a customer operates across borders. Trade finance, currencies, payments and wealth services connect domestic banking relationships to international flows. The practical unit is often a trade corridor rather than a single branch network."
+    },
+    {
+      "against": "A change in Japanese interest rates affects lending margins, bond holdings and borrowers through different channels. A single rate headline cannot describe the whole effect.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "relationships and capital",
+      "name": "MUFG",
+      "official_source": "https://www.mufg.jp/english/profile/",
+      "slug": "mufg",
+      "symbol": "MUFG",
+      "systems": [
+        "MUFG Bank",
+        "Trust banking",
+        "Japanese securities",
+        "Overseas commercial banks",
+        "Morgan Stanley alliance"
+      ],
+      "watch": "Follow lending conditions in Japan, overseas credit exposure and developments in its banking partnerships. Distinguish the underlying business from ADR and currency effects.",
+      "what_it_is": "MUFG combines Japanese commercial banking, trust banking, securities and overseas banking relationships. Its strategic relationship with Morgan Stanley connects parts of its Japanese franchise to a wider institutional network. The holding here is the US-listed ADR."
+    },
+    {
+      "against": "Rising assets can reflect rising markets rather than stronger client acquisition. Fee pressure, deposit movement and integration costs can change the value of those assets.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "client to platform",
+      "name": "Morgan Stanley",
+      "official_source": "https://www.morganstanley.com/what-we-do",
+      "slug": "morgan-stanley",
+      "symbol": "MS",
+      "systems": [
+        "Financial advisers",
+        "E*TRADE",
+        "Workplace financial services",
+        "Institutional securities",
+        "Investment management"
+      ],
+      "watch": "Follow client assets, net flows, lending to wealth clients and changes to the platforms serving them. Separate market appreciation from new money arriving.",
+      "what_it_is": "Morgan Stanley combines institutional securities with a large wealth business. Financial advisers, E*TRADE and investment management give clients several entry points. A workplace share plan, self-directed account and advisory relationship can serve different stages of the same financial life."
+    },
+    {
+      "against": "Integration cannot remove commodity exposure. Outages, weaker refining margins and poor project execution can offset stronger upstream prices.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "molecule to customer",
+      "name": "BP",
+      "official_source": "https://www.bp.com/en/global/corporate/what-we-do.html",
+      "slug": "bp",
+      "symbol": "BP.L",
+      "systems": [
+        "Oil and gas production",
+        "Trading and shipping",
+        "Refining",
+        "Aviation fuel",
+        "Retail energy"
+      ],
+      "watch": "Follow project start-ups, maintenance, asset disposals and changes in capital spending. Keep physical production progress separate from movements in commodity prices.",
+      "what_it_is": "BP connects oil and gas production to processing, trading, shipping and customers. A molecule can pass through several parts of that system before becoming transport fuel or industrial feedstock. Geography, logistics and timing help determine where it is most valuable."
+    },
+    {
+      "against": "Large projects concentrate execution risk. Geology, construction, processing reliability and export constraints can each prevent designed capacity becoming saleable output.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "reservoir to export",
+      "name": "Chevron",
+      "official_source": "https://www.chevron.com/what-we-do",
+      "slug": "chevron",
+      "symbol": "CVX",
+      "systems": [
+        "Permian production",
+        "Tengiz",
+        "Gorgon LNG",
+        "Wheatstone LNG",
+        "Refining and lubricants"
+      ],
+      "watch": "Follow first production, ramp-up rates, plant availability and project spending. A start-up announcement is the beginning of operating evidence, not its conclusion.",
+      "what_it_is": "Chevron combines repeated shale operations with large fields and LNG projects. Tengiz, Gorgon and Wheatstone illustrate how reservoir engineering connects to processing and export infrastructure. Reliable output depends on the whole chain reaching operating readiness."
+    },
+    {
+      "against": "Greater output can meet weaker prices or margins. Project execution, environmental obligations and the economics of downstream products all affect the value of integration.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "resource to materials",
+      "name": "ExxonMobil",
+      "official_source": "https://corporate.exxonmobil.com/what-we-do",
+      "slug": "exxonmobil",
+      "symbol": "XOM",
+      "systems": [
+        "Permian operations",
+        "Guyana offshore production",
+        "LNG",
+        "Fuels and lubricants",
+        "Chemicals"
+      ],
+      "watch": "Follow production-vessel start-ups, drilling productivity and downstream plant changes. Compare physical output with realised margins rather than treating volume alone as success.",
+      "what_it_is": "ExxonMobil extends from resource extraction into fuels, lubricants and chemicals. Permian wells, Guyana production vessels and downstream plants represent different manufacturing systems. Integration lets similar feedstocks serve several products, each with its own market."
+    },
+    {
+      "against": "Flexibility has limits. Long contracts, outages, shipping constraints and weaker customer demand can restrict the options that make the network valuable.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "gas through a network",
+      "name": "Shell",
+      "official_source": "https://www.shell.com/what-we-do.html",
+      "slug": "shell",
+      "symbol": "SHEL.L",
+      "systems": [
+        "Integrated gas",
+        "LNG supply",
+        "Shipping and trading",
+        "Refining and chemicals",
+        "Retail and lubricants"
+      ],
+      "watch": "Follow LNG capacity, cargo commitments, plant availability and major project decisions. Separate new infrastructure from rearrangements of existing supply contracts.",
+      "what_it_is": "Shell links gas production, liquefaction, shipping and customer contracts through a large LNG and trading network. A cargo has both a physical destination and a commercial position. The ability to manage those together distinguishes the system from a collection of isolated plants."
+    },
+    {
+      "against": "A large number of constituents does not guarantee broad sector diversification. Its largest positions can dominate returns, and a sterling listing does not remove currency exposure.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "index to fund",
+      "name": "iShares NASDAQ 100 Acc",
+      "official_source": "https://www.ishares.com/uk/individual/en/products/253741/CNDX",
+      "slug": "cnx1",
+      "symbol": "CNX1.L",
+      "systems": [
+        "Nasdaq-100 index",
+        "Underlying equities",
+        "Index rebalancing",
+        "Accumulation",
+        "London listing"
+      ],
+      "watch": "Follow index changes, concentration and fund notices. Important constituent developments provide context, but a constituent story is not a change to the fund itself.",
+      "what_it_is": "CNX1 is the London sterling listing of an accumulating iShares fund tracking the Nasdaq-100. It combines many companies in one security, but concentration in its larger constituents still matters. Distributions are retained within the accumulating share class."
+    },
+    {
+      "against": "Global coverage still carries equity-market risk and uneven country weights. A new fund has limited operating and trading history, so missing long-window returns must remain missing.",
+      "comparability_note": "This newly launched fund has limited live history. The site shows missing long-window returns rather than inventing them from an index proxy.",
+      "diagram_label": "world market to fund",
+      "name": "Vanguard FTSE Global All-Cap Acc",
+      "official_source": "https://www.vanguard.co.uk/professional/product/etf/equity/E161/vanguard-ftse-global-all-cap-ucits-etf-usd-acc",
+      "slug": "vall",
+      "symbol": "VALL.L",
+      "systems": [
+        "FTSE Global All Cap Index",
+        "Developed markets",
+        "Emerging markets",
+        "Small-cap exposure",
+        "Accumulating share class"
+      ],
+      "watch": "Follow tracking, fund notices, index composition and trading spreads. Show only the ETF history that exists, with longer index history kept clearly separate.",
+      "what_it_is": "VALL is the accumulating Vanguard ETF tracking the FTSE Global All Cap Index. Its remit includes large, medium and small companies across developed and emerging markets. The London holding trades in sterling, while the share class is denominated in US dollars."
+    },
+    {
+      "against": "Gold generates no operating cash flow. Its price can fall, and charges and market spreads affect the return received through the security.",
+      "comparability_note": "No special perimeter warning is encoded. Review corporate actions before interpreting long windows.",
+      "diagram_label": "bullion to security",
+      "name": "Gold (SGLN)",
+      "official_source": "https://www.ishares.com/uk/individual/en/products/258441/ishares-physical-gold-etc-fund",
+      "slug": "sgln-gold",
+      "symbol": "SGLN.L",
+      "systems": [
+        "Physical bullion",
+        "Custody",
+        "Creation and redemption",
+        "London listing",
+        "Tracking and charges"
+      ],
+      "watch": "Follow product notices, custody terms and tracking alongside gold-market developments. Check the security price and the metal exposure without inventing a company operating story.",
+      "what_it_is": "SGLN is a listed security backed by physical gold. Custody and the creation and redemption process connect the exchange price to bullion. It provides gold exposure through an ETC structure, rather than ownership of a gold-mining company."
+    }
+  ],
+  "editorial": {
+    "changed_since_last_week": [
+      {
+        "holding_id": "bae-systems",
+        "latest_change": -0.10821256038647342,
+        "name": "BAE Systems",
+        "stage2_changed": false
+      },
+      {
+        "holding_id": "ge-aerospace",
+        "latest_change": 0.07104043508086044,
+        "name": "GE Aerospace",
+        "stage2_changed": false
+      },
+      {
+        "holding_id": "lockheed-martin",
+        "latest_change": -0.10969462874735625,
+        "name": "Lockheed Martin",
+        "stage2_changed": false
+      },
+      {
+        "holding_id": "rheinmetall",
+        "latest_change": -0.21675016255866564,
+        "name": "Rheinmetall",
+        "stage2_changed": false
+      },
+      {
+        "holding_id": "goldman-sachs",
+        "latest_change": -0.032116685330216166,
+        "name": "Goldman Sachs",
+        "stage2_changed": false
+      },
+      {
+        "holding_id": "hsbc",
+        "latest_change": 0.021613136718872328,
+        "name": "HSBC",
+        "stage2_changed": false
+      },
+      {
+        "holding_id": "mufg",
+        "latest_change": -0.02736549974507041,
+        "name": "MUFG",
+        "stage2_changed": false
+      },
+      {
+        "holding_id": "bp",
+        "latest_change": -0.10838380196740738,
+        "name": "BP",
+        "stage2_changed": false
+      },
+      {
+        "holding_id": "chevron",
+        "latest_change": -0.09727413062431833,
+        "name": "Chevron",
+        "stage2_changed": false
+      },
+      {
+        "holding_id": "exxonmobil",
+        "latest_change": -0.11417893126835776,
+        "name": "ExxonMobil",
+        "stage2_changed": false
+      },
+      {
+        "holding_id": "shell",
+        "latest_change": -0.07779016474668654,
+        "name": "Shell",
+        "stage2_changed": false
+      },
+      {
+        "holding_id": "cnx1",
+        "latest_change": -0.0420078611202096,
+        "name": "iShares NASDAQ 100 Acc",
+        "stage2_changed": false
+      },
+      {
+        "holding_id": "sgln-gold",
+        "latest_change": 0.04375553587245351,
+        "name": "Gold (SGLN)",
+        "stage2_changed": false
+      }
+    ],
+    "event_market_rule": "An event and a price move are adjacent evidence. This edition does not infer causality.",
+    "feature": {
+      "age_days": 3,
+      "event_type": "operational",
+      "fingerprint": "c6c57140389e4cc6",
+      "headline": "Boeing’s factories stall, yet this aviation supplier’s orders jumped 49% - Yahoo Finance",
+      "holding_id": "ge-aerospace",
+      "holding_name": "GE Aerospace",
+      "market_context": {
+        "1D": {
+          "anchor_gap_days": 0,
+          "base_date": "2026-11-05",
+          "latest_date": "2026-11-06",
+          "return": 0.027038982438412518,
+          "status": "ready"
+        },
+        "1M": {
+          "anchor_gap_days": 0,
+          "base_date": "2026-10-07",
+          "latest_date": "2026-11-06",
+          "return": 0.06462023392841942,
+          "status": "ready"
+        },
+        "1W": {
+          "anchor_gap_days": 0,
+          "base_date": "2026-10-30",
+          "latest_date": "2026-11-06",
+          "return": 0.07104043508086044,
+          "status": "ready"
+        },
+        "1Y": {
+          "anchor_gap_days": 0,
+          "base_date": "2025-11-06",
+          "latest_date": "2026-11-06",
+          "return": 0.06456084807269913,
+          "status": "ready"
+        },
+        "5Y": {
+          "anchor_gap_days": 2,
+          "base_date": "2021-11-05",
+          "latest_date": "2026-11-06",
+          "return": 3.8904373227200155,
+          "status": "ready"
+        },
+        "YTD": {
+          "anchor_gap_days": 0,
+          "base_date": "2025-12-31",
+          "latest_date": "2026-11-06",
+          "return": 0.053816858664491596,
+          "status": "ready"
+        }
+      },
+      "market_context_note": "Price context is shown without asserting that the event caused the move.",
+      "operation_label": "factory or capacity",
+      "published_date": "2026-11-05",
+      "publisher_tier": "secondary",
+      "publisher_url": "https://finance.yahoo.com",
+      "recency_class": "issue",
+      "score": 52,
+      "source_kind": "secondary",
+      "source_name": "Yahoo Finance",
+      "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaTlDX1pVaE01VHVsMmdVLXpCU3NNeUt3LWFTZjlaNzFHcXY4aU5yVG15Vl9WSWp2YTkyNHFvVktlSERTaXpPM1p5Q2lpbXBreHVzV3JWNS1Gb1g2V0Ffa0t0aEV2eHl0TjZkZTJxU2sxVWZxMUZRb3EzcE5RcGlaTHgyaHlNdnVtVE1ZcDBhdjNONzRieU5zaG5mMmpPQVkybnc?oc=5",
+      "status": "ready",
+      "summary": "Boeing’s factories stall, yet this aviation supplier’s orders jumped 49% Yahoo Finance",
+      "title": "Boeing’s factories stall, yet this aviation supplier’s orders jumped 49% - Yahoo Finance"
+    },
+    "machine_of_week": {
+      "holding_id": "exxonmobil",
+      "name": "ExxonMobil",
+      "note": "Deterministic rotation through the verified coverage universe. The dossier is not a recommendation.",
+      "status": "ready"
+    },
+    "next_week": {
+      "items": [],
+      "note": "The zero-key feeds expose publication dates, not reliable future event dates. No forward event calendar is inferred.",
+      "status": "not-supported"
+    },
+    "older_context": [
+      {
+        "age_days": 11,
+        "event_type": "operational",
+        "fingerprint": "c8d928357a21c9af",
+        "holding_id": "rolls-royce",
+        "holding_name": "Rolls-Royce",
+        "published_date": "2026-10-28",
+        "publisher_tier": "primary",
+        "publisher_url": "https://www.rolls-royce.com",
+        "recency_class": "context",
+        "score": 53,
+        "source_kind": "primary",
+        "source_name": "Rolls-Royce plc",
+        "source_url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQaTNEOUxHRTg4dnRvVU9hWVJ1aUZsLVRFbVYzUDRNejdwbWFocG5BTjgydmVQUVVXYmhOemYtbXlFY1dDMXNvbjdicjdNSjA4eVctSTJxTWNmdHRzUnR1SERUT1N4R3lIY0RjN1JhSnFZNnNfZ0NaWFBiR1Y0SnBacm1lbjFtNkkwR0ZIWVQzUWtod1RNRHF1cHJCSk96V2tpeHhvekRKeWI0bnNDM0lDTTFJTHVYOTQ5Y0pnNlBOZ0x3cWg3V2gydF90OFk2Zy1kdlhuZU16cm1lbnhaM2VwWkktNE9aOXZMbENQaFJpVnZzQl9YakNGamM0ZG1BWVZNcW1WT3plU1VDbkpHX2tPeWVJQQ?oc=5",
+        "summary": "Rolls-Royce to power economic growth and boost advanced manufacturing through transformative jet engine technology programme Rolls-Royce plc",
+        "title": "Rolls-Royce to power economic growth and boost advanced manufacturing through transformative jet engine technology programme - Rolls-Royce plc"
+      },
+      {
+        "age_days": 12,
+        "event_type": "operational",
+        "fingerprint": "fd1fec2926337827",
+        "holding_id": "lockheed-martin",
+        "holding_name": "Lockheed Martin",
+        "published_date": "2026-10-27",
+        "publisher_tier": "secondary",
+        "publisher_url": "https://www.militarytimes.com",
+        "recency_class": "context",
+        "score": 50,
+        "source_kind": "secondary",
+        "source_name": "Military Times",
+        "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQT1JLOGxTZEp1c2ZTTEZycms2em9mS2VpNWNuVk9pQWU4cGk2M21zNk12VjhaQnRGUzZoV01VMWt6MkMwbXo2bmRMSWJ2ZUk1WktSc3NTYldmeWkzWW9rWm9PY0NxRWltQm14VzRBME8telV0RmgzOWVUSEJoS3Z6NG44dXBvQWRiWWVrYjR5N2NFUG11aEVzZTZRcG84UTN5OWF2Q0x2TlNhOUZkZW96d3NUXzh2Z1dCWUZGdXBjWVA1RTFJREdnT094QlJSNExLeEVXU1Qwcw?oc=5",
+        "summary": "US Air Force awards Lockheed Martin $694M hypersonic missile production contract Military Times",
+        "title": "US Air Force awards Lockheed Martin $694M hypersonic missile production contract - Military Times"
+      },
+      {
+        "age_days": 17,
+        "event_type": "operational",
+        "fingerprint": "e2e27694da941e7e",
+        "holding_id": "goldman-sachs",
+        "holding_name": "Goldman Sachs",
+        "published_date": "2026-10-22",
+        "publisher_tier": "primary",
+        "publisher_url": "https://www.goldmansachs.com",
+        "recency_class": "context",
+        "score": 49,
+        "source_kind": "primary",
+        "source_name": "Goldman Sachs",
+        "source_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPY1RlV2tBREdpdWlLeWVSZ1ZNTEFWMV83WnhIMHl1azNtRVY5MVNrX0ZoSVdMMmdBaTdsTVgwMHhQU2Zud2xTTzlsTnFVMHltbkNjeml6OWk1cm1FN3ZaNi13bmdNZ0tFRjNwNWhoLTRjRDFKUWl5OEkzdmIweHVzRFhGQ1JiNkp1dzVyYWtWMzJVVy1sc3Z5cGl5dGdzOTdUSUlteDEtN3k3cmRaOWRMXzJRRm5kX2N4Q1JSSFhLRnNVcU1WcndKa2J3?oc=5",
+        "summary": "Goldman Sachs Commits $500 Million to Launch Small Business AI Institute and Expand 10,000 Small Businesses Goldman Sachs",
+        "title": "Goldman Sachs Commits $500 Million to Launch Small Business AI Institute and Expand 10,000 Small Businesses - Goldman Sachs"
+      },
+      {
+        "age_days": 9,
+        "event_type": "filing",
+        "fingerprint": "fcb4e3a0194ba288",
+        "holding_id": "chevron",
+        "holding_name": "Chevron",
+        "published_date": "2026-10-30",
+        "publisher_tier": "primary",
+        "publisher_url": "https://www.sec.gov",
+        "recency_class": "context",
+        "score": 45,
+        "source_kind": "primary",
+        "source_name": "U.S. SEC",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/93410/000009341026000196/cvx-20261030.htm",
+        "summary": "Primary filing dated 2026-10-30. Open the filing for the underlying disclosure.",
+        "title": "Chevron filed 8-K with the SEC"
+      },
+      {
+        "age_days": 9,
+        "event_type": "report",
+        "fingerprint": "abe5b432984670b0",
+        "holding_id": "exxonmobil",
+        "holding_name": "ExxonMobil",
+        "published_date": "2026-10-30",
+        "publisher_tier": "primary",
+        "publisher_url": "https://investor.exxonmobil.com",
+        "recency_class": "context",
+        "score": 45,
+        "source_kind": "primary",
+        "source_name": "ExxonMobil",
+        "source_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMEVVb0V5bFpscWtPTmZqTkUxamM2WVFKek5vM3MyQXc0ZnRLR1FZUnd6cWV6QlNYbXI5cmh0RnBNVVJZTTVOLUp2STZjb1VKanNpVGh4b0xSX2x5RnY4QXI3OWZFQ1RuLXJ1dVF2clowYWE4Wm5Nd01DbWo2blBtanRGQ2NxMFdQdlowazRiX3MyeEpCV2hwSHAzZUtvb0ZnT0tmTVVpbXN3N21MMXFZVlRfbWZXY2pEUlJTRjZMUUJXandr?oc=5",
+        "summary": "ExxonMobil Announces Third-Quarter 2026 Results ExxonMobil",
+        "title": "ExxonMobil Announces Third-Quarter 2026 Results - ExxonMobil"
+      },
+      {
+        "age_days": 9,
+        "event_type": "report",
+        "fingerprint": "ff9ee74cc11c1f9c",
+        "holding_id": "rheinmetall",
+        "holding_name": "Rheinmetall",
+        "published_date": "2026-10-30",
+        "publisher_tier": "primary",
+        "publisher_url": "https://www.rheinmetall.com",
+        "recency_class": "context",
+        "score": 45,
+        "source_kind": "primary",
+        "source_name": "Rheinmetall",
+        "source_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRUtPMFNMajI0Y0twdGliOFIyYTFLMXN3Nk9mUzJGUTdLVXVja2Q1RXEya05ORm14ZjdfYXc4WnlGbWh4S05PbGxoMzVPR0xic0U1T0VQR0d6Q2p1c25obGNjT3ZUTjRjYzI5eGRQeldCSmdfVURtY1JFRGZfMnJKeHgyNG1IdDhQTHpVNEZCUm5DUV9nXzJJNVcta3BKVVNOWFRPa3pTOS12NUhfVlN0dEZmZHQ5YkFhM3hFMmxXQWwxRUw0WHp2YWVPaDQ?oc=5",
+        "summary": "First Caracal vehicles for the German and Dutch armed forces Rheinmetall",
+        "title": "First Caracal vehicles for the German and Dutch armed forces - Rheinmetall"
+      },
+      {
+        "age_days": 9,
+        "event_type": "report",
+        "fingerprint": "a13169059c065751",
+        "holding_id": "bp",
+        "holding_name": "BP",
+        "published_date": "2026-10-30",
+        "publisher_tier": "primary",
+        "publisher_url": "https://www.bp.com",
+        "recency_class": "context",
+        "score": 45,
+        "source_kind": "primary",
+        "source_name": "bp global",
+        "source_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNVhCYTFDNE5UaW5jXzA3b2Q5REJuT3NNT3FONEhWaFhsR2ZucFFWM2tIVk9sdTZQTG1ITjF5NnFhTXRVWWJ2MmZtclBiOFJwWHl2Z0l6MEJ1dHpocVliS09DLVNRNnUzT1M5Q1p3SW5rQ0hIR05fWTB1bnhrektwcDBwbGlDQzNMcWxkMmUyQW81WE5XLTVuOV9B?oc=5",
+        "summary": "Third quarter 2026 results bp global",
+        "title": "Third quarter 2026 results - bp global"
+      },
+      {
+        "age_days": 10,
+        "event_type": "report",
+        "fingerprint": "93c86ad9baae1dc9",
+        "holding_id": "rheinmetall",
+        "holding_name": "Rheinmetall",
+        "published_date": "2026-10-29",
+        "publisher_tier": "primary",
+        "publisher_url": "https://www.rheinmetall.com",
+        "recency_class": "context",
+        "score": 44,
+        "source_kind": "primary",
+        "source_name": "Rheinmetall",
+        "source_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMnZkaHVzVGY4NHppZ1lWWWtqMmRrM2JLdHhBNHJnRV90ZDN0THQ2R3pzY3U1R09pcUtnUUYyR3BRTFlfQmVDVXJ0bEZ0LWdQVWZveWRlVk91Zy1KbDNUVjd6YVlicWVXOGFncDZXUDhNdXNFbThESVEyb1Q3VndJTzJfTE9lWFJOOXEwOF9Zd1lxNkhjUkx6emVIUDNiejVJM1h3Q25UZmp3Ti1vVW52Unhjal8?oc=5",
+        "summary": "Schakal wheeled infantry fighting vehicles for the Bundeswehr and the Dutch armed forces Rheinmetall",
+        "title": "Schakal wheeled infantry fighting vehicles for the Bundeswehr and the Dutch armed forces - Rheinmetall"
+      }
+    ],
+    "quiet_holdings": [
+      "cnx1",
+      "sgln-gold"
+    ],
+    "stories": [
+      {
+        "age_days": 3,
+        "event_type": "operational",
+        "fingerprint": "c6c57140389e4cc6",
+        "holding_id": "ge-aerospace",
+        "holding_name": "GE Aerospace",
+        "market_context": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": 0.027038982438412518,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": 0.06462023392841942,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": 0.07104043508086044,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.06456084807269913,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 3.8904373227200155,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.053816858664491596,
+            "status": "ready"
+          }
+        },
+        "market_context_note": "Price context is shown without asserting that the event caused the move.",
+        "operation_label": "factory or capacity",
+        "published_date": "2026-11-05",
+        "publisher_tier": "secondary",
+        "publisher_url": "https://finance.yahoo.com",
+        "recency_class": "issue",
+        "score": 52,
+        "source_kind": "secondary",
+        "source_name": "Yahoo Finance",
+        "source_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaTlDX1pVaE01VHVsMmdVLXpCU3NNeUt3LWFTZjlaNzFHcXY4aU5yVG15Vl9WSWp2YTkyNHFvVktlSERTaXpPM1p5Q2lpbXBreHVzV3JWNS1Gb1g2V0Ffa0t0aEV2eHl0TjZkZTJxU2sxVWZxMUZRb3EzcE5RcGlaTHgyaHlNdnVtVE1ZcDBhdjNONzRieU5zaG5mMmpPQVkybnc?oc=5",
+        "summary": "Boeing’s factories stall, yet this aviation supplier’s orders jumped 49% Yahoo Finance",
+        "title": "Boeing’s factories stall, yet this aviation supplier’s orders jumped 49% - Yahoo Finance"
+      },
+      {
+        "age_days": 0,
+        "event_type": "operational",
+        "fingerprint": "8cdb89966339073f",
+        "holding_id": "lockheed-martin",
+        "holding_name": "Lockheed Martin",
+        "market_context": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.015759435700670843,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": 0.13593208546164592,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.10969462874735625,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.2405805534857952,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 0.9071931011859513,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.19368502032699864,
+            "status": "ready"
+          }
+        },
+        "market_context_note": "Price context is shown without asserting that the event caused the move.",
+        "operation_label": "production",
+        "published_date": "2026-11-08",
+        "publisher_tier": "secondary",
+        "publisher_url": "https://defence-industry.eu",
+        "recency_class": "issue",
+        "score": 52,
+        "source_kind": "secondary",
+        "source_name": "Defence Industry Europe",
+        "source_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOM1JLd3hJV1dKek11LUhOeFpoWU1Ua3BMcTNZQnd5VFVZWEJwb3JQbDBXaXRWanZOeUR6M2ppZzZwVWtmRG5wXzR5bjRhUW1jZ29hSGdWdU5Db1RSMnVDMzByVTJUT0RiMWxwWWZwWW1haThBSHlKLTU2dEJtSmpBdDV6Q1J1aFMwSldPekMtZ1JTMDlmRk1MaFhwRnpPVkJpR3dJTFItbDRWOVl4LVliQ1BFR0N0d0ZUMlYxYzIyeG1RQ1k?oc=5",
+        "summary": "Lockheed Martin top managers say company will invest over $8 billion to expand missile production Defence Industry Europe",
+        "title": "Lockheed Martin top managers say company will invest over $8 billion to expand missile production - Defence Industry Europe"
+      },
+      {
+        "age_days": 5,
+        "event_type": "operational",
+        "fingerprint": "e242edf3e3aaff1c",
+        "holding_id": "mufg",
+        "holding_name": "MUFG",
+        "market_context": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.008041631263263738,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": -0.07417220036138794,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.02736549974507041,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.38966196829361843,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 2.9086746197256486,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.3221941840823468,
+            "status": "ready"
+          }
+        },
+        "market_context_note": "Price context is shown without asserting that the event caused the move.",
+        "operation_label": "financing",
+        "published_date": "2026-11-03",
+        "publisher_tier": "secondary",
+        "publisher_url": "https://www.stocktitan.net",
+        "recency_class": "issue",
+        "score": 52,
+        "source_kind": "secondary",
+        "source_name": "Stock Titan",
+        "source_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbmZIQ0xWVlFWc0hvemJ1WFhwbzhObVlTenJRWUQ5VFAzQVI5Q1RmVzBLUHFEY3dTa1JsN29DVXhLajJpSDRGcmFKVGV6VmFsZjNBd1FFVWJjV1Mwa21ydXp4enJ4cVA3ZGRiNjBWaDk4OGdkOXUyRjFvZnFuNFpudmtmNkNSTE92OU92d2xuOGdEMTdQVUpFSlVqQk55RmsxSGZhMndVSVRrU2tUV2VuYktRS2RqVnJOampLY3Nn?oc=5",
+        "summary": "An $850 million bond deal earned MUFG an aviation finance award. Stock Titan",
+        "title": "An $850 million bond deal earned MUFG an aviation finance award. - Stock Titan"
+      }
+    ],
+    "voices_worth_reading": {
+      "note": "Optional X enrichment is not configured and is not required.",
+      "status": "not-configured"
+    }
+  },
+  "generated_at": "2026-11-08T23:04:07+00:00",
+  "image": {
+    "alt": "Aircraft engine test setup in NASA Glenn's low-speed wind tunnel",
+    "caption": "Aircraft engine test setup in NASA Glenn's 9-by-15-foot low-speed wind tunnel.",
+    "credit": "NASA Glenn Research Center",
+    "depiction_note": "Historical technical image only. It does not depict a named holding or current event.",
+    "image_url": "https://www.nasa.gov/wp-content/uploads/2023/01/GRC-2022-C-04045.jpg?w=1600",
+    "path": "/assets/nasa-engine-test.jpg",
+    "reuse_note": "Informational web reuse permitted under NASA's Images and Media guidance.",
+    "source": "https://www.nasa.gov/nasa-glenn-virtual-tours/"
+  },
+  "instruments": [
+    {
+      "asset_type": "equity",
+      "country": "UK",
+      "coverage": "verified-2026-09-21",
+      "currency": "GBX",
+      "exchange": "LSE",
+      "id": "bae-systems",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": true,
+        "adjustment_status": "adjusted",
+        "bar_count": 1534,
+        "close_tail": [
+          {
+            "close": 1930.5,
+            "date": "2026-10-22",
+            "volume": 2641087
+          },
+          {
+            "close": 1932.0,
+            "date": "2026-10-23",
+            "volume": 4594319
+          },
+          {
+            "close": 2012.0,
+            "date": "2026-10-26",
+            "volume": 3436938
+          },
+          {
+            "close": 2037.0,
+            "date": "2026-10-27",
+            "volume": 3845469
+          },
+          {
+            "close": 2025.0,
+            "date": "2026-10-28",
+            "volume": 3594431
+          },
+          {
+            "close": 2070.0,
+            "date": "2026-10-29",
+            "volume": 3190761
+          },
+          {
+            "close": 2070.0,
+            "date": "2026-10-30",
+            "volume": 5948522
+          },
+          {
+            "close": 2073.0,
+            "date": "2026-11-02",
+            "volume": 4946294
+          },
+          {
+            "close": 2075.0,
+            "date": "2026-11-03",
+            "volume": 3116557
+          },
+          {
+            "close": 1988.0,
+            "date": "2026-11-04",
+            "volume": 6065356
+          },
+          {
+            "close": 1880.5,
+            "date": "2026-11-05",
+            "volume": 8951125
+          },
+          {
+            "close": 1846.0,
+            "date": "2026-11-06",
+            "volume": 7582268
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 9.4,
+            "date": "2020-10-22",
+            "type": "dividend"
+          },
+          {
+            "amount": 14.300001,
+            "date": "2021-04-22",
+            "type": "dividend"
+          },
+          {
+            "amount": 9.9,
+            "date": "2021-10-21",
+            "type": "dividend"
+          },
+          {
+            "amount": 15.2,
+            "date": "2022-04-21",
+            "type": "dividend"
+          },
+          {
+            "amount": 10.400001,
+            "date": "2022-10-20",
+            "type": "dividend"
+          },
+          {
+            "amount": 16.599998,
+            "date": "2023-04-20",
+            "type": "dividend"
+          },
+          {
+            "amount": 11.5,
+            "date": "2023-10-19",
+            "type": "dividend"
+          },
+          {
+            "amount": 18.5,
+            "date": "2024-04-18",
+            "type": "dividend"
+          },
+          {
+            "amount": 12.4,
+            "date": "2024-10-24",
+            "type": "dividend"
+          },
+          {
+            "amount": 20.6,
+            "date": "2025-04-17",
+            "type": "dividend"
+          },
+          {
+            "amount": 13.500001,
+            "date": "2025-10-23",
+            "type": "dividend"
+          },
+          {
+            "amount": 22.8,
+            "date": "2026-04-23",
+            "type": "dividend"
+          },
+          {
+            "amount": 15.000001,
+            "date": "2026-10-22",
+            "type": "dividend"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BA.L?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 1846.0,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.018346184525392162,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": 0.011031372966166852,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.10821256038647342,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.019515457467693675,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 2.2199122097686312,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.0772126874366803,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.203125,
+        "dist_from_high": 0.20791828623490782,
+        "gates": {
+          "g1_price_above_150_200": false,
+          "g2_sma150_above_sma200": false,
+          "g3_sma200_trending_up": true,
+          "g4_sma50_above_150_200": false,
+          "g5_price_above_sma50": false,
+          "g6_30pct_above_52w_low": false,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 2,
+        "high_52w": 2330.56762695,
+        "k_ratio": 4.388442745401211,
+        "low_52w": 1609.20153809,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.203125,
+        "portfolio_rs_rating": 13.2,
+        "price": 1846.0,
+        "rank_overall": 14,
+        "return_12m": 0.021772276290877635,
+        "return_3m": -0.17729803493823892,
+        "return_6m": -0.041462503126131756,
+        "return_9m": -0.04999101971409514,
+        "rs_rating": 13.2,
+        "score_components": {
+          "high_proximity_percentile": 0.25,
+          "k_ratio_percentile": 0.25,
+          "one_year_percentile": 0.1875,
+          "rs_percentile": 0.125
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 1994.4201643878,
+        "sma200": 2025.29939819325,
+        "sma200_21d_ago": 2022.29094055175,
+        "sma50": 1960.7649804684,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 3,
+        "weighted_perf": -0.08485546328516543
+      },
+      "name": "BAE Systems",
+      "return_basis": "adjusted_close",
+      "return_basis_comparable": true,
+      "symbol": "BA.L"
+    },
+    {
+      "asset_type": "equity",
+      "country": "US",
+      "coverage": "verified-2026-09-21",
+      "currency": "USD",
+      "exchange": "NYSE",
+      "id": "ge-aerospace",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": true,
+        "adjustment_status": "adjusted",
+        "bar_count": 1526,
+        "close_tail": [
+          {
+            "close": 293.54000854,
+            "date": "2026-10-22",
+            "volume": 6372000
+          },
+          {
+            "close": 285.64001465,
+            "date": "2026-10-23",
+            "volume": 6517500
+          },
+          {
+            "close": 288.42999268,
+            "date": "2026-10-26",
+            "volume": 6686900
+          },
+          {
+            "close": 297.66000366,
+            "date": "2026-10-27",
+            "volume": 6888500
+          },
+          {
+            "close": 301.13000488,
+            "date": "2026-10-28",
+            "volume": 5711100
+          },
+          {
+            "close": 313.04998779,
+            "date": "2026-10-29",
+            "volume": 5821600
+          },
+          {
+            "close": 301.79998779,
+            "date": "2026-10-30",
+            "volume": 5101600
+          },
+          {
+            "close": 315.77999878,
+            "date": "2026-11-02",
+            "volume": 4830000
+          },
+          {
+            "close": 320.67001343,
+            "date": "2026-11-03",
+            "volume": 5423000
+          },
+          {
+            "close": 329.45001221,
+            "date": "2026-11-04",
+            "volume": 6487900
+          },
+          {
+            "close": 314.73001099,
+            "date": "2026-11-05",
+            "volume": 6546500
+          },
+          {
+            "close": 323.23999023,
+            "date": "2026-11-06",
+            "volume": 5308600
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 0.049841,
+            "date": "2020-12-18",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.049841,
+            "date": "2021-03-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.049841,
+            "date": "2021-06-25",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.049841,
+            "date": "2021-09-24",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.049841,
+            "date": "2021-12-20",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.049841,
+            "date": "2022-03-07",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.049841,
+            "date": "2022-06-27",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.049841,
+            "date": "2022-09-26",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.049841,
+            "date": "2022-12-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.063847,
+            "date": "2023-03-06",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.063847,
+            "date": "2023-07-10",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.063847,
+            "date": "2023-09-25",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.063847,
+            "date": "2023-12-27",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.28,
+            "date": "2024-04-12",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.28,
+            "date": "2024-07-11",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.28,
+            "date": "2024-09-26",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.28,
+            "date": "2024-12-27",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.36,
+            "date": "2025-03-10",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.36,
+            "date": "2025-07-07",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.36,
+            "date": "2025-09-29",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.36,
+            "date": "2025-12-29",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.47,
+            "date": "2026-03-09",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.47,
+            "date": "2026-07-06",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.47,
+            "date": "2026-10-05",
+            "type": "dividend"
+          },
+          {
+            "date": "2021-08-02",
+            "denominator": 8.0,
+            "numerator": 1.0,
+            "type": "split"
+          },
+          {
+            "date": "2023-01-04",
+            "denominator": 1000.0,
+            "numerator": 1281.0,
+            "type": "split"
+          },
+          {
+            "date": "2024-04-02",
+            "denominator": 1000.0,
+            "numerator": 1253.0,
+            "type": "split"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GE?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 323.23999023,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": 0.027038982438412518,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": 0.06462023392841942,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": 0.07104043508086044,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.06456084807269913,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 3.8904373227200155,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.053816858664491596,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.421875,
+        "dist_from_high": 0.1508013685108953,
+        "gates": {
+          "g1_price_above_150_200": false,
+          "g2_sma150_above_sma200": true,
+          "g3_sma200_trending_up": false,
+          "g4_sma50_above_150_200": false,
+          "g5_price_above_sma50": true,
+          "g6_30pct_above_52w_low": false,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 3,
+        "high_52w": 380.64120483,
+        "k_ratio": 6.687771501985212,
+        "low_52w": 272.49545288,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.421875,
+        "portfolio_rs_rating": 50.0,
+        "price": 323.23999023,
+        "rank_overall": 10,
+        "return_12m": 0.06511901567945699,
+        "return_3m": -0.11717615806768611,
+        "return_6m": 0.09081295877597406,
+        "return_9m": 0.011237394626806951,
+        "rs_rating": 50.0,
+        "score_components": {
+          "high_proximity_percentile": 0.5625,
+          "k_ratio_percentile": 0.3125,
+          "one_year_percentile": 0.3125,
+          "rs_percentile": 0.5
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 326.1943912758667,
+        "sma200": 322.165009918,
+        "sma200_21d_ago": 323.1051255796,
+        "sma50": 314.4069067382,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 4,
+        "weighted_perf": -0.013436589410626844
+      },
+      "name": "GE Aerospace",
+      "return_basis": "adjusted_close",
+      "return_basis_comparable": true,
+      "symbol": "GE"
+    },
+    {
+      "asset_type": "equity",
+      "country": "US",
+      "coverage": "verified-2026-09-21",
+      "currency": "USD",
+      "exchange": "NYSE",
+      "id": "lockheed-martin",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": true,
+        "adjustment_status": "adjusted",
+        "bar_count": 1526,
+        "close_tail": [
+          {
+            "close": 589.90997314,
+            "date": "2026-10-22",
+            "volume": 2957700
+          },
+          {
+            "close": 604.17999268,
+            "date": "2026-10-23",
+            "volume": 1815900
+          },
+          {
+            "close": 635.20001221,
+            "date": "2026-10-26",
+            "volume": 2666700
+          },
+          {
+            "close": 622.98999023,
+            "date": "2026-10-27",
+            "volume": 2223900
+          },
+          {
+            "close": 629.75,
+            "date": "2026-10-28",
+            "volume": 1662900
+          },
+          {
+            "close": 643.59002686,
+            "date": "2026-10-29",
+            "volume": 2051100
+          },
+          {
+            "close": 636.95001221,
+            "date": "2026-10-30",
+            "volume": 1872300
+          },
+          {
+            "close": 643.15002441,
+            "date": "2026-11-02",
+            "volume": 1558000
+          },
+          {
+            "close": 639.0,
+            "date": "2026-11-03",
+            "volume": 1269100
+          },
+          {
+            "close": 595.03997803,
+            "date": "2026-11-04",
+            "volume": 3056800
+          },
+          {
+            "close": 576.15997314,
+            "date": "2026-11-05",
+            "volume": 1778100
+          },
+          {
+            "close": 567.08001709,
+            "date": "2026-11-06",
+            "volume": 1387400
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 2.6,
+            "date": "2020-11-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.6,
+            "date": "2021-02-26",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.6,
+            "date": "2021-05-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.6,
+            "date": "2021-08-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.8,
+            "date": "2021-11-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.8,
+            "date": "2022-02-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.8,
+            "date": "2022-05-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.8,
+            "date": "2022-08-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.0,
+            "date": "2022-11-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.0,
+            "date": "2023-02-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.0,
+            "date": "2023-05-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.0,
+            "date": "2023-08-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.15,
+            "date": "2023-11-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.15,
+            "date": "2024-02-29",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.15,
+            "date": "2024-06-03",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.15,
+            "date": "2024-09-03",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.3,
+            "date": "2024-12-02",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.3,
+            "date": "2025-03-03",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.3,
+            "date": "2025-06-02",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.3,
+            "date": "2025-09-02",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.45,
+            "date": "2025-12-01",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.45,
+            "date": "2026-03-02",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.45,
+            "date": "2026-06-01",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.45,
+            "date": "2026-09-01",
+            "type": "dividend"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/LMT?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 567.08001709,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.015759435700670843,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": 0.13593208546164592,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.10969462874735625,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.2405805534857952,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 0.9071931011859513,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.19368502032699864,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.53125,
+        "dist_from_high": 0.15128874586086374,
+        "gates": {
+          "g1_price_above_150_200": true,
+          "g2_sma150_above_sma200": false,
+          "g3_sma200_trending_up": true,
+          "g4_sma50_above_150_200": false,
+          "g5_price_above_sma50": true,
+          "g6_30pct_above_52w_low": true,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 5,
+        "high_52w": 668.16601562,
+        "k_ratio": 3.8223699151992703,
+        "low_52w": 431.37786865,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.53125,
+        "portfolio_rs_rating": 68.4,
+        "price": 567.08001709,
+        "rank_overall": 9,
+        "return_12m": 0.22951555423742542,
+        "return_3m": -0.05400295781480491,
+        "return_6m": 0.133882653713693,
+        "return_9m": -0.07413689860714978,
+        "rs_rating": 68.4,
+        "score_components": {
+          "high_proximity_percentile": 0.5,
+          "k_ratio_percentile": 0.1875,
+          "one_year_percentile": 0.75,
+          "rs_percentile": 0.6875
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 543.6102880861333,
+        "sma200": 564.132848816,
+        "sma200_21d_ago": 557.7431907655,
+        "sma50": 548.0566809084,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 5,
+        "weighted_perf": 0.03625107874287177
+      },
+      "name": "Lockheed Martin",
+      "return_basis": "adjusted_close",
+      "return_basis_comparable": true,
+      "symbol": "LMT"
+    },
+    {
+      "asset_type": "equity",
+      "country": "Germany",
+      "coverage": "verified-2026-09-21",
+      "currency": "EUR",
+      "exchange": "XETRA",
+      "id": "rheinmetall",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": true,
+        "adjustment_status": "adjusted",
+        "bar_count": 1548,
+        "close_tail": [
+          {
+            "close": 1015.0,
+            "date": "2026-10-22",
+            "volume": 120992
+          },
+          {
+            "close": 1019.0,
+            "date": "2026-10-23",
+            "volume": 104008
+          },
+          {
+            "close": 1034.19995117,
+            "date": "2026-10-26",
+            "volume": 98827
+          },
+          {
+            "close": 1025.19995117,
+            "date": "2026-10-27",
+            "volume": 126795
+          },
+          {
+            "close": 1012.0,
+            "date": "2026-10-28",
+            "volume": 96292
+          },
+          {
+            "close": 1048.19995117,
+            "date": "2026-10-29",
+            "volume": 165848
+          },
+          {
+            "close": 1037.59997559,
+            "date": "2026-10-30",
+            "volume": 101613
+          },
+          {
+            "close": 1000.0,
+            "date": "2026-11-02",
+            "volume": 221111
+          },
+          {
+            "close": 1004.79998779,
+            "date": "2026-11-03",
+            "volume": 121359
+          },
+          {
+            "close": 1003.40002441,
+            "date": "2026-11-04",
+            "volume": 190353
+          },
+          {
+            "close": 841.5,
+            "date": "2026-11-05",
+            "volume": 1102450
+          },
+          {
+            "close": 812.70001221,
+            "date": "2026-11-06",
+            "volume": 500264
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 2.0,
+            "date": "2021-05-12",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.3,
+            "date": "2022-05-11",
+            "type": "dividend"
+          },
+          {
+            "amount": 4.3,
+            "date": "2023-05-10",
+            "type": "dividend"
+          },
+          {
+            "amount": 5.7,
+            "date": "2024-05-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 8.1,
+            "date": "2025-05-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 11.5,
+            "date": "2026-05-13",
+            "type": "dividend"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RHM.DE?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 812.70001221,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.03422458442067744,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": -0.12254372544130976,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.21675016255866564,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": -0.5194241713308474,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 8.862919749060485,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 1,
+            "base_date": "2025-12-30",
+            "latest_date": "2026-11-06",
+            "return": -0.4741681544828763,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.0625,
+        "dist_from_high": 0.572487773371991,
+        "gates": {
+          "g1_price_above_150_200": false,
+          "g2_sma150_above_sma200": false,
+          "g3_sma200_trending_up": false,
+          "g4_sma50_above_150_200": false,
+          "g5_price_above_sma50": false,
+          "g6_30pct_above_52w_low": false,
+          "g7_within_25pct_of_52w_high": false,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 0,
+        "high_52w": 1900.99829102,
+        "k_ratio": -33.223611513862366,
+        "low_52w": 812.70001221,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.0625,
+        "portfolio_rs_rating": 7.1,
+        "price": 812.70001221,
+        "rank_overall": 16,
+        "return_12m": -0.5306898155770302,
+        "return_3m": -0.2884783339576231,
+        "return_6m": -0.28910072872357306,
+        "return_9m": -0.48440735455588235,
+        "rs_rating": 7.1,
+        "score_components": {
+          "high_proximity_percentile": 0.0625,
+          "k_ratio_percentile": 0.0625,
+          "one_year_percentile": 0.0625,
+          "rs_percentile": 0.0625
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 1123.2660502115332,
+        "sma200": 1240.6997543336502,
+        "sma200_21d_ago": 1322.878694153,
+        "sma50": 1001.2920019526,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 3,
+        "weighted_perf": -0.37623091335434644
+      },
+      "name": "Rheinmetall",
+      "return_basis": "adjusted_close",
+      "return_basis_comparable": true,
+      "symbol": "RHM.DE"
+    },
+    {
+      "asset_type": "equity",
+      "country": "UK",
+      "coverage": "verified-2026-09-21",
+      "currency": "GBX",
+      "exchange": "LSE",
+      "id": "rolls-royce",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": false,
+        "adjustment_status": "unavailable",
+        "bar_count": 1533,
+        "close_tail": [
+          {
+            "close": 1259.59997559,
+            "date": "2026-10-22",
+            "volume": 41591676
+          },
+          {
+            "close": 1164.19995117,
+            "date": "2026-10-23",
+            "volume": 40179078
+          },
+          {
+            "close": 1234.80004883,
+            "date": "2026-10-26",
+            "volume": 30467862
+          },
+          {
+            "close": 1242.40002441,
+            "date": "2026-10-27",
+            "volume": 12693325
+          },
+          {
+            "close": 1263.0,
+            "date": "2026-10-28",
+            "volume": 9838606
+          },
+          {
+            "close": 1280.0,
+            "date": "2026-10-29",
+            "volume": 8854480
+          },
+          {
+            "close": 1239.40002441,
+            "date": "2026-10-30",
+            "volume": 15120974
+          },
+          {
+            "close": 1276.19995117,
+            "date": "2026-11-02",
+            "volume": 9293596
+          },
+          {
+            "close": 1260.59997559,
+            "date": "2026-11-03",
+            "volume": 29656563
+          },
+          {
+            "close": 1262.80004883,
+            "date": "2026-11-04",
+            "volume": 39347905
+          },
+          {
+            "close": 1239.59997559,
+            "date": "2026-11-05",
+            "volume": 34634261
+          },
+          {
+            "close": 1261.19995117,
+            "date": "2026-11-06",
+            "volume": 22906446
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 6.0,
+            "date": "2025-04-17",
+            "type": "dividend"
+          },
+          {
+            "amount": 4.5,
+            "date": "2025-08-07",
+            "type": "dividend"
+          },
+          {
+            "amount": 5.0,
+            "date": "2026-04-23",
+            "type": "dividend"
+          },
+          {
+            "amount": 6.0,
+            "date": "2026-08-06",
+            "type": "dividend"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RR.L?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 1261.19995117,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": 0.01742495644187092,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": -0.10196530244305535,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": 0.017589096603719767,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.11462655870083971,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 7.823282003926067,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.09669560971304358,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.421875,
+        "dist_from_high": 0.19689255503938657,
+        "gates": {
+          "g1_price_above_150_200": false,
+          "g2_sma150_above_sma200": true,
+          "g3_sma200_trending_up": true,
+          "g4_sma50_above_150_200": true,
+          "g5_price_above_sma50": false,
+          "g6_30pct_above_52w_low": false,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 4,
+        "high_52w": 1570.40002441,
+        "k_ratio": 16.812328877754574,
+        "low_52w": 1029.0,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.421875,
+        "portfolio_rs_rating": 31.6,
+        "price": 1261.19995117,
+        "rank_overall": 12,
+        "return_12m": 0.1077733431444885,
+        "return_3m": -0.18103899274675317,
+        "return_6m": 0.05894202449202357,
+        "return_9m": -0.01082356770980386,
+        "rs_rating": 31.6,
+        "score_components": {
+          "high_proximity_percentile": 0.375,
+          "k_ratio_percentile": 0.5625,
+          "one_year_percentile": 0.4375,
+          "rs_percentile": 0.3125
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 1365.8786629229999,
+        "sma200": 1335.8219970701998,
+        "sma200_21d_ago": 1329.85399780255,
+        "sma50": 1392.4039965822,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 3,
+        "weighted_perf": -0.04123723711335962
+      },
+      "name": "Rolls-Royce",
+      "return_basis": "unadjusted_close",
+      "return_basis_comparable": false,
+      "symbol": "RR.L"
+    },
+    {
+      "asset_type": "equity",
+      "country": "US",
+      "coverage": "verified-2026-09-21",
+      "currency": "USD",
+      "exchange": "NYSE",
+      "id": "jpmorgan",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": true,
+        "adjustment_status": "adjusted",
+        "bar_count": 1526,
+        "close_tail": [
+          {
+            "close": 336.54000854,
+            "date": "2026-10-22",
+            "volume": 6199100
+          },
+          {
+            "close": 331.57998657,
+            "date": "2026-10-23",
+            "volume": 4779500
+          },
+          {
+            "close": 334.04000854,
+            "date": "2026-10-26",
+            "volume": 6226500
+          },
+          {
+            "close": 335.79000854,
+            "date": "2026-10-27",
+            "volume": 4711400
+          },
+          {
+            "close": 339.29998779,
+            "date": "2026-10-28",
+            "volume": 5221500
+          },
+          {
+            "close": 343.57998657,
+            "date": "2026-10-29",
+            "volume": 5806400
+          },
+          {
+            "close": 337.04000854,
+            "date": "2026-10-30",
+            "volume": 7904700
+          },
+          {
+            "close": 340.57998657,
+            "date": "2026-11-02",
+            "volume": 6014700
+          },
+          {
+            "close": 337.98001099,
+            "date": "2026-11-03",
+            "volume": 6764300
+          },
+          {
+            "close": 352.10998535,
+            "date": "2026-11-04",
+            "volume": 10378200
+          },
+          {
+            "close": 337.33999634,
+            "date": "2026-11-05",
+            "volume": 12951600
+          },
+          {
+            "close": 334.48999023,
+            "date": "2026-11-06",
+            "volume": 7818400
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 0.9,
+            "date": "2021-01-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.9,
+            "date": "2021-04-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.9,
+            "date": "2021-07-02",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.0,
+            "date": "2021-10-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.0,
+            "date": "2022-01-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.0,
+            "date": "2022-04-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.0,
+            "date": "2022-07-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.0,
+            "date": "2022-10-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.0,
+            "date": "2023-01-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.0,
+            "date": "2023-04-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.0,
+            "date": "2023-07-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.05,
+            "date": "2023-10-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.05,
+            "date": "2024-01-04",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.15,
+            "date": "2024-04-04",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.15,
+            "date": "2024-07-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.25,
+            "date": "2024-10-04",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.25,
+            "date": "2025-01-06",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.4,
+            "date": "2025-04-04",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.4,
+            "date": "2025-07-03",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.5,
+            "date": "2025-10-06",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.5,
+            "date": "2026-01-06",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.5,
+            "date": "2026-04-06",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.5,
+            "date": "2026-07-06",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.65,
+            "date": "2026-10-06",
+            "type": "dividend"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/JPM?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 334.48999023,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.008448467839335505,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": 0.01489776036190582,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.007565921687001542,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.0877805306110433,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 1.253347183014025,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.058072627506628116,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.609375,
+        "dist_from_high": 0.07947111974715662,
+        "gates": {
+          "g1_price_above_150_200": true,
+          "g2_sma150_above_sma200": true,
+          "g3_sma200_trending_up": true,
+          "g4_sma50_above_150_200": true,
+          "g5_price_above_sma50": false,
+          "g6_30pct_above_52w_low": false,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 5,
+        "high_52w": 363.3671875,
+        "k_ratio": 15.685509312431007,
+        "low_52w": 278.7472229,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.609375,
+        "portfolio_rs_rating": 62.2,
+        "price": 334.48999023,
+        "rank_overall": 6,
+        "return_12m": 0.09385334182732841,
+        "return_3m": -0.0656806926542447,
+        "return_6m": 0.11775271553168043,
+        "return_9m": 0.05273334866301016,
+        "rs_rating": 62.2,
+        "score_components": {
+          "high_proximity_percentile": 0.9375,
+          "k_ratio_percentile": 0.5,
+          "one_year_percentile": 0.375,
+          "rs_percentile": 0.625
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 330.1685044344666,
+        "sma200": 321.2748762507,
+        "sma200_21d_ago": 319.00002960165,
+        "sma50": 340.9329101556,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 3,
+        "weighted_perf": 0.026595604142705922
+      },
+      "name": "JPMorgan Chase",
+      "return_basis": "adjusted_close",
+      "return_basis_comparable": true,
+      "symbol": "JPM"
+    },
+    {
+      "asset_type": "equity",
+      "country": "US",
+      "coverage": "verified-2026-09-21",
+      "currency": "USD",
+      "exchange": "NYSE",
+      "id": "goldman-sachs",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": true,
+        "adjustment_status": "adjusted",
+        "bar_count": 1526,
+        "close_tail": [
+          {
+            "close": 891.29998779,
+            "date": "2026-10-22",
+            "volume": 2032900
+          },
+          {
+            "close": 875.67999268,
+            "date": "2026-10-23",
+            "volume": 1781600
+          },
+          {
+            "close": 893.2800293,
+            "date": "2026-10-26",
+            "volume": 1859100
+          },
+          {
+            "close": 911.77001953,
+            "date": "2026-10-27",
+            "volume": 1850500
+          },
+          {
+            "close": 925.16998291,
+            "date": "2026-10-28",
+            "volume": 1896400
+          },
+          {
+            "close": 927.72998047,
+            "date": "2026-10-29",
+            "volume": 1485500
+          },
+          {
+            "close": 894.54998779,
+            "date": "2026-10-30",
+            "volume": 2153100
+          },
+          {
+            "close": 898.7199707,
+            "date": "2026-11-02",
+            "volume": 1859200
+          },
+          {
+            "close": 896.09002686,
+            "date": "2026-11-03",
+            "volume": 1434000
+          },
+          {
+            "close": 928.0,
+            "date": "2026-11-04",
+            "volume": 2819700
+          },
+          {
+            "close": 868.95001221,
+            "date": "2026-11-05",
+            "volume": 3876400
+          },
+          {
+            "close": 865.82000732,
+            "date": "2026-11-06",
+            "volume": 2481600
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 1.25,
+            "date": "2020-12-01",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.25,
+            "date": "2021-03-01",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.25,
+            "date": "2021-05-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.0,
+            "date": "2021-08-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.0,
+            "date": "2021-12-01",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.0,
+            "date": "2022-03-01",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.0,
+            "date": "2022-05-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.5,
+            "date": "2022-08-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.5,
+            "date": "2022-11-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.5,
+            "date": "2023-03-01",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.5,
+            "date": "2023-05-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.75,
+            "date": "2023-08-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.75,
+            "date": "2023-11-29",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.75,
+            "date": "2024-02-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 2.75,
+            "date": "2024-05-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.0,
+            "date": "2024-08-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.0,
+            "date": "2024-12-02",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.0,
+            "date": "2025-02-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.0,
+            "date": "2025-05-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 4.0,
+            "date": "2025-08-29",
+            "type": "dividend"
+          },
+          {
+            "amount": 4.0,
+            "date": "2025-12-02",
+            "type": "dividend"
+          },
+          {
+            "amount": 4.5,
+            "date": "2026-03-02",
+            "type": "dividend"
+          },
+          {
+            "amount": 4.5,
+            "date": "2026-06-01",
+            "type": "dividend"
+          },
+          {
+            "amount": 5.0,
+            "date": "2026-09-01",
+            "type": "dividend"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GS?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 865.82000732,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.0036020540261452183,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": -0.02410930233013453,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.032116685330216166,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.1209644995130097,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 1.4008997622543373,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": -0.0005755344488438396,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.3125,
+        "dist_from_high": 0.24478505626247127,
+        "gates": {
+          "g1_price_above_150_200": false,
+          "g2_sma150_above_sma200": true,
+          "g3_sma200_trending_up": false,
+          "g4_sma50_above_150_200": false,
+          "g5_price_above_sma50": false,
+          "g6_30pct_above_52w_low": false,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 2,
+        "high_52w": 1146.45507812,
+        "k_ratio": 10.48536978643421,
+        "low_52w": 758.77618408,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.3125,
+        "portfolio_rs_rating": 25.5,
+        "price": 865.82000732,
+        "rank_overall": 13,
+        "return_12m": 0.11317654616051986,
+        "return_3m": -0.158963666151273,
+        "return_6m": -0.06683005830061917,
+        "return_9m": -0.05411136239779746,
+        "rs_rating": 25.5,
+        "score_components": {
+          "high_proximity_percentile": 0.125,
+          "k_ratio_percentile": 0.375,
+          "one_year_percentile": 0.5,
+          "rs_percentile": 0.25
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 978.7750577799334,
+        "sma200": 950.2913085935,
+        "sma200_21d_ago": 952.5917837522,
+        "sma50": 932.310814209,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 1,
+        "weighted_perf": -0.06513844136808858
+      },
+      "name": "Goldman Sachs",
+      "return_basis": "adjusted_close",
+      "return_basis_comparable": true,
+      "symbol": "GS"
+    },
+    {
+      "asset_type": "equity",
+      "country": "UK",
+      "coverage": "verified-2026-09-21",
+      "currency": "GBX",
+      "exchange": "LSE",
+      "id": "hsbc",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": false,
+        "adjustment_status": "unavailable",
+        "bar_count": 1533,
+        "close_tail": [
+          {
+            "close": 1366.59997559,
+            "date": "2026-10-22",
+            "volume": 15097548
+          },
+          {
+            "close": 1352.0,
+            "date": "2026-10-23",
+            "volume": 35986370
+          },
+          {
+            "close": 1365.40002441,
+            "date": "2026-10-26",
+            "volume": 24767349
+          },
+          {
+            "close": 1291.40002441,
+            "date": "2026-10-27",
+            "volume": 41534015
+          },
+          {
+            "close": 1296.59997559,
+            "date": "2026-10-28",
+            "volume": 14457345
+          },
+          {
+            "close": 1292.59997559,
+            "date": "2026-10-29",
+            "volume": 38935560
+          },
+          {
+            "close": 1277.0,
+            "date": "2026-10-30",
+            "volume": 19020607
+          },
+          {
+            "close": 1283.40002441,
+            "date": "2026-11-02",
+            "volume": 21114977
+          },
+          {
+            "close": 1258.0,
+            "date": "2026-11-03",
+            "volume": 35442667
+          },
+          {
+            "close": 1318.19995117,
+            "date": "2026-11-04",
+            "volume": 25598097
+          },
+          {
+            "close": 1307.40002441,
+            "date": "2026-11-05",
+            "volume": 18715161
+          },
+          {
+            "close": 1304.59997559,
+            "date": "2026-11-06",
+            "volume": 29962782
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 10.7923,
+            "date": "2021-03-11",
+            "type": "dividend"
+          },
+          {
+            "amount": 5.1203003,
+            "date": "2021-08-19",
+            "type": "dividend"
+          },
+          {
+            "amount": 13.8188,
+            "date": "2022-03-10",
+            "type": "dividend"
+          },
+          {
+            "amount": 7.8821,
+            "date": "2022-08-18",
+            "type": "dividend"
+          },
+          {
+            "amount": 18.5392,
+            "date": "2023-03-02",
+            "type": "dividend"
+          },
+          {
+            "amount": 7.9378,
+            "date": "2023-05-11",
+            "type": "dividend"
+          },
+          {
+            "amount": 7.9779997,
+            "date": "2023-08-10",
+            "type": "dividend"
+          },
+          {
+            "amount": 7.9529004,
+            "date": "2023-11-09",
+            "type": "dividend"
+          },
+          {
+            "amount": 24.8286,
+            "date": "2024-03-07",
+            "type": "dividend"
+          },
+          {
+            "amount": 24.3432,
+            "date": "2024-05-09",
+            "type": "dividend"
+          },
+          {
+            "amount": 7.5817,
+            "date": "2024-08-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 7.8285003,
+            "date": "2024-11-07",
+            "type": "dividend"
+          },
+          {
+            "amount": 27.319801,
+            "date": "2025-03-06",
+            "type": "dividend"
+          },
+          {
+            "amount": 7.3666997,
+            "date": "2025-05-08",
+            "type": "dividend"
+          },
+          {
+            "amount": 7.3562,
+            "date": "2025-08-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 7.5079,
+            "date": "2025-11-06",
+            "type": "dividend"
+          },
+          {
+            "amount": 33.3016,
+            "date": "2026-03-12",
+            "type": "dividend"
+          },
+          {
+            "amount": 7.4488997,
+            "date": "2026-05-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 7.4134,
+            "date": "2026-08-13",
+            "type": "dividend"
+          },
+          {
+            "amount": 7.4902,
+            "date": "2026-11-05",
+            "type": "dividend"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/HSBA.L?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 1304.59997559,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.002141692494815106,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": -0.07343751733664772,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": 0.021613136718872328,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.1981997768937407,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 1.9836477429159518,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.11143288577162402,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.5625,
+        "dist_from_high": 0.1832978867820825,
+        "gates": {
+          "g1_price_above_150_200": false,
+          "g2_sma150_above_sma200": true,
+          "g3_sma200_trending_up": true,
+          "g4_sma50_above_150_200": true,
+          "g5_price_above_sma50": false,
+          "g6_30pct_above_52w_low": false,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 4,
+        "high_52w": 1597.40002441,
+        "k_ratio": 23.422148656085255,
+        "low_52w": 1041.40002441,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.5625,
+        "portfolio_rs_rating": 43.9,
+        "price": 1304.59997559,
+        "rank_overall": 7,
+        "return_12m": 0.1981997768937407,
+        "return_3m": -0.14530925397864325,
+        "return_6m": -0.010617321598034857,
+        "return_9m": -0.000919032926270158,
+        "rs_rating": 43.9,
+        "score_components": {
+          "high_proximity_percentile": 0.4375,
+          "k_ratio_percentile": 0.75,
+          "one_year_percentile": 0.625,
+          "rs_percentile": 0.4375
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 1432.0093343098667,
+        "sma200": 1389.6850006104498,
+        "sma200_21d_ago": 1373.9300018311,
+        "sma50": 1444.9519970704,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 2,
+        "weighted_perf": -0.020791017117570164
+      },
+      "name": "HSBC",
+      "return_basis": "unadjusted_close",
+      "return_basis_comparable": false,
+      "symbol": "HSBA.L"
+    },
+    {
+      "asset_type": "equity-adr",
+      "country": "US",
+      "coverage": "verified-2026-09-21",
+      "currency": "USD",
+      "exchange": "NYSE",
+      "id": "mufg",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": true,
+        "adjustment_status": "adjusted",
+        "bar_count": 1526,
+        "close_tail": [
+          {
+            "close": 21.40999985,
+            "date": "2026-10-22",
+            "volume": 3053500
+          },
+          {
+            "close": 21.06999969,
+            "date": "2026-10-23",
+            "volume": 4013700
+          },
+          {
+            "close": 21.09000015,
+            "date": "2026-10-26",
+            "volume": 2510400
+          },
+          {
+            "close": 21.47999954,
+            "date": "2026-10-27",
+            "volume": 1814100
+          },
+          {
+            "close": 21.45999908,
+            "date": "2026-10-28",
+            "volume": 2099700
+          },
+          {
+            "close": 21.94000053,
+            "date": "2026-10-29",
+            "volume": 2188700
+          },
+          {
+            "close": 21.55999947,
+            "date": "2026-10-30",
+            "volume": 2526200
+          },
+          {
+            "close": 21.45000076,
+            "date": "2026-11-02",
+            "volume": 2073400
+          },
+          {
+            "close": 21.27000046,
+            "date": "2026-11-03",
+            "volume": 2990000
+          },
+          {
+            "close": 21.96999931,
+            "date": "2026-11-04",
+            "volume": 3430700
+          },
+          {
+            "close": 21.13999939,
+            "date": "2026-11-05",
+            "volume": 3830400
+          },
+          {
+            "close": 20.96999931,
+            "date": "2026-11-06",
+            "volume": 4029200
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 0.127,
+            "date": "2024-03-27",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.166,
+            "date": "2024-09-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.269,
+            "date": "2025-03-31",
+            "type": "dividend"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MUFG?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 20.96999931,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.008041631263263738,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": -0.07417220036138794,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.02736549974507041,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.38966196829361843,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 2.9086746197256486,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.3221941840823468,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.828125,
+        "dist_from_high": 0.13095731288869228,
+        "gates": {
+          "g1_price_above_150_200": false,
+          "g2_sma150_above_sma200": true,
+          "g3_sma200_trending_up": true,
+          "g4_sma50_above_150_200": true,
+          "g5_price_above_sma50": false,
+          "g6_30pct_above_52w_low": true,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 5,
+        "high_52w": 24.12999916,
+        "k_ratio": 34.40355388049138,
+        "low_52w": 14.88000011,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.828125,
+        "portfolio_rs_rating": 74.5,
+        "price": 20.96999931,
+        "rank_overall": 4,
+        "return_12m": 0.3915062867529495,
+        "return_3m": -0.0571043378207734,
+        "return_6m": 0.16824503744477814,
+        "return_9m": 0.09561128413390185,
+        "rs_rating": 74.5,
+        "score_components": {
+          "high_proximity_percentile": 0.6875,
+          "k_ratio_percentile": 1.0,
+          "one_year_percentile": 0.875,
+          "rs_percentile": 0.75
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 20.9973999528,
+        "sma200": 20.22059994645,
+        "sma200_21d_ago": 19.72544997185,
+        "sma50": 22.551799811400002,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 2,
+        "weighted_perf": 0.10823078653801654
+      },
+      "name": "MUFG",
+      "return_basis": "adjusted_close",
+      "return_basis_comparable": true,
+      "symbol": "MUFG"
+    },
+    {
+      "asset_type": "equity",
+      "country": "US",
+      "coverage": "verified-2026-09-21",
+      "currency": "USD",
+      "exchange": "NYSE",
+      "id": "morgan-stanley",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": true,
+        "adjustment_status": "adjusted",
+        "bar_count": 1526,
+        "close_tail": [
+          {
+            "close": 182.85650635,
+            "date": "2026-10-22",
+            "volume": 6288900
+          },
+          {
+            "close": 178.40362549,
+            "date": "2026-10-23",
+            "volume": 7628700
+          },
+          {
+            "close": 182.37940979,
+            "date": "2026-10-26",
+            "volume": 6538600
+          },
+          {
+            "close": 185.77871704,
+            "date": "2026-10-27",
+            "volume": 6518000
+          },
+          {
+            "close": 188.97921753,
+            "date": "2026-10-28",
+            "volume": 5811500
+          },
+          {
+            "close": 188.8500061,
+            "date": "2026-10-29",
+            "volume": 5547200
+          },
+          {
+            "close": 184.30000305,
+            "date": "2026-10-30",
+            "volume": 7940800
+          },
+          {
+            "close": 185.72999573,
+            "date": "2026-11-02",
+            "volume": 5205000
+          },
+          {
+            "close": 186.08999634,
+            "date": "2026-11-03",
+            "volume": 5330700
+          },
+          {
+            "close": 193.97000122,
+            "date": "2026-11-04",
+            "volume": 7867200
+          },
+          {
+            "close": 182.44000244,
+            "date": "2026-11-05",
+            "volume": 10864000
+          },
+          {
+            "close": 181.44000244,
+            "date": "2026-11-06",
+            "volume": 6016600
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 0.35,
+            "date": "2020-10-29",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.35,
+            "date": "2021-01-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.35,
+            "date": "2021-04-29",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.7,
+            "date": "2021-07-29",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.7,
+            "date": "2021-10-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.7,
+            "date": "2022-01-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.7,
+            "date": "2022-04-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.775,
+            "date": "2022-07-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.775,
+            "date": "2022-10-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.775,
+            "date": "2023-01-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.775,
+            "date": "2023-04-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.85,
+            "date": "2023-07-28",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.85,
+            "date": "2023-10-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.85,
+            "date": "2024-01-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.85,
+            "date": "2024-04-29",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.925,
+            "date": "2024-07-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.925,
+            "date": "2024-10-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.925,
+            "date": "2025-01-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.925,
+            "date": "2025-04-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.0,
+            "date": "2025-07-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.0,
+            "date": "2025-10-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.0,
+            "date": "2026-01-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.0,
+            "date": "2026-04-30",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.15,
+            "date": "2026-07-31",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.15,
+            "date": "2026-10-30",
+            "type": "dividend"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MS?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 181.44000244,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.005481254037632888,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": -0.03776887134333051,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.01551817993852167,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.13543889159862177,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 1.1285940275231487,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.0451947996802351,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.421875,
+        "dist_from_high": 0.19689457535654312,
+        "gates": {
+          "g1_price_above_150_200": false,
+          "g2_sma150_above_sma200": true,
+          "g3_sma200_trending_up": true,
+          "g4_sma50_above_150_200": false,
+          "g5_price_above_sma50": false,
+          "g6_30pct_above_52w_low": false,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 3,
+        "high_52w": 225.92301941,
+        "k_ratio": 13.971971632808271,
+        "low_52w": 151.77998352,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.421875,
+        "portfolio_rs_rating": 37.8,
+        "price": 181.44000244,
+        "rank_overall": 11,
+        "return_12m": 0.1233407820775525,
+        "return_3m": -0.1522552422894895,
+        "return_6m": -0.04940828107475459,
+        "return_9m": 0.025428635534669786,
+        "rs_rating": 37.8,
+        "score_components": {
+          "high_proximity_percentile": 0.3125,
+          "k_ratio_percentile": 0.4375,
+          "one_year_percentile": 0.5625,
+          "rs_percentile": 0.375
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 200.77291727673332,
+        "sma200": 192.18689399694998,
+        "sma200_21d_ago": 191.6715295407,
+        "sma50": 194.1336990356,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 1,
+        "weighted_perf": -0.041029869608302266
+      },
+      "name": "Morgan Stanley",
+      "return_basis": "adjusted_close",
+      "return_basis_comparable": true,
+      "symbol": "MS"
+    },
+    {
+      "asset_type": "equity",
+      "country": "UK",
+      "coverage": "verified-2026-09-21",
+      "currency": "GBX",
+      "exchange": "LSE",
+      "id": "bp",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": false,
+        "adjustment_status": "unavailable",
+        "bar_count": 1533,
+        "close_tail": [
+          {
+            "close": 611.90002441,
+            "date": "2026-10-22",
+            "volume": 57518221
+          },
+          {
+            "close": 638.5,
+            "date": "2026-10-23",
+            "volume": 67070753
+          },
+          {
+            "close": 630.79998779,
+            "date": "2026-10-26",
+            "volume": 32154883
+          },
+          {
+            "close": 612.70001221,
+            "date": "2026-10-27",
+            "volume": 30876710
+          },
+          {
+            "close": 619.90002441,
+            "date": "2026-10-28",
+            "volume": 17390458
+          },
+          {
+            "close": 624.29998779,
+            "date": "2026-10-29",
+            "volume": 23121379
+          },
+          {
+            "close": 627.40002441,
+            "date": "2026-10-30",
+            "volume": 28162540
+          },
+          {
+            "close": 600.0,
+            "date": "2026-11-02",
+            "volume": 60731887
+          },
+          {
+            "close": 589.29998779,
+            "date": "2026-11-03",
+            "volume": 62821977
+          },
+          {
+            "close": 571.59997559,
+            "date": "2026-11-04",
+            "volume": 74622259
+          },
+          {
+            "close": 567.40002441,
+            "date": "2026-11-05",
+            "volume": 71551941
+          },
+          {
+            "close": 559.40002441,
+            "date": "2026-11-06",
+            "volume": 79045222
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 3.9169,
+            "date": "2020-11-05",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.7684002,
+            "date": "2021-02-18",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.7117999,
+            "date": "2021-05-06",
+            "type": "dividend"
+          },
+          {
+            "amount": 3.9529,
+            "date": "2021-08-12",
+            "type": "dividend"
+          },
+          {
+            "amount": 4.1045,
+            "date": "2021-11-11",
+            "type": "dividend"
+          },
+          {
+            "amount": 4.1595,
+            "date": "2022-02-17",
+            "type": "dividend"
+          },
+          {
+            "amount": 4.3556,
+            "date": "2022-05-12",
+            "type": "dividend"
+          },
+          {
+            "amount": 5.1684,
+            "date": "2022-08-11",
+            "type": "dividend"
+          },
+          {
+            "amount": 4.9402,
+            "date": "2022-11-10",
+            "type": "dividend"
+          },
+          {
+            "amount": 5.5507,
+            "date": "2023-02-16",
+            "type": "dividend"
+          },
+          {
+            "amount": 5.3089,
+            "date": "2023-05-11",
+            "type": "dividend"
+          },
+          {
+            "amount": 5.732,
+            "date": "2023-08-10",
+            "type": "dividend"
+          },
+          {
+            "amount": 5.7367,
+            "date": "2023-11-09",
+            "type": "dividend"
+          },
+          {
+            "amount": 5.6922,
+            "date": "2024-02-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 5.6825,
+            "date": "2024-05-16",
+            "type": "dividend"
+          },
+          {
+            "amount": 6.0498,
+            "date": "2024-08-08",
+            "type": "dividend"
+          },
+          {
+            "amount": 6.2959,
+            "date": "2024-11-07",
+            "type": "dividend"
+          },
+          {
+            "amount": 6.1761,
+            "date": "2025-02-20",
+            "type": "dividend"
+          },
+          {
+            "amount": 5.8993,
+            "date": "2025-05-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 6.1942,
+            "date": "2025-08-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 6.2394,
+            "date": "2025-11-13",
+            "type": "dividend"
+          },
+          {
+            "amount": 6.226,
+            "date": "2026-02-19",
+            "type": "dividend"
+          },
+          {
+            "amount": 6.1844,
+            "date": "2026-05-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 6.4058995,
+            "date": "2026-08-13",
+            "type": "dividend"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/BP.L?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 559.40002441,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.014099400168899656,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": -0.00462629108540924,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.10838380196740738,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.219533484890988,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 0.6195716105656828,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.2925139560803962,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.71875,
+        "dist_from_high": 0.12388406513703991,
+        "gates": {
+          "g1_price_above_150_200": true,
+          "g2_sma150_above_sma200": true,
+          "g3_sma200_trending_up": true,
+          "g4_sma50_above_150_200": true,
+          "g5_price_above_sma50": false,
+          "g6_30pct_above_52w_low": true,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 6,
+        "high_52w": 638.5,
+        "k_ratio": 17.856416455106967,
+        "low_52w": 415.6499939,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.71875,
+        "portfolio_rs_rating": 80.6,
+        "price": 559.40002441,
+        "rank_overall": 5,
+        "return_12m": 0.219533484890988,
+        "return_3m": 0.06633635234325275,
+        "return_6m": 0.023417580299347263,
+        "return_9m": 0.17115049001155236,
+        "rs_rating": 80.6,
+        "score_components": {
+          "high_proximity_percentile": 0.75,
+          "k_ratio_percentile": 0.625,
+          "one_year_percentile": 0.6875,
+          "rs_percentile": 0.8125
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 546.8010001626,
+        "sma200": 536.57774978615,
+        "sma200_21d_ago": 518.4734996032,
+        "sma50": 576.7940002438,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 3,
+        "weighted_perf": 0.10935485197767862
+      },
+      "name": "BP",
+      "return_basis": "unadjusted_close",
+      "return_basis_comparable": false,
+      "symbol": "BP.L"
+    },
+    {
+      "asset_type": "equity",
+      "country": "US",
+      "coverage": "verified-2026-09-21",
+      "currency": "USD",
+      "exchange": "NYSE",
+      "id": "chevron",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": true,
+        "adjustment_status": "adjusted",
+        "bar_count": 1526,
+        "close_tail": [
+          {
+            "close": 226.67999268,
+            "date": "2026-10-22",
+            "volume": 6593700
+          },
+          {
+            "close": 233.21000671,
+            "date": "2026-10-23",
+            "volume": 8140500
+          },
+          {
+            "close": 232.00999451,
+            "date": "2026-10-26",
+            "volume": 6954700
+          },
+          {
+            "close": 228.22999573,
+            "date": "2026-10-27",
+            "volume": 6433800
+          },
+          {
+            "close": 229.19999695,
+            "date": "2026-10-28",
+            "volume": 6342700
+          },
+          {
+            "close": 231.46000671,
+            "date": "2026-10-29",
+            "volume": 5648600
+          },
+          {
+            "close": 235.52000427,
+            "date": "2026-10-30",
+            "volume": 11013300
+          },
+          {
+            "close": 227.77000427,
+            "date": "2026-11-02",
+            "volume": 9171100
+          },
+          {
+            "close": 225.27000427,
+            "date": "2026-11-03",
+            "volume": 7372800
+          },
+          {
+            "close": 216.96000671,
+            "date": "2026-11-04",
+            "volume": 11583800
+          },
+          {
+            "close": 212.92999268,
+            "date": "2026-11-05",
+            "volume": 10449000
+          },
+          {
+            "close": 212.61000061,
+            "date": "2026-11-06",
+            "volume": 8081600
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 1.29,
+            "date": "2020-11-17",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.29,
+            "date": "2021-02-16",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.34,
+            "date": "2021-05-18",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.34,
+            "date": "2021-08-18",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.34,
+            "date": "2021-11-17",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.42,
+            "date": "2022-02-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.42,
+            "date": "2022-05-18",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.42,
+            "date": "2022-08-18",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.42,
+            "date": "2022-11-17",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.51,
+            "date": "2023-02-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.51,
+            "date": "2023-05-18",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.51,
+            "date": "2023-08-17",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.51,
+            "date": "2023-11-16",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.63,
+            "date": "2024-02-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.63,
+            "date": "2024-05-16",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.63,
+            "date": "2024-08-19",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.63,
+            "date": "2024-11-18",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.71,
+            "date": "2025-02-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.71,
+            "date": "2025-05-19",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.71,
+            "date": "2025-08-19",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.71,
+            "date": "2025-11-18",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.78,
+            "date": "2026-02-17",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.78,
+            "date": "2026-05-19",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.78,
+            "date": "2026-08-19",
+            "type": "dividend"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CVX?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 212.61000061,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.0015028041187269414,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": 0.03636367015266084,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.09727413062431833,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.4449315172735069,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 1.2642512566612276,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.4339412952507187,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.921875,
+        "dist_from_high": 0.09727413062431838,
+        "gates": {
+          "g1_price_above_150_200": true,
+          "g2_sma150_above_sma200": true,
+          "g3_sma200_trending_up": true,
+          "g4_sma50_above_150_200": true,
+          "g5_price_above_sma50": false,
+          "g6_30pct_above_52w_low": true,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 6,
+        "high_52w": 235.52000427,
+        "k_ratio": 26.680994859655087,
+        "low_52w": 142.76341248,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.921875,
+        "portfolio_rs_rating": 92.9,
+        "price": 212.61000061,
+        "rank_overall": 1,
+        "return_12m": 0.44758196430236574,
+        "return_3m": 0.10033081131344823,
+        "return_6m": 0.19166289789987934,
+        "return_9m": 0.20837667722281616,
+        "rs_rating": 92.9,
+        "score_components": {
+          "high_proximity_percentile": 0.875,
+          "k_ratio_percentile": 0.9375,
+          "one_year_percentile": 0.9375,
+          "rs_percentile": 0.9375
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 195.26744791646666,
+        "sma200": 192.6882146452,
+        "sma200_21d_ago": 185.40626724220002,
+        "sma50": 214.894000244,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 5,
+        "weighted_perf": 0.20965663241039156
+      },
+      "name": "Chevron",
+      "return_basis": "adjusted_close",
+      "return_basis_comparable": true,
+      "symbol": "CVX"
+    },
+    {
+      "asset_type": "equity",
+      "country": "US",
+      "coverage": "verified-2026-09-21",
+      "currency": "USD",
+      "exchange": "NYSE",
+      "id": "exxonmobil",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": true,
+        "adjustment_status": "adjusted",
+        "bar_count": 1526,
+        "close_tail": [
+          {
+            "close": 178.22999573,
+            "date": "2026-10-22",
+            "volume": 11564300
+          },
+          {
+            "close": 183.21000671,
+            "date": "2026-10-23",
+            "volume": 11517700
+          },
+          {
+            "close": 184.53999329,
+            "date": "2026-10-26",
+            "volume": 10893300
+          },
+          {
+            "close": 179.91000366,
+            "date": "2026-10-27",
+            "volume": 14156500
+          },
+          {
+            "close": 182.02000427,
+            "date": "2026-10-28",
+            "volume": 12715300
+          },
+          {
+            "close": 183.28999329,
+            "date": "2026-10-29",
+            "volume": 10961300
+          },
+          {
+            "close": 187.25,
+            "date": "2026-10-30",
+            "volume": 21825700
+          },
+          {
+            "close": 179.66999817,
+            "date": "2026-11-02",
+            "volume": 16460900
+          },
+          {
+            "close": 177.46000671,
+            "date": "2026-11-03",
+            "volume": 11578500
+          },
+          {
+            "close": 169.27000427,
+            "date": "2026-11-04",
+            "volume": 25652200
+          },
+          {
+            "close": 165.30000305,
+            "date": "2026-11-05",
+            "volume": 18795100
+          },
+          {
+            "close": 165.86999512,
+            "date": "2026-11-06",
+            "volume": 15868500
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 0.87,
+            "date": "2020-11-10",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.87,
+            "date": "2021-02-09",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.87,
+            "date": "2021-05-12",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.87,
+            "date": "2021-08-12",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.88,
+            "date": "2021-11-10",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.88,
+            "date": "2022-02-09",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.88,
+            "date": "2022-05-12",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.88,
+            "date": "2022-08-11",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.91,
+            "date": "2022-11-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.91,
+            "date": "2023-02-13",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.91,
+            "date": "2023-05-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.91,
+            "date": "2023-08-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.95,
+            "date": "2023-11-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.95,
+            "date": "2024-02-13",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.95,
+            "date": "2024-05-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.95,
+            "date": "2024-08-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.99,
+            "date": "2024-11-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.99,
+            "date": "2025-02-12",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.99,
+            "date": "2025-05-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 0.99,
+            "date": "2025-08-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.03,
+            "date": "2025-11-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.03,
+            "date": "2026-02-12",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.03,
+            "date": "2026-05-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 1.03,
+            "date": "2026-08-17",
+            "type": "dividend"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/XOM?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 165.86999512,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": 0.003448227825062933,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": 0.011094130058902252,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.11417893126835776,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.4906318677192554,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 2.039774635474538,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.40599509531527445,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.875,
+        "dist_from_high": 0.11417893126835782,
+        "gates": {
+          "g1_price_above_150_200": true,
+          "g2_sma150_above_sma200": true,
+          "g3_sma200_trending_up": true,
+          "g4_sma50_above_150_200": true,
+          "g5_price_above_sma50": false,
+          "g6_30pct_above_52w_low": true,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 6,
+        "high_52w": 187.25,
+        "k_ratio": 24.02818348709219,
+        "low_52w": 111.27495575,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.875,
+        "portfolio_rs_rating": 86.8,
+        "price": 165.86999512,
+        "rank_overall": 3,
+        "return_12m": 0.5013841643175423,
+        "return_3m": 0.044771431482620194,
+        "return_6m": 0.16260044520578054,
+        "return_9m": 0.1351723677518628,
+        "rs_rating": 86.8,
+        "score_components": {
+          "high_proximity_percentile": 0.8125,
+          "k_ratio_percentile": 0.8125,
+          "one_year_percentile": 1.0,
+          "rs_percentile": 0.875
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 155.93690195706665,
+        "sma200": 154.4581852721,
+        "sma200_21d_ago": 148.67271026595,
+        "sma50": 168.82440032940002,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 5,
+        "weighted_perf": 0.17773996804808523
+      },
+      "name": "ExxonMobil",
+      "return_basis": "adjusted_close",
+      "return_basis_comparable": true,
+      "symbol": "XOM"
+    },
+    {
+      "asset_type": "equity",
+      "country": "UK",
+      "coverage": "verified-2026-09-21",
+      "currency": "GBX",
+      "exchange": "LSE",
+      "id": "shell",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": true,
+        "adjustment_status": "adjusted",
+        "bar_count": 1534,
+        "close_tail": [
+          {
+            "close": 3888.5,
+            "date": "2026-10-22",
+            "volume": 5744336
+          },
+          {
+            "close": 4033.0,
+            "date": "2026-10-23",
+            "volume": 6701597
+          },
+          {
+            "close": 3999.5,
+            "date": "2026-10-26",
+            "volume": 8287757
+          },
+          {
+            "close": 3927.5,
+            "date": "2026-10-27",
+            "volume": 5167185
+          },
+          {
+            "close": 3956.5,
+            "date": "2026-10-28",
+            "volume": 3815560
+          },
+          {
+            "close": 4038.0,
+            "date": "2026-10-29",
+            "volume": 7750717
+          },
+          {
+            "close": 4036.5,
+            "date": "2026-10-30",
+            "volume": 8344662
+          },
+          {
+            "close": 3921.0,
+            "date": "2026-11-02",
+            "volume": 10406904
+          },
+          {
+            "close": 3863.5,
+            "date": "2026-11-03",
+            "volume": 7352848
+          },
+          {
+            "close": 3795.5,
+            "date": "2026-11-04",
+            "volume": 10719513
+          },
+          {
+            "close": 3784.0,
+            "date": "2026-11-05",
+            "volume": 19163625
+          },
+          {
+            "close": 3722.5,
+            "date": "2026-11-06",
+            "volume": 13023543
+          }
+        ],
+        "corporate_actions": [
+          {
+            "amount": 12.48,
+            "date": "2020-11-12",
+            "type": "dividend"
+          },
+          {
+            "amount": 11.96,
+            "date": "2021-02-18",
+            "type": "dividend"
+          },
+          {
+            "amount": 12.259999,
+            "date": "2021-05-13",
+            "type": "dividend"
+          },
+          {
+            "amount": 17.380001,
+            "date": "2021-08-12",
+            "type": "dividend"
+          },
+          {
+            "amount": 18.06,
+            "date": "2021-11-11",
+            "type": "dividend"
+          },
+          {
+            "amount": 18.279999,
+            "date": "2022-02-17",
+            "type": "dividend"
+          },
+          {
+            "amount": 20.01,
+            "date": "2022-05-19",
+            "type": "dividend"
+          },
+          {
+            "amount": 21.57,
+            "date": "2022-08-11",
+            "type": "dividend"
+          },
+          {
+            "amount": 20.61,
+            "date": "2022-11-10",
+            "type": "dividend"
+          },
+          {
+            "amount": 24.11,
+            "date": "2023-02-16",
+            "type": "dividend"
+          },
+          {
+            "amount": 22.99,
+            "date": "2023-05-18",
+            "type": "dividend"
+          },
+          {
+            "amount": 26.12,
+            "date": "2023-08-10",
+            "type": "dividend"
+          },
+          {
+            "amount": 26.31,
+            "date": "2023-11-16",
+            "type": "dividend"
+          },
+          {
+            "amount": 26.9,
+            "date": "2024-02-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 26.94,
+            "date": "2024-05-16",
+            "type": "dividend"
+          },
+          {
+            "amount": 26.15,
+            "date": "2024-08-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 27.03,
+            "date": "2024-11-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 27.79,
+            "date": "2025-02-13",
+            "type": "dividend"
+          },
+          {
+            "amount": 26.409998,
+            "date": "2025-05-15",
+            "type": "dividend"
+          },
+          {
+            "amount": 26.62,
+            "date": "2025-08-14",
+            "type": "dividend"
+          },
+          {
+            "amount": 26.85,
+            "date": "2025-11-13",
+            "type": "dividend"
+          },
+          {
+            "amount": 27.869999,
+            "date": "2026-02-19",
+            "type": "dividend"
+          },
+          {
+            "amount": 29.179998,
+            "date": "2026-05-21",
+            "type": "dividend"
+          },
+          {
+            "amount": 28.92,
+            "date": "2026-08-13",
+            "type": "dividend"
+          }
+        ],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SHEL.L?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 3722.5,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.016252642706131026,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": 0.020422149122806932,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.07779016474668654,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.30661616170848305,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 1.2155889968006668,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": 0.35894607383459953,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.921875,
+        "dist_from_high": 0.07813273897969292,
+        "gates": {
+          "g1_price_above_150_200": true,
+          "g2_sma150_above_sma200": true,
+          "g3_sma200_trending_up": true,
+          "g4_sma50_above_150_200": true,
+          "g5_price_above_sma50": true,
+          "g6_30pct_above_52w_low": true,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 7,
+        "high_52w": 4038.0,
+        "k_ratio": 24.21822686648794,
+        "low_52w": 2561.30371094,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.921875,
+        "portfolio_rs_rating": 99.0,
+        "price": 3722.5,
+        "rank_overall": 2,
+        "return_12m": 0.30707472747260334,
+        "return_3m": 0.12881264181253083,
+        "return_6m": 0.1791473636473635,
+        "return_9m": 0.3189911819884024,
+        "rs_rating": 99.0,
+        "score_components": {
+          "high_proximity_percentile": 1.0,
+          "k_ratio_percentile": 0.875,
+          "one_year_percentile": 0.8125,
+          "rs_percentile": 1.0
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 3376.8962158202,
+        "sma200": 3310.55807006825,
+        "sma200_21d_ago": 3184.92330566395,
+        "sma50": 3701.7,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 5,
+        "weighted_perf": 0.2125677113466862
+      },
+      "name": "Shell",
+      "return_basis": "adjusted_close",
+      "return_basis_comparable": true,
+      "symbol": "SHEL.L"
+    },
+    {
+      "asset_type": "index-etf",
+      "country": "UK",
+      "coverage": "verified-2026-09-21",
+      "currency": "GBX",
+      "exchange": "LSE",
+      "id": "cnx1",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": false,
+        "adjustment_status": "unavailable",
+        "bar_count": 1527,
+        "close_tail": [
+          {
+            "close": 125200.0,
+            "date": "2026-10-22",
+            "volume": 4305
+          },
+          {
+            "close": 125110.0,
+            "date": "2026-10-23",
+            "volume": 4268
+          },
+          {
+            "close": 126170.0,
+            "date": "2026-10-26",
+            "volume": 5080
+          },
+          {
+            "close": 128120.0,
+            "date": "2026-10-27",
+            "volume": 4781
+          },
+          {
+            "close": 128160.0,
+            "date": "2026-10-28",
+            "volume": 2654
+          },
+          {
+            "close": 126390.0,
+            "date": "2026-10-29",
+            "volume": 3822
+          },
+          {
+            "close": 122120.0,
+            "date": "2026-10-30",
+            "volume": 6495
+          },
+          {
+            "close": 122350.0,
+            "date": "2026-11-02",
+            "volume": 6166
+          },
+          {
+            "close": 120630.0,
+            "date": "2026-11-03",
+            "volume": 5831
+          },
+          {
+            "close": 121550.0,
+            "date": "2026-11-04",
+            "volume": 6926
+          },
+          {
+            "close": 115810.0,
+            "date": "2026-11-05",
+            "volume": 9341
+          },
+          {
+            "close": 116990.0,
+            "date": "2026-11-06",
+            "volume": 16047
+          }
+        ],
+        "corporate_actions": [],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/CNX1.L?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 116990.0,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": 0.010189102840860054,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": -0.1341770278271166,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.0420078611202096,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.06238648746821651,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 0.7015984757028784,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 7,
+            "base_date": "2025-12-24",
+            "latest_date": "2026-11-06",
+            "return": 0.07676023930050624,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.53125,
+        "dist_from_high": 0.13679628126614035,
+        "gates": {
+          "g1_price_above_150_200": false,
+          "g2_sma150_above_sma200": true,
+          "g3_sma200_trending_up": true,
+          "g4_sma50_above_150_200": true,
+          "g5_price_above_sma50": false,
+          "g6_30pct_above_52w_low": false,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 4,
+        "high_52w": 135530.0,
+        "k_ratio": 21.867267774763285,
+        "low_52w": 100630.0,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.53125,
+        "portfolio_rs_rating": 56.1,
+        "price": 116990.0,
+        "rank_overall": 8,
+        "return_12m": 0.035859748539047276,
+        "return_3m": -0.07069663992374298,
+        "return_6m": -0.04341782502044156,
+        "return_9m": 0.11313035204567079,
+        "rs_rating": 56.1,
+        "score_components": {
+          "high_proximity_percentile": 0.625,
+          "k_ratio_percentile": 0.6875,
+          "one_year_percentile": 0.25,
+          "rs_percentile": 0.5625
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 124695.46666666666,
+        "sma200": 119882.55,
+        "sma200_21d_ago": 118030.15,
+        "sma50": 127666.2,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 3,
+        "weighted_perf": -0.007164200856641887
+      },
+      "name": "iShares NASDAQ 100 Acc",
+      "return_basis": "unadjusted_close",
+      "return_basis_comparable": false,
+      "symbol": "CNX1.L"
+    },
+    {
+      "asset_type": "index-etf",
+      "country": "UK",
+      "coverage": "verified-2026-09-21",
+      "currency": "GBP",
+      "exchange": "LSE",
+      "id": "vall",
+      "listing_date": "2026-08-20",
+      "listing_note": "Configured exchange listing begins 2026-08-20; earlier provider observations are excluded.",
+      "market": {
+        "adjusted": true,
+        "adjustment_status": "adjusted",
+        "bar_count": 56,
+        "close_tail": [
+          {
+            "close": 3.65499997,
+            "date": "2026-10-22",
+            "volume": 8669701
+          },
+          {
+            "close": 3.65249991,
+            "date": "2026-10-23",
+            "volume": 13052570
+          },
+          {
+            "close": 3.66950011,
+            "date": "2026-10-26",
+            "volume": 11435921
+          },
+          {
+            "close": 3.7025001,
+            "date": "2026-10-27",
+            "volume": 9143485
+          },
+          {
+            "close": 3.70799994,
+            "date": "2026-10-28",
+            "volume": 7097166
+          },
+          {
+            "close": 3.69000006,
+            "date": "2026-10-29",
+            "volume": 7846855
+          },
+          {
+            "close": 3.62800002,
+            "date": "2026-10-30",
+            "volume": 12889999
+          },
+          {
+            "close": 3.65050006,
+            "date": "2026-11-02",
+            "volume": 9906836
+          },
+          {
+            "close": 3.62100005,
+            "date": "2026-11-03",
+            "volume": 8609659
+          },
+          {
+            "close": 3.65199995,
+            "date": "2026-11-04",
+            "volume": 10330790
+          },
+          {
+            "close": 3.56450009,
+            "date": "2026-11-05",
+            "volume": 12724441
+          },
+          {
+            "close": 3.5704999,
+            "date": "2026-11-06",
+            "volume": 14064253
+          }
+        ],
+        "corporate_actions": [],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/VALL.L?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 3.5704999,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": 0.0016832121892300655,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": -0.05178599558491037,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": -0.015848985579663744,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": null,
+            "base_date": null,
+            "latest_date": "2026-11-06",
+            "return": null,
+            "status": "missing"
+          },
+          "5Y": {
+            "anchor_gap_days": null,
+            "base_date": null,
+            "latest_date": "2026-11-06",
+            "return": null,
+            "status": "missing"
+          },
+          "YTD": {
+            "anchor_gap_days": null,
+            "base_date": null,
+            "latest_date": "2026-11-06",
+            "return": null,
+            "status": "missing"
+          }
+        }
+      },
+      "momentum": {
+        "composite": null,
+        "gates": {},
+        "gates_passed": null,
+        "portfolio_momentum_score": null,
+        "score_status": "unavailable",
+        "score_unavailable_reason": "Insufficient fresh price history for all four components.",
+        "stage2": null
+      },
+      "name": "Vanguard FTSE Global All-Cap Acc",
+      "return_basis": "adjusted_close",
+      "return_basis_comparable": true,
+      "symbol": "VALL.L"
+    },
+    {
+      "asset_type": "gold-etc",
+      "country": "UK",
+      "coverage": "verified-2026-09-21",
+      "currency": "GBX",
+      "exchange": "LSE",
+      "id": "sgln-gold",
+      "listing_date": null,
+      "listing_note": "Instrument coverage was verified read-only on 2026-09-21. No account data is retained.",
+      "market": {
+        "adjusted": true,
+        "adjustment_status": "adjusted",
+        "bar_count": 1534,
+        "close_tail": [
+          {
+            "close": 5882.0,
+            "date": "2026-10-22",
+            "volume": 238546
+          },
+          {
+            "close": 5797.0,
+            "date": "2026-10-23",
+            "volume": 254172
+          },
+          {
+            "close": 5837.0,
+            "date": "2026-10-26",
+            "volume": 198450
+          },
+          {
+            "close": 5915.0,
+            "date": "2026-10-27",
+            "volume": 184607
+          },
+          {
+            "close": 5884.0,
+            "date": "2026-10-28",
+            "volume": 125329
+          },
+          {
+            "close": 5823.0,
+            "date": "2026-10-29",
+            "volume": 168637
+          },
+          {
+            "close": 5645.0,
+            "date": "2026-10-30",
+            "volume": 233108
+          },
+          {
+            "close": 5738.0,
+            "date": "2026-11-02",
+            "volume": 228762
+          },
+          {
+            "close": 5680.0,
+            "date": "2026-11-03",
+            "volume": 158035
+          },
+          {
+            "close": 5830.0,
+            "date": "2026-11-04",
+            "volume": 146440
+          },
+          {
+            "close": 5924.0,
+            "date": "2026-11-05",
+            "volume": 239823
+          },
+          {
+            "close": 5892.0,
+            "date": "2026-11-06",
+            "volume": 176942
+          }
+        ],
+        "corporate_actions": [],
+        "error": null,
+        "provider": "yahoo-chart",
+        "quality_warnings": [],
+        "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/SGLN.L?period1=1602288000&period2=1794182400&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+        "status": "ready"
+      },
+      "metrics": {
+        "freshness_days": 2,
+        "freshness_status": "ready",
+        "latest_close": 5892.0,
+        "latest_date": "2026-11-06",
+        "periods": {
+          "1D": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-11-05",
+            "latest_date": "2026-11-06",
+            "return": -0.00540175557056044,
+            "status": "ready"
+          },
+          "1M": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-07",
+            "latest_date": "2026-11-06",
+            "return": -0.023533311236327514,
+            "status": "ready"
+          },
+          "1W": {
+            "anchor_gap_days": 0,
+            "base_date": "2026-10-30",
+            "latest_date": "2026-11-06",
+            "return": 0.04375553587245351,
+            "status": "ready"
+          },
+          "1Y": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-11-06",
+            "latest_date": "2026-11-06",
+            "return": 0.0,
+            "status": "ready"
+          },
+          "5Y": {
+            "anchor_gap_days": 2,
+            "base_date": "2021-11-05",
+            "latest_date": "2026-11-06",
+            "return": 1.2467111534795041,
+            "status": "ready"
+          },
+          "YTD": {
+            "anchor_gap_days": 0,
+            "base_date": "2025-12-31",
+            "latest_date": "2026-11-06",
+            "return": -0.052276017371722716,
+            "status": "ready"
+          }
+        }
+      },
+      "momentum": {
+        "composite": 0.15625,
+        "dist_from_high": 0.23381014304291287,
+        "gates": {
+          "g1_price_above_150_200": false,
+          "g2_sma150_above_sma200": false,
+          "g3_sma200_trending_up": false,
+          "g4_sma50_above_150_200": false,
+          "g5_price_above_sma50": false,
+          "g6_30pct_above_52w_low": false,
+          "g7_within_25pct_of_52w_high": true,
+          "g8_rs_rating_ge_70": null
+        },
+        "gates_passed": 1,
+        "high_52w": 7690.0,
+        "k_ratio": -7.808781336485827,
+        "low_52w": 5645.0,
+        "market_rs_rating": null,
+        "portfolio_momentum_score": 0.15625,
+        "portfolio_rs_rating": 19.4,
+        "price": 5892.0,
+        "rank_overall": 15,
+        "return_12m": -0.004729729729729737,
+        "return_3m": -0.055617887481968276,
+        "return_6m": -0.11928251121076228,
+        "return_9m": -0.18178030829051517,
+        "rs_rating": 19.4,
+        "score_components": {
+          "high_proximity_percentile": 0.1875,
+          "k_ratio_percentile": 0.125,
+          "one_year_percentile": 0.125,
+          "rs_percentile": 0.1875
+        },
+        "score_status": "ready",
+        "score_unavailable_reason": null,
+        "sma150": 6249.886666666666,
+        "sma200": 6466.975,
+        "sma200_21d_ago": 6535.585,
+        "sma50": 6100.2,
+        "stage2": null,
+        "stage2_status": "market-rs-unavailable",
+        "weeks_strengthening": 3,
+        "weighted_perf": -0.08340566483898874
+      },
+      "name": "Gold (SGLN)",
+      "return_basis": "adjusted_close",
+      "return_basis_comparable": true,
+      "symbol": "SGLN.L"
+    }
+  ],
+  "issue_date": "2026-11-08",
+  "limitations": [
+    "Coverage was verified read-only on 2026-09-21. This application retains no Trading 212 account data.",
+    "No units, costs, balances or portfolio values are ingested or emitted.",
+    "X enrichment is optional and not configured.",
+    "Price context does not establish causal links to events.",
+    "Long-window comparability can change after corporate restructuring. GE Aerospace is flagged in its dossier."
+  ],
+  "quality": {
+    "event_count": 911,
+    "failed_market_count": 0,
+    "market_coverage_ratio": 1.0,
+    "market_coverage_threshold": 14,
+    "news_discovery_failed_count": 0,
+    "news_discovery_ready_count": 17,
+    "news_requirement": "at-least-one-successful-feed",
+    "note": "Full price coverage and at least one successful public news discovery feed passed the publication gate.",
+    "partial": false,
+    "publishable": true,
+    "ready_market_count": 17,
+    "source_provider_failed_count": 0,
+    "source_provider_ready_count": 25,
+    "story_count": 3
+  },
+  "schema_version": 1,
+  "score_changes": [
+    {
+      "change": -0.1875,
+      "current_score": 0.203125,
+      "holding_id": "bae-systems",
+      "name": "BAE Systems",
+      "previous_score": 0.390625
+    },
+    {
+      "change": 0.171875,
+      "current_score": 0.421875,
+      "holding_id": "ge-aerospace",
+      "name": "GE Aerospace",
+      "previous_score": 0.25
+    },
+    {
+      "change": 0.109375,
+      "current_score": 0.921875,
+      "holding_id": "shell",
+      "name": "Shell",
+      "previous_score": 0.8125
+    },
+    {
+      "change": 0.09375,
+      "current_score": 0.609375,
+      "holding_id": "jpmorgan",
+      "name": "JPMorgan Chase",
+      "previous_score": 0.515625
+    },
+    {
+      "change": 0.078125,
+      "current_score": 0.421875,
+      "holding_id": "rolls-royce",
+      "name": "Rolls-Royce",
+      "previous_score": 0.34375
+    },
+    {
+      "change": -0.0703125,
+      "current_score": 0.875,
+      "holding_id": "exxonmobil",
+      "name": "ExxonMobil",
+      "previous_score": 0.9453125
+    },
+    {
+      "change": -0.0625,
+      "current_score": 0.53125,
+      "holding_id": "cnx1",
+      "name": "iShares NASDAQ 100 Acc",
+      "previous_score": 0.59375
+    },
+    {
+      "change": -0.0625,
+      "current_score": 0.3125,
+      "holding_id": "goldman-sachs",
+      "name": "Goldman Sachs",
+      "previous_score": 0.375
+    },
+    {
+      "change": -0.0625,
+      "current_score": 0.53125,
+      "holding_id": "lockheed-martin",
+      "name": "Lockheed Martin",
+      "previous_score": 0.59375
+    },
+    {
+      "change": -0.046875,
+      "current_score": 0.421875,
+      "holding_id": "morgan-stanley",
+      "name": "Morgan Stanley",
+      "previous_score": 0.46875
+    },
+    {
+      "change": 0.046875,
+      "current_score": 0.828125,
+      "holding_id": "mufg",
+      "name": "MUFG",
+      "previous_score": 0.78125
+    },
+    {
+      "change": -0.03125,
+      "current_score": 0.71875,
+      "holding_id": "bp",
+      "name": "BP",
+      "previous_score": 0.75
+    },
+    {
+      "change": 0.03125,
+      "current_score": 0.15625,
+      "holding_id": "sgln-gold",
+      "name": "Gold (SGLN)",
+      "previous_score": 0.125
+    },
+    {
+      "change": -0.0078125,
+      "current_score": 0.921875,
+      "holding_id": "chevron",
+      "name": "Chevron",
+      "previous_score": 0.9296875
+    },
+    {
+      "change": 0.0,
+      "current_score": 0.5625,
+      "holding_id": "hsbc",
+      "name": "HSBC",
+      "previous_score": 0.5625
+    },
+    {
+      "change": 0.0,
+      "current_score": 0.0625,
+      "holding_id": "rheinmetall",
+      "name": "Rheinmetall",
+      "previous_score": 0.0625
+    }
+  ],
+  "score_universe": [
+    {
+      "id": "bae-systems",
+      "name": "BAE Systems",
+      "symbol": "BA.L"
+    },
+    {
+      "id": "ge-aerospace",
+      "name": "GE Aerospace",
+      "symbol": "GE"
+    },
+    {
+      "id": "lockheed-martin",
+      "name": "Lockheed Martin",
+      "symbol": "LMT"
+    },
+    {
+      "id": "rheinmetall",
+      "name": "Rheinmetall",
+      "symbol": "RHM.DE"
+    },
+    {
+      "id": "rolls-royce",
+      "name": "Rolls-Royce",
+      "symbol": "RR.L"
+    },
+    {
+      "id": "jpmorgan",
+      "name": "JPMorgan Chase",
+      "symbol": "JPM"
+    },
+    {
+      "id": "goldman-sachs",
+      "name": "Goldman Sachs",
+      "symbol": "GS"
+    },
+    {
+      "id": "hsbc",
+      "name": "HSBC",
+      "symbol": "HSBA.L"
+    },
+    {
+      "id": "mufg",
+      "name": "MUFG",
+      "symbol": "MUFG"
+    },
+    {
+      "id": "morgan-stanley",
+      "name": "Morgan Stanley",
+      "symbol": "MS"
+    },
+    {
+      "id": "bp",
+      "name": "BP",
+      "symbol": "BP.L"
+    },
+    {
+      "id": "chevron",
+      "name": "Chevron",
+      "symbol": "CVX"
+    },
+    {
+      "id": "exxonmobil",
+      "name": "ExxonMobil",
+      "symbol": "XOM"
+    },
+    {
+      "id": "shell",
+      "name": "Shell",
+      "symbol": "SHEL.L"
+    },
+    {
+      "id": "cnx1",
+      "name": "iShares NASDAQ 100 Acc",
+      "symbol": "CNX1.L"
+    },
+    {
+      "id": "sgln-gold",
+      "name": "Gold (SGLN)",
+      "symbol": "SGLN.L"
+    }
+  ],
+  "score_universe_fingerprint": "7ff589f64bea6dfbb2634d88398259d6f7f7236fe91c3e938067b289912135a3",
+  "source_health": {
+    "market": [
+      {
+        "adjustment_status": "adjusted",
+        "freshness_status": "ready",
+        "holding_id": "bae-systems",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "adjusted",
+        "freshness_status": "ready",
+        "holding_id": "ge-aerospace",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "adjusted",
+        "freshness_status": "ready",
+        "holding_id": "lockheed-martin",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "adjusted",
+        "freshness_status": "ready",
+        "holding_id": "rheinmetall",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "unavailable",
+        "freshness_status": "ready",
+        "holding_id": "rolls-royce",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "adjusted",
+        "freshness_status": "ready",
+        "holding_id": "jpmorgan",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "adjusted",
+        "freshness_status": "ready",
+        "holding_id": "goldman-sachs",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "unavailable",
+        "freshness_status": "ready",
+        "holding_id": "hsbc",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "adjusted",
+        "freshness_status": "ready",
+        "holding_id": "mufg",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "adjusted",
+        "freshness_status": "ready",
+        "holding_id": "morgan-stanley",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "unavailable",
+        "freshness_status": "ready",
+        "holding_id": "bp",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "adjusted",
+        "freshness_status": "ready",
+        "holding_id": "chevron",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "adjusted",
+        "freshness_status": "ready",
+        "holding_id": "exxonmobil",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "adjusted",
+        "freshness_status": "ready",
+        "holding_id": "shell",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "unavailable",
+        "freshness_status": "ready",
+        "holding_id": "cnx1",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "adjusted",
+        "freshness_status": "ready",
+        "holding_id": "vall",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      },
+      {
+        "adjustment_status": "adjusted",
+        "freshness_status": "ready",
+        "holding_id": "sgln-gold",
+        "latest_date": "2026-11-06",
+        "provider": "yahoo-chart",
+        "status": "ready"
+      }
+    ],
+    "news": [
+      {
+        "event_count": 69,
+        "holding_id": "bae-systems",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 72,
+        "holding_id": "ge-aerospace",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 0,
+        "holding_id": "ge-aerospace",
+        "provider": "sec",
+        "status": "ready"
+      },
+      {
+        "event_count": 78,
+        "holding_id": "lockheed-martin",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 0,
+        "holding_id": "lockheed-martin",
+        "provider": "sec",
+        "status": "ready"
+      },
+      {
+        "event_count": 91,
+        "holding_id": "rheinmetall",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 67,
+        "holding_id": "rolls-royce",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 89,
+        "holding_id": "jpmorgan",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 0,
+        "holding_id": "jpmorgan",
+        "provider": "sec",
+        "status": "ready"
+      },
+      {
+        "event_count": 84,
+        "holding_id": "goldman-sachs",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 0,
+        "holding_id": "goldman-sachs",
+        "provider": "sec",
+        "status": "ready"
+      },
+      {
+        "event_count": 80,
+        "holding_id": "hsbc",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 39,
+        "holding_id": "mufg",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 78,
+        "holding_id": "morgan-stanley",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 0,
+        "holding_id": "morgan-stanley",
+        "provider": "sec",
+        "status": "ready"
+      },
+      {
+        "event_count": 22,
+        "holding_id": "bp",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 0,
+        "holding_id": "bp",
+        "provider": "sec",
+        "status": "ready"
+      },
+      {
+        "event_count": 65,
+        "holding_id": "chevron",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 0,
+        "holding_id": "chevron",
+        "provider": "sec",
+        "status": "ready"
+      },
+      {
+        "event_count": 79,
+        "holding_id": "exxonmobil",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 0,
+        "holding_id": "exxonmobil",
+        "provider": "sec",
+        "status": "ready"
+      },
+      {
+        "event_count": 9,
+        "holding_id": "shell",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 2,
+        "holding_id": "cnx1",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 8,
+        "holding_id": "vall",
+        "provider": "google-news-rss",
+        "status": "ready"
+      },
+      {
+        "event_count": 1,
+        "holding_id": "sgln-gold",
+        "provider": "google-news-rss",
+        "status": "ready"
+      }
+    ]
+  },
+  "status": "ready"
+}
